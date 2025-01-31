@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url(reset.css);
+/* CSS Document */
+/* Documento de CSS de RESOLUÇÕES */
+
+/*👉------- TÍTULOS -----------👈*/
+/* 
+p0tit1reso
+p0tit2reso
+p0tit3reso
+p0tit4reso
+p1box1resotit
+p1box2resotit
+*/
+.p0tit1reso{}
+.p0tit2reso{}
+.p0tit3reso{}
+.p0tit4reso{}
+
+.p1box1resotit{}
+.p1box2resotit{}
+
+
+
+/*👉------- TEXTO PRINCIPAL ---👈*/
+/* 
+p2textoresosemrecuo
+p2textoresosemrecuoitem
+p2textoresosemrecuoitemcont
+p2textoreso
+p2textoresoitem
+p2textoresoitemcont
+p2textoresomarcador
+*/
+.p2textoresosemrecuo{}
+.p2textoresosemrecuoitem{}
+.p2textoresosemrecuoitemcont{}
+.p2textoreso{}
+.p2textoresoitem{}
+.p2textoresoitemcont{}
+.p2textoresomarcador{}
+
+
+
+/*👉------- ATIVIDADES --------👈*/
+/* 
+p2atvreso
+p2atvresocont
+p2atvresoromano
+p2atvresoromanocont
+p2atvresoitem
+p2atvresoitemcont
+p2atvresosubitem
+p2atvresoitemletra
+p2atvresoitemletracont
+p2atvresoletra
+p2atvresoletracont
+p2atvresoletraitembullet
+p2atvresoletraitembulletcont
+p2atvresoletraromano
+p2atvresoletraromanocont
+p2atvresoletrasubromano
+p2atvresonumitem
+p2atvresonumletra
+p2atvresonumletraitem
+p2atvresoletraitem
+p2atvresonumromano
+p2atvresosomatoria
+p2atvresosomatoriacont
+*/
+.p2atvreso{}
+.p2atvresocont{}
+.p2atvresoromano{}
+.p2atvresoromanocont{}
+.p2atvresoitem{}
+.p2atvresoitemcont{}
+.p2atvresosubitem{}
+.p2atvresoitemletra{}
+.p2atvresoitemletracont{}
+.p2atvresoletra{}
+.p2atvresoletracont{}
+.p2atvresoletraitembullet{}
+.p2atvresoletraitembulletcont{}
+.p2atvresoletraromano{}
+.p2atvresoletraromanocont{}
+.p2atvresoletrasubromano{}
+.p2atvresonumitem{}
+.p2atvresonumletra{}
+.p2atvresonumletraitem{}
+.p2atvresoletraitem{}
+.p2atvresonumromano{}
+.p2atvresosomatoria{}
+.p2atvresosomatoriacont{}
+
+/*👉------- QUESTÃO -----------👈*/
+/* 
+p2questaoreso
+p2questaoresocont
+p2questaoresoitem
+p2questaoresoitemcont
+p2questaoresoletra
+p2questaoresoletracont
+p2questaoresoletraitem
+p2questaoresoletraitemcont
+p2questaoresomarcador
+p2questaoresomarcadorcont
+p2questaoresosubitem
+p2questaoresosubitemcont
+*/
+.p2questaoreso{}
+.p2questaoresocont{}
+.p2questaoresoitem{}
+.p2questaoresoitemcont{}
+.p2questaoresoletra{}
+.p2questaoresoletracont{}
+.p2questaoresoletraitem{}
+.p2questaoresoletraitemcont{}
+.p2questaoresomarcador{}
+.p2questaoresomarcadorcont{}
+.p2questaoresosubitem{}
+.p2questaoresosubitemcont{}
+
+/*👉------ INTERMEDIÁRIO --------👈*/
+/* 
+p3intermediarioreso
+p3intermediarioresotit
+p3intermediarioresoitem
+p3intermediarioresoitemcont
+p3intermediarioresosemrecuo
+p3intermediarioresosemrecuoitem
+p3intermediarioresosemrecuoitemcont
+p3intermediarioresosemrecuoletra
+p3intermediarioresosemrecuoletracont
+p3intermediarioresosemrecuonumero
+p3intermediarioresosemrecuonumerocont
+
+*/
+.p3intermediarioreso{}
+.p3intermediarioresotit{}
+.p3intermediarioresoitem{}
+.p3intermediarioresoitemcont{}
+.p3intermediarioresosemrecuo{}
+.p3intermediarioresosemrecuoitem{}
+.p3intermediarioresosemrecuoitemcont{}
+.p3intermediarioresosemrecuoletra{}
+.p3intermediarioresosemrecuoletracont{}
+.p3intermediarioresosemrecuonumero{}
+.p3intermediarioresosemrecuonumerocont{}
+
+
+/*👉------- SEÇÕES ------------👈*/
+/* 
+p1sec1resotit1
+p1sec1resotit2
+p1sec1resotit3
+p1sec2resotit1
+p1sec2resotit2
+p1sec2resotit3
+p1sec3resotit1
+p1sec3resotit2
+p1sec3resotit3
+p1sec4resotit1
+p1sec4resotit2
+p1sec4resotit3
+p1sec5resotit1
+p1sec5resotit2
+p1sec5resotit3
+p1sec6resotit1
+p1sec6resotit2
+p1sec6resotit3
+*/
+.p1sec1resotit1{}
+.p1sec1resotit2{}
+.p1sec1resotit3{}
+
+.p1sec2resotit1{}
+.p1sec2resotit2{}
+.p1sec2resotit3{}
+
+.p1sec3resotit1{}
+.p1sec3resotit2{}
+.p1sec3resotit3{}
+
+.p1sec4resotit1{}
+.p1sec4resotit2{}
+.p1sec4resotit3{}
+
+.p1sec5resotit1{}
+.p1sec5resotit2{}
+.p1sec5resotit3{}
+
+.p1sec6resotit1{}
+.p1sec6resotit2{}
+.p1sec6resotit3{}
+
+/* p5separadorreso */
+.p5separadorreso{}
+
+/*👉---- ESTILOS DE CARACTERES ---👈*/
+
+.c0destaqueletramp{}
+.c0destaqueletracitacaomp{}
+.c0destaquenumeromp{}
+.c0destaquenumerocitacaomp{} 
+.c0destaqueromanomp{}
+.c0destaquequestaonumeromp{}
+.c0destaquesomatoriamp{}
+.c0bulletnumitemmp{}
+.c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
+
+/* OBS.: Estas categorias estão presentes no styles_lt.css */
+/*👉------- LEGENDA -------👈*/ 
+/*👉------- CRÉDITO GERAL -------👈*/
+/*👉------- CRÉDITO IMAGEM  -------👈*/
+/*👉------- COTAS  -------👈*/
+/*👉------- RECADO IMAGEM E MEDIDA ANIMAL -------👈*/
+/*👉------- TABELA -------👈*/
+/*👉------- QUADRO -------👈*/
+/*👉------- GRÁFICO -------👈*/ 
+/*👉------- MAPAS -------👈*/ 
+/*👉------- MARCADORES -------👈*/
+
+
+/*MEDIA QUERY*/
+/*👉Versão Mobile Cel👈*/
+@media screen and (min-width: 300px) and (max-width: 700px) {}
+
+/*👉Versão Mobile tablet👈*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {}
+
+/*👉Versão Desktop👈*/
+@media screen and (min-width: 1200px) {}
+
+/*👉Versão IMPRESSÃO👈*/
+@media print and (max-height: 280mm) {}
