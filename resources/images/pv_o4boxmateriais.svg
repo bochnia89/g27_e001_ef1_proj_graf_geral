@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1242" data-name="Caminho 1242" d="M0,0H15.552V-15.449H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_o4boxmateriais" transform="translate(0 15.898)">
+    <rect id="Retângulo_140" data-name="Retângulo 140" width="16" height="16" transform="translate(0 -15.898)" fill="#fff"/>
+    <g id="Grupo_713" data-name="Grupo 713" clip-path="url(#clip-path)">
+      <path id="Caminho_1241" data-name="Caminho 1241" d="M15.552-15.449H0V0H15.552ZM15.552,0m-2.28-7.719h-.016a5.543,5.543,0,0,0-5.489,5.5c0,.034,0,.067,0,.1,0,.014,0,.027,0,.041h.01l-.013.056c0-.019,0-.038,0-.057H7.764c0-.014,0-.027,0-.041,0-.035,0-.068.005-.1a5.542,5.542,0,0,0-5.479-5.5c0,.014,0,.027,0,.041L2.278-7.72h.01v-.007a5.543,5.543,0,0,0,5.479-5.5c0-.017,0-.033,0-.049s0-.033,0-.049c0-.035,0-.068.005-.1l.013.15H7.769c0,.017,0,.033,0,.05a5.542,5.542,0,0,0,5.489,5.5h.016v.007M7.764-13.276h.005c0-.016,0-.032,0-.048,0-.035,0-.068,0-.1Z" fill="#ffbe31"/>
+    </g>
+  </g>
+</svg>
