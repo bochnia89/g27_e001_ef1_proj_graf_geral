@@ -14,7 +14,6 @@
     font-weight: 100;
     src: 
         url(../fonts/Nunito-Thin.woff2) format("woff2"),
-        url(../fonts/Nunito-Thin.woff) format("woff"),
         url(../fonts/Nunito-Thin.otf) format("opentype"),
         url(../fonts/Nunito-Thin.ttf) format("truetype");
         font-display: swap;
@@ -25,7 +24,6 @@
     font-weight: 100;
     src: 
         url(../fonts/Nunito-ThinItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-ThinItalic.woff) format("woff"),
         url(../fonts/Nunito-ThinItalic.otf) format("opentype"),
         url(../fonts/Nunito-ThinItalic.ttf) format("truetype");            
         font-display: swap;
@@ -36,7 +34,6 @@
     font-weight: 200;
     src: 
         url(../fonts/Nunito-ExtraLight.woff2) format("woff2"),
-        url(../fonts/Nunito-ExtraLight.woff) format("woff"),
         url(../fonts/Nunito-ExtraLight.otf) format("opentype"),
         url(../fonts/Nunito-ExtraLight.ttf) format("truetype");      
         font-display: swap;
@@ -47,7 +44,6 @@
     font-weight: 200 ;
     src: 
         url(../fonts/Nunito-ExtraLightItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-ExtraLightItalic.woff) format("woff"),
         url(../fonts/Nunito-ExtraLightItalic.otf) format("opentype"),
         url(../fonts/Nunito-ExtraLightItalic.ttf) format("truetype");
         font-display: swap;
@@ -58,7 +54,6 @@
     font-weight: 300 ;
     src: 
         url(../fonts/Nunito-Light.woff2) format("woff2"),
-        url(../fonts/Nunito-Light.woff) format("woff"),
         url(../fonts/Nunito-Light.otf) format("opentype"),
         url(../fonts/Nunito-Light.ttf) format("truetype");    
         font-display: swap;
@@ -68,8 +63,7 @@
     font-style: italic;
     font-weight: 300;
     src: 
-        url(../fonts/Nunito-LightItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-LightItalic.woff) format("woff"),    
+        url(../fonts/Nunito-LightItalic.woff2) format("woff2"),   
         url(../fonts/Nunito-LightItalic.otf) format("opentype"),
         url(../fonts/Nunito-LightItalic.ttf) format("truetype");
         font-display: swap;
@@ -80,7 +74,6 @@
     font-weight: 400;
     src: 
         url(../fonts/Nunito-Regular.woff2) format("woff2"),
-        url(../fonts/Nunito-Regular.woff) format("woff"),
         url(../fonts/Nunito-Regular.otf) format("opentype"),
         url(../fonts/Nunito-Regular.ttf) format("truetype");        
         font-display: swap;
@@ -91,7 +84,6 @@
     font-weight:400 ;
     src: 
         url(../fonts/Nunito-Italic.woff2) format("woff2"),
-        url(../fonts/Nunito-Italic.woff) format("woff"),
         url(../fonts/Nunito-Italic.otf) format("opentype"),
         url(../fonts/Nunito-Italic.ttf) format("truetype");
         font-display: swap;
@@ -102,7 +94,6 @@
     font-weight:500 ;
     src: 
         url(../fonts/Nunito-Medium.woff2) format("woff2"),
-        url(../fonts/Nunito-Medium.woff) format("woff"),
         url(../fonts/Nunito-Medium.otf) format("opentype"),
         url(../fonts/Nunito-Medium.ttf) format("truetype");
         font-display: swap;
@@ -113,7 +104,6 @@
     font-weight: 500;
     src: 
         url(../fonts/Nunito-Medium.woff2) format("woff2"),
-        url(../fonts/Nunito-Medium.woff) format("woff"),
         url(../fonts/Nunito-Medium.otf) format("opentype"),
         url(../fonts/Nunito-Medium.ttf) format("truetype");        
         font-display: swap;
@@ -124,7 +114,6 @@
     font-weight: 600;
     src: 
         url(../fonts/Nunito-SemiBold.woff2) format("woff2"),
-        url(../fonts/Nunito-SemiBold.woff) format("woff"),
         url(../fonts/Nunito-SemiBold.otf) format("opentype"),
         url(../fonts/Nunito-SemiBold.ttf) format("truetype");
         font-display: swap;
@@ -135,7 +124,6 @@
     font-weight: 600;
     src: 
         url(../fonts/Nunito-SemiBoldItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-SemiBoldItalic.woff) format("woff"),
         url(../fonts/Nunito-SemiBoldItalic.otf) format("opentype"),
         url(../fonts/Nunito-SemiBoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -146,7 +134,6 @@
     font-weight:700 ;
     src: 
         url(../fonts/Nunito-Bold.woff2) format("woff2"),
-        url(../fonts/Nunito-Bold.woff) format("woff"),
         url(../fonts/Nunito-Bold.otf) format("opentype"),
         url(../fonts/Nunito-Bold.ttf) format("truetype");
         font-display: swap;
@@ -157,7 +144,6 @@
     font-weight: 700;
     src: 
         url(../fonts/Nunito-BoldItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-BoldItalic.woff) format("woff"),
         url(../fonts/Nunito-BoldItalic.otf) format("opentype"),
         url(../fonts/Nunito-BoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -168,7 +154,6 @@
     font-weight: 800 ;
     src: 
         url(../fonts/Nunito-ExtraBold.woff2) format("woff2"),
-        url(../fonts/Nunito-ExtraBold.woff) format("woff"),
         url(../fonts/Nunito-ExtraBold.otf) format("opentype"),
         url(../fonts/Nunito-ExtraBold.ttf) format("truetype");
         font-display: swap;
@@ -179,7 +164,6 @@
     font-weight: 800;
     src: 
         url(../fonts/Nunito-ExtraBoldItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-ExtraBoldItalic.woff) format("woff"),
         url(../fonts/Nunito-ExtraBoldItalic.otf) format("opentype"),
         url(../fonts/Nunito-ExtraBoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -190,7 +174,6 @@
     font-weight: 900;
     src: 
         url(../fonts/Nunito-Black.woff2) format("woff2"),
-        url(../fonts/Nunito-Black.woff) format("woff"),
         url(../fonts/Nunito-Black.otf) format("opentype"),
         url(../fonts/Nunito-Black.ttf) format("truetype");
         font-display: swap;
@@ -201,7 +184,6 @@
     font-weight: 900 ;
     src:
         url(../fonts/Nunito-BlackItalic.woff2) format("woff2"),
-        url(../fonts/Nunito-BlackItalic.woff) format("woff"),
         url(../fonts/Nunito-BlackItalic.otf) format("opentype"),
         url(../fonts/Nunito-BlackItalic.ttf) format("truetype");
         
@@ -216,7 +198,6 @@
     font-weight:100 ;
     src: 
         url(../fonts/NotoSerif-Thin.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Thin.woff) format("woff"),
         url(../fonts/NotoSerif-Thin.otf) format("opentype"),
         url(../fonts/NotoSerif-Thin.ttf) format("truetype");
     font-display: swap;
@@ -227,7 +208,6 @@
     font-weight: 100;
     src: 
         url(../fonts/NotoSerif-ThinItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ThinItalic.woff) format("woff"),
         url(../fonts/NotoSerif-ThinItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-ThinItalic.ttf) format("truetype");
     font-display: swap;
@@ -238,7 +218,6 @@
     font-weight:200 ;
     src: 
         url(../fonts/NotoSerif-ExtraLight.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraLight.woff) format("woff"),
         url(../fonts/NotoSerif-ExtraLight.otf) format("opentype"),
         url(../fonts/NotoSerif-ExtraLight.ttf) format("truetype");
     font-display: swap;
@@ -249,7 +228,6 @@
     font-weight: 200;
     src: 
         url(../fonts/NotoSerif-ExtraLightItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraLightItalic.woff) format("woff"),
         url(../fonts/NotoSerif-ExtraLightItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-ExtraLightItalic.ttf) format("truetype");
     font-display: swap;
@@ -260,7 +238,6 @@
     font-weight:300 ;
     src: 
         url(../fonts/NotoSerif-Light.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Light.woff) format("woff"),
         url(../fonts/NotoSerif-Light.otf) format("opentype"),
         url(../fonts/NotoSerif-Light.ttf) format("truetype");
     font-display: swap;
@@ -271,7 +248,6 @@
     font-weight: 300;
     src: 
         url(../fonts/NotoSerif-LightItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-LightItalic.woff) format("woff"),
         url(../fonts/NotoSerif-LightItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-LightItalic.ttf) format("truetype");
     font-display: swap;
@@ -282,7 +258,6 @@
     font-weight: 400;
     src: 
         url(../fonts/NotoSerif-Regular.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Regular.woff) format("woff"),
         url(../fonts/NotoSerif-Regular.otf) format("opentype"),
         url(../fonts/NotoSerif-Regular.ttf) format("truetype");
     font-display: swap;
@@ -293,7 +268,6 @@
     font-weight: 400;
     src: 
         url(../fonts/NotoSerif-Italic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Italic.woff) format("woff"),
         url(../fonts/NotoSerif-Italic.otf) format("opentype"),
         url(../fonts/NotoSerif-Italic.ttf) format("truetype");
     font-display: swap;
@@ -304,7 +278,6 @@
     font-weight: 500;
     src: 
         url(../fonts/NotoSerif-Medium.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Medium.woff) format("woff"),
         url(../fonts/NotoSerif-Medium.otf) format("opentype"),
         url(../fonts/NotoSerif-Medium.ttf) format("truetype");
         font-display: swap;
@@ -315,7 +288,6 @@
     font-weight:500 ;
     src: 
         url(../fonts/NotoSerif-MediumItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-MediumItalic.woff) format("woff"),
         url(../fonts/NotoSerif-MediumItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-MediumItalic.ttf) format("truetype");
         font-display: swap;
@@ -326,7 +298,6 @@
     font-weight: 600;
     src: 
         url(../fonts/NotoSerif-SemiBold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-SemiBold.woff) format("woff"),
         url(../fonts/NotoSerif-SemiBold.otf) format("opentype"),
         url(../fonts/NotoSerif-SemiBold.ttf) format("truetype");
         font-display: swap;
@@ -337,7 +308,6 @@
     font-weight:600 ;
     src: 
         url(../fonts/NotoSerif-SemiBoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-SemiBoldItalic.woff) format("woff"),
         url(../fonts/NotoSerif-SemiBoldItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-SemiBoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -348,7 +318,6 @@
     font-weight:700 ;
     src: 
         url(../fonts/NotoSerif-Bold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Bold.woff) format("woff"),
         url(../fonts/NotoSerif-Bold.otf) format("opentype"),
         url(../fonts/NotoSerif-Bold.ttf) format("truetype");
         font-display: swap;
@@ -359,7 +328,6 @@
     font-weight:700 ;
     src: 
         url(../fonts/NotoSerif-BoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-BoldItalic.woff) format("woff"),
         url(../fonts/NotoSerif-BoldItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-BoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -371,7 +339,6 @@
     font-weight:800 ;
     src: 
         url(../fonts/NotoSerif-ExtraBold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraBold.woff) format("woff"),
         url(../fonts/NotoSerif-ExtraBold.otf) format("opentype"),
         url(../fonts/NotoSerif-ExtraBold.ttf) format("truetype");
         font-display: swap;
@@ -382,7 +349,6 @@
     font-weight:800 ;
     src: 
         url(../fonts/NotoSerif-ExtraBoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraBoldItalic.woff) format("woff"),
         url(../fonts/NotoSerif-ExtraBoldItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-ExtraBoldItalic.ttf) format("truetype");
         font-display: swap;
@@ -394,7 +360,6 @@
     font-weight:900 ;
     src: 
         url(../fonts/NotoSerif-Black.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Black.woff) format("woff"),
         url(../fonts/NotoSerif-Black.otf) format("opentype"),
         url(../fonts/NotoSerif-Black.ttf) format("truetype");
         font-display: swap;
@@ -405,7 +370,6 @@
     font-weight:900 ;
     src: 
         url(../fonts/NotoSerif-blackItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-blackItalic.woff) format("woff"),
         url(../fonts/NotoSerif-blackItalic.otf) format("opentype"),
         url(../fonts/NotoSerif-blackItalic.ttf) format("truetype");
         font-display: swap;
@@ -418,7 +382,6 @@
     font-weight:100 ;
     src: 
         url(../fonts/WorkSans-Thin.woff2) format("woff2"),
-        url(../fonts/WorkSans-Thin.woff) format("woff"),
         url(../fonts/WorkSans-Thin.otf) format("opentype"),
         url(../fonts/WorkSans-Thin.ttf) format("truetype");
         
@@ -430,7 +393,6 @@
     font-weight: 100;
     src: 
         url(../fonts/WorkSans-ThinItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-ThinItalic.woff) format("woff"),
         url(../fonts/WorkSans-ThinItalic.otf) format("opentype"),
         url(../fonts/WorkSans-ThinItalic.ttf) format("truetype");
     font-display: swap;
@@ -442,7 +404,6 @@
     font-weight:200 ;
     src: 
         url(../fonts/WorkSans-ExtraLight.woff2) format("woff2"),
-        url(../fonts/WorkSans-ExtraLight.woff) format("woff"),
         url(../fonts/WorkSans-ExtraLight.otf) format("opentype"),
         url(../fonts/WorkSans-ExtraLight.ttf) format("truetype");
     font-display: swap;
@@ -453,7 +414,6 @@
     font-weight: 200;
     src: 
         url(../fonts/WorkSans-ExtraLightItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-ExtraLightItalic.woff) format("woff"),
         url(../fonts/WorkSans-ExtraLightItalic.otf) format("opentype"),
         url(../fonts/WorkSans-ExtraLightItalic.ttf) format("truetype");
     font-display: swap;
@@ -465,7 +425,6 @@
     font-weight:300 ;
     src: 
         url(../fonts/WorkSans-Light.woff2) format("woff2"),
-        url(../fonts/WorkSans-Light.woff) format("woff"),
         url(../fonts/WorkSans-Light.otf) format("opentype"),
         url(../fonts/WorkSans-Light.ttf) format("truetype");
     font-display: swap;
@@ -476,7 +435,6 @@
     font-weight: 300;
     src: 
         url(../fonts/WorkSans-LightItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-LightItalic.woff) format("woff"),
         url(../fonts/WorkSans-LightItalic.otf) format("opentype"),
         url(../fonts/WorkSans-LightItalic.ttf) format("truetype");
     font-display: swap;
@@ -488,7 +446,6 @@
     font-weight: 400;
     src: 
         url(../fonts/WorkSans-Regular.woff2) format("woff2"),
-        url(../fonts/WorkSans-Regular.woff) format("woff"),
         url(../fonts/WorkSans-Regular.otf) format("opentype"),
         url(../fonts/WorkSans-Regular.ttf) format("truetype");
     font-display: swap;
@@ -499,7 +456,6 @@
     font-weight: 400;
     src: 
         url(../fonts/WorkSans-Italic.woff2) format("woff2"),
-        url(../fonts/WorkSans-Italic.woff) format("woff"),
         url(../fonts/WorkSans-Italic.otf) format("opentype"),
         url(../fonts/WorkSans-Italic.ttf) format("truetype");
     font-display: swap;
@@ -510,7 +466,6 @@
     font-weight:500 ;
     src: 
         url(../fonts/WorkSans-Medium.woff2) format("woff2"),
-        url(../fonts/WorkSans-Medium.woff) format("woff"),
         url(../fonts/WorkSans-Medium.otf) format("opentype"),
         url(../fonts/WorkSans-Medium.ttf) format("truetype");
     font-display: swap;
@@ -521,7 +476,6 @@
     font-weight: 500;
     src: 
         url(../fonts/WorkSans-MediumItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-MediumItalic.woff) format("woff"),
         url(../fonts/WorkSans-MediumItalic.otf) format("opentype"),
         url(../fonts/WorkSans-MediumItalic.ttf) format("truetype");
     font-display: swap;
@@ -532,7 +486,6 @@
     font-weight: 600;
     src: 
         url(../fonts/WorkSans-SemiBold.woff2) format("woff2"),
-        url(../fonts/WorkSans-SemiBold.woff) format("woff"),
         url(../fonts/WorkSans-SemiBold.otf) format("opentype"),
         url(../fonts/WorkSans-SemiBold.ttf) format("truetype");
     font-display: swap;
@@ -543,7 +496,6 @@
     font-weight: 600;
     src: 
         url(../fonts/WorkSans-SemiBoldItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-SemiBoldItalic.woff) format("woff"),
         url(../fonts/WorkSans-SemiBoldItalic.otf) format("opentype"),
         url(../fonts/WorkSans-SemiBoldItalic.ttf) format("truetype");
     font-display: swap;
@@ -554,7 +506,6 @@
     font-weight: 700;
     src: 
         url(../fonts/WorkSans-Bold.woff2) format("woff2"),
-        url(../fonts/WorkSans-Bold.woff) format("woff"),
         url(../fonts/WorkSans-Bold.otf) format("opentype"),
         url(../fonts/WorkSans-Bold.ttf) format("truetype");
     font-display: swap;
@@ -565,7 +516,6 @@
     font-weight: 700;
     src: 
         url(../fonts/WorkSans-BoldItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-BoldItalic.woff) format("woff"),
         url(../fonts/WorkSans-BoldItalic.otf) format("opentype"),
         url(../fonts/WorkSans-BoldItalic.ttf) format("truetype");
     font-display: swap;
@@ -577,7 +527,6 @@
     font-weight: 800;
     src: 
         url(../fonts/WorkSans-ExtraBold.woff2) format("woff2"),
-        url(../fonts/WorkSans-ExtraBold.woff) format("woff"),
         url(../fonts/WorkSans-ExtraBold.otf) format("opentype"),
         url(../fonts/WorkSans-ExtraBold.ttf) format("truetype");
     font-display: swap;
@@ -588,7 +537,6 @@
     font-weight: 800;
     src: 
         url(../fonts/WorkSans-ExtraBoldItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-ExtraBoldItalic.woff) format("woff"),
         url(../fonts/WorkSans-ExtraBoldItalic.otf) format("opentype"),
         url(../fonts/WorkSans-ExtraBoldItalic.ttf) format("truetype");
     font-display: swap;
@@ -601,7 +549,6 @@
     font-weight: 900;
     src: 
         url(../fonts/WorkSans-Black.woff2) format("woff2"),
-        url(../fonts/WorkSans-Black.woff) format("woff"),
         url(../fonts/WorkSans-Black.otf) format("opentype"),
         url(../fonts/WorkSans-Black.ttf) format("truetype");
     font-display: swap;
@@ -612,7 +559,6 @@
     font-weight: 900;
     src: 
         url(../fonts/WorkSans-BlackItalic.woff2) format("woff2"),
-        url(../fonts/WorkSans-BlackItalic.woff) format("woff"),
         url(../fonts/WorkSans-BlackItalic.otf) format("opentype"),
         url(../fonts/WorkSans-BlackItalic.ttf) format("truetype");
     font-display: swap;
@@ -625,7 +571,6 @@
     src: 
         
         url(../fonts/WorkSans-Black.woff2) format("woff2"),
-        url(../fonts/WorkSans-Black.woff) format("woff"),
         url(../fonts/WorkSans-Black.otf) format("opentype"),
         url(../fonts/WorkSans-Black.ttf) format("truetype");
         font-display: swap;
@@ -650,8 +595,7 @@
     font-weight: ;
     src: url(../fonts/.otf) format("opentype"),
         url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+        url(../fonts/.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -661,7 +605,7 @@
     --titulo: 'Nunito' ;
     --citacao: 'Noto Serif' ;
     --texto:  'Work Sans' ;
-    --ordinal: ;
+    --ordinal: 'Work Sans';
     --quimico: ;
     --fonema: ;
 
@@ -694,6 +638,7 @@
     --manualu: #E4F2E7;
 
     --azul1:#0EBFDA;
+    --azul1a: #18a0bd;
     --azul2:#C8E7F4;
     --azul3:#D5ECEF;
     --azul4:#DFEAF8;
@@ -704,6 +649,7 @@
     --turquesa4:#E0F1F5;
 
     --verde1:#34B653;
+    --verde1a:#217735;
     --verde2:#D9E6B1;
     --verde3:#CCE4CE;
     --verde4:#E1F0EB;
