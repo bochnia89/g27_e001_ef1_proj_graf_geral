@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.986" height="20" viewBox="0 0 24.986 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_250" data-name="Retângulo 250" width="24.986" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_porcentagem_fim" transform="translate(0 0)">
+    <g id="Grupo_1629" data-name="Grupo 1629" transform="translate(0 0)">
+      <g id="Grupo_1628" data-name="Grupo 1628" clip-path="url(#clip-path)">
+        <path id="Caminho_2660" data-name="Caminho 2660" d="M4,.5H21.022A3.5,3.5,0,0,1,24.52,4V16.034a3.5,3.5,0,0,1-3.5,3.5H4a3.5,3.5,0,0,1-3.5-3.5V4A3.5,3.5,0,0,1,4,.5" transform="translate(-0.017 -0.017)" fill="#fff"/>
+        <path id="Caminho_2661" data-name="Caminho 2661" d="M24.614,16.334a3.5,3.5,0,0,1-3.5,3.5H6.765a3.5,3.5,0,0,1-3.5-3.5V4.3A3.5,3.5,0,0,1,6.765.8h14.35a3.5,3.5,0,0,1,3.5,3.5Z" transform="translate(-0.11 -0.027)" fill="#882c86"/>
+        <path id="Caminho_2662" data-name="Caminho 2662" d="M4,.5H21.022A3.5,3.5,0,0,1,24.52,4V16.034a3.5,3.5,0,0,1-3.5,3.5H4a3.5,3.5,0,0,1-3.5-3.5V4A3.5,3.5,0,0,1,4,.5" transform="translate(-0.017 -0.017)" fill="none" stroke="#882c86" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <text id="_" data-name="%" transform="translate(6.088 15.157)" fill="#fff" font-size="14" font-family="Ubuntu"><tspan x="0" y="0">%</tspan></text>
+  </g>
+</svg>

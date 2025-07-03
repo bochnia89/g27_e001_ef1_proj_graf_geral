@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.833" height="20" viewBox="0 0 24.833 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_349" data-name="Retângulo 349" width="24.833" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_0_fim" transform="translate(0 0)">
+    <g id="Grupo_1816" data-name="Grupo 1816" transform="translate(0 0)">
+      <g id="Grupo_1815" data-name="Grupo 1815" clip-path="url(#clip-path)">
+        <path id="Caminho_2771" data-name="Caminho 2771" d="M4.231.841A3.394,3.394,0,0,0,.84,4.235V15.9a3.391,3.391,0,0,0,3.391,3.391h16.5a3.387,3.387,0,0,0,3.39-3.391V4.235A3.389,3.389,0,0,0,20.731.841H4.231Z" transform="translate(-0.065 -0.065)" fill="#fff"/>
+        <path id="Retângulo_348" data-name="Retângulo 348" d="M3.674,0H16.5a3.677,3.677,0,0,1,3.677,3.677v11.1A3.677,3.677,0,0,1,16.5,18.452H3.674A3.674,3.674,0,0,1,0,14.778V3.674A3.674,3.674,0,0,1,3.674,0Z" transform="translate(3.873 0.763)" fill="#fe0"/>
+      </g>
+    </g>
+    <text id="_0" data-name="0" transform="translate(8.464 13.873)" fill="#1a1818" font-size="13" font-family="Ubuntu"><tspan x="0" y="0">0</tspan></text>
+    <g id="Grupo_1818" data-name="Grupo 1818" transform="translate(0 0)">
+      <g id="Grupo_1817" data-name="Grupo 1817" clip-path="url(#clip-path)">
+        <path id="Caminho_2772" data-name="Caminho 2772" d="M4.231.841A3.394,3.394,0,0,0,.84,4.235V15.9a3.391,3.391,0,0,0,3.391,3.391h16.5a3.387,3.387,0,0,0,3.39-3.391V4.235A3.389,3.389,0,0,0,20.731.841H4.231Z" transform="translate(-0.065 -0.065)" fill="none" stroke="#ff9d00" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.681"/>
+      </g>
+    </g>
+  </g>
+</svg>

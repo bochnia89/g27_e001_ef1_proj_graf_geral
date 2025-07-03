@@ -1,0 +1,13 @@
+<svg id="pinte_sorriso" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_278" data-name="Retângulo 278" width="51" height="51" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1661" data-name="Grupo 1661" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Caminho_2689" data-name="Caminho 2689" d="M25.558,50.616A25.058,25.058,0,1,0,.5,25.557,25.059,25.059,0,0,0,25.558,50.616Z" transform="translate(-0.058 -0.058)" fill="none" stroke="#1a1818" stroke-width="1"/>
+    <path id="Caminho_2690" data-name="Caminho 2690" d="M10.854,30.968a15.9,15.9,0,1,0,31.809,0" transform="translate(-1.259 -3.593)" fill="none" stroke="#1a1818" stroke-width="1"/>
+    <path id="Caminho_2691" data-name="Caminho 2691" d="M20.014,23.389c1.384,0,2.505-1.4,2.505-3.134s-1.121-3.132-2.505-3.132-2.507,1.4-2.507,3.132,1.123,3.134,2.507,3.134" transform="translate(-2.031 -1.986)" fill="#1a1818"/>
+    <path id="Caminho_2692" data-name="Caminho 2692" d="M37.021,23.389c1.384,0,2.506-1.4,2.506-3.134s-1.122-3.132-2.506-3.132-2.506,1.4-2.506,3.132,1.122,3.134,2.506,3.134" transform="translate(-4.004 -1.986)" fill="#1a1818"/>
+  </g>
+</svg>

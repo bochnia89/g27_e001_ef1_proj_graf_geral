@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.099" height="51" viewBox="0 0 51.099 51">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_289" data-name="Retângulo 289" width="51.099" height="51" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pinte_o" transform="translate(0 -0.001)">
+    <g id="Grupo_1683" data-name="Grupo 1683" transform="translate(0 0.001)" clip-path="url(#clip-path)">
+      <path id="Caminho_2703" data-name="Caminho 2703" d="M18.193,15.025a9.087,9.087,0,0,1,7.263-3.2,9.429,9.429,0,0,1,7.477,3.152q2.754,3.153,2.756,9.986,0,8.122-2.641,11.257a9.215,9.215,0,0,1-7.461,3.137,9.216,9.216,0,0,1-7.41-3.2q-2.723-3.2-2.724-10.53Q15.454,18.227,18.193,15.025ZM3.835,39.684a20.393,20.393,0,0,0,8.7,8.253q5.363,2.608,13.552,2.608,8.054,0,13.451-3.021a20.359,20.359,0,0,0,8.254-8.451q2.853-5.429,2.855-13.914,0-11.685-6.537-18.172T25.49.5Q13.7.5,7.1,7.1T.5,25.556Q.5,34.039,3.835,39.684Z" transform="translate(-0.022 -0.023)" fill="none" stroke="#1a1818" stroke-miterlimit="4.331" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

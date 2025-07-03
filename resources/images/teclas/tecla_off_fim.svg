@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.124" height="20.908" viewBox="0 0 26.124 20.908">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_255" data-name="Retângulo 255" width="26.124" height="20.908" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="tecla_off_fim" transform="translate(0 0)">
+    <g id="Grupo_1640" data-name="Grupo 1640">
+      <g id="Grupo_1639" data-name="Grupo 1639" clip-path="url(#clip-path)">
+        <path id="Caminho_2668" data-name="Caminho 2668" d="M4.159.5A3.659,3.659,0,0,0,.5,4.159V16.746a3.661,3.661,0,0,0,3.659,3.662H21.965a3.657,3.657,0,0,0,3.659-3.662V4.159A3.655,3.655,0,0,0,21.965.5H4.159Z" fill="#fff"/>
+        <path id="Caminho_2669" data-name="Caminho 2669" d="M25.618,16.841A3.655,3.655,0,0,1,21.959,20.5H6.885a3.657,3.657,0,0,1-3.662-3.659V4.251A3.663,3.663,0,0,1,6.885.588H21.959a3.66,3.66,0,0,1,3.659,3.663Z" fill="#882c86"/>
+        <path id="Caminho_2670" data-name="Caminho 2670" d="M4.159.5A3.659,3.659,0,0,0,.5,4.159V16.746a3.661,3.661,0,0,0,3.659,3.662H21.965a3.657,3.657,0,0,0,3.659-3.662V4.159A3.655,3.655,0,0,0,21.965.5H4.159" fill="none" stroke="#882c86" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <text id="OFF" transform="translate(3.156 13.97)" fill="#fff" font-size="10.699" font-family="Ubuntu"><tspan x="0" y="0">OFF</tspan></text>
+  </g>
+</svg>
