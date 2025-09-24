@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.329" height="11.664" viewBox="0 0 23.329 11.664">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_3204" data-name="Caminho 3204" d="M0,0H23.329V-11.664H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_p1sec6titdois" transform="translate(0 11.664)">
+    <g id="Grupo_2023" data-name="Grupo 2023" clip-path="url(#clip-path)">
+      <g id="Grupo_2021" data-name="Grupo 2021" transform="translate(11.664 -11.664)">
+        <path id="Caminho_3202" data-name="Caminho 3202" d="M0,0V11.664H5.832A5.832,5.832,0,1,0,5.832,0Z" fill="#ffbe31"/>
+      </g>
+      <g id="Grupo_2022" data-name="Grupo 2022" transform="translate(11.664 -11.664)">
+        <path id="Caminho_3203" data-name="Caminho 3203" d="M0,0H-11.664A11.664,11.664,0,0,0,0,11.664Z" fill="#595db0"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5.102" height="10.205" viewBox="0 0 5.102 10.205">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1989" data-name="Caminho 1989" d="M0,0H5.1V-10.2H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_legenda" transform="translate(0 10.205)">
+    <g id="Grupo_1448" data-name="Grupo 1448" clip-path="url(#clip-path)">
+      <g id="Grupo_1447" data-name="Grupo 1447" transform="translate(1.825)">
+        <path id="Caminho_1988" data-name="Caminho 1988" d="M0,0H1.452A1.825,1.825,0,0,0,3.277-1.825V-8.38A1.825,1.825,0,0,0,1.452-10.2H0A1.825,1.825,0,0,0-1.825-8.38v6.555A1.825,1.825,0,0,0,0,0" fill="#0ebfda"/>
+      </g>
+    </g>
+  </g>
+</svg>
