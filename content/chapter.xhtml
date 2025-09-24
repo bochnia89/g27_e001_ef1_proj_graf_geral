@@ -35,7 +35,7 @@
         <meta content="noSoundHazard" itemprop="accessibilityHazard" />
         <meta content="MathML" itemprop="accessibilityFeature" />
         <meta content="describedMath" itemprop="accessibilityFeature" />
-        <meta content="key_metadata_dc:title" itemprop="nam" /> <!--script vai trocar automaticamente-->
+        <meta content="key_metadata_dc:title" itemprop="name" /> <!--script vai trocar automaticamente-->
         <meta content="key_metadata_dc:description" itemprop="description" /> <!--script vai trocar automaticamente-->
         <meta content="key_metadata_unique-identifier" itemprop="isbn" /> <!--script vai trocar automaticamente-->
         <meta content="key_metadata_copyrightYear" itemprop="copyrightYear" /> <!--script vai trocar automaticamente-->
@@ -2260,26 +2260,22 @@
         <!--Livro texto aluno -->
         <div class="d0box_aluno" role="region" aria-label="Conteúdo da página">
             <!-- Comentário do exemplo -->
-            <p class="comentariocode">
+            <p class="comentariocode" id="sumariole">
                 <mark>div.d0secsumario / p.p1sumariopv / ul.d0sumariosecinicial / ol.d0navsumario / li.p1sumariopeso1 / li.p1sumariopeso2 / li.p1sumariopeso3 / li.p1sumariopeso4 / li.p1sumariopeso5 / li.p1sumariopeso6 / li.p1sumariooedpeso1 / li.p1sumariooedpeso2</mark>                    
             </p>
             <!-- Comentário do exemplo  -->
             <div class="d0secsumario">
-                <p class="p1sumariopv">Sumário</p>
+                <p class="p1sumariopv">SUMÁRIO</p>
 
                 <nav>
-                    <div class="o0sumariobox1">
-                        <ul class="d0sumariosecinicial">
-                            <li class="p1sumarioextrapeso1"><a href="">Seção inicial sumário - página 000</a></li>
-                            <li class="p1sumarioextrapeso1"><a href="">Seção inicial sumário - página 000</a></li>
-                            <li class="p1sumarioextrapeso1"><a href="">Seção inicial sumário - página 000</a></li>
-                        </ul>
-                    </div>
+                    <ul class="o1boxfundoazul1">
+                        <li class="p1sumarioextrapeso1"><a href="">O QUE VOCÊ JÁ SABE? - página 000</a></li>
+                    </ul>
     
                     <ol class="d0navsumario" start="1">
-                        <!-- Capítulo  -->
-                        <li class="p1sumariopeso1"><a href="" class="linkcap"><span class="p1sumariopeso1pv">Capítulo
-                                    1</span> Título um sumário - página 000</a>
+                        <!-- Unidade/Capítulo  -->
+                        <li class="p1sumariopeso1"><a href=""><span class="p1sumariopeso1pv">Unidade</span>
+                                    <span class="p1sumariopeso1numero">1</span> Título um sumário - página 000</a>
                             <!-- Nível 2 -->
                             <ul>
                                 <li class="p1sumariopeso2"><a href="">Título dois sumário - página 000</a>
@@ -2301,11 +2297,7 @@
                                                                 000</a></li>
                                                         <li class="p1sumariopeso5"><a href="">Título cinco sumário - página
                                                                     000</a>
-                                                            <ul>
-                                                                <li class="p1sumariopeso6"><a href="">Título seis sumário - página
-                                                                    000</a></li>
-                                                            </ul>       
-                                                        </li>
+                                                          </li>
                                                     </ul>    
                                                 </li>
                                             </ul>
@@ -2333,61 +2325,28 @@
                                     </ul>
                                 </li>
     
-                                <!-- Nível 2 -->
-                                <li class="secao_renomear"><a href="">Verifique seus conhecimentos - página 000</a>
-                                </li>
+                                
                             </ul>
                         </li>
                     </ol>
 
-                    <ul class="d0sumariosecinicial">
-                        <li class="p1sumarioextrapeso1"><a href="">Seção inicial sumário - página 000</a></li>
-                        <li class="p1sumarioextrapeso2"><a href="">Seção inicial sumário - página 000</a></li>
-                        <li class="p1sumarioextrapeso3"><a href="">Seção inicial sumário - página 000</a></li>
+                    <ul class="o1boxfundoazul1">
+                        <li class="p1sumarioextrapeso1"><a href="">O QUE VOCÊ JÁ APRENDEU? - página 000</a></li>
+                    </ul>
+
+                    <ul class="o1boxfundoverde1">
+                        <li class="p1sumarioextrapeso1"><a href="">REFERÊNCIAS BIBLIOGRÁFICAS COMENTADAS - página 000</a></li>
+                        <li class="p1sumarioextrapeso1"><a href="">MATERIAL COMPLEMENTAR - página 000</a></li>
                     </ul>
     
     
-                    <p class="p1sumariooedpv">Objetos Digitais</p>
-                    <ol class="">
-                        <li class="p1sumariooedpeso1"><a href="">Capitulo 0 - página 0</a>
-                            <ul>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a>
-                                    <ul>
-                                        <li class="p1sumariooedpeso3"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                    <p class="p1sumariooedpeso1">OBJETOS DIGITAIS</p>
+                    <ul>
+                        <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">INFOGRÁFICO</strong> • Título do OED - página 00</a></li>
+                        <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">MAPA CLICÁVEL</strong> • Título do OED - página 00</a>
                         </li>
-                        <li class="p1sumariooedpeso1"><a href="">Capitulo 0 - página 0</a>
-                            <ul>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                            </ul>
-                        </li>
-                        <li class="p1sumariooedpeso1"><a href="">Capitulo 0 - página 0</a>
-                            <ul>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                                <li class="p1sumariooedpeso2"><a href=""><strong class="c1bold">Podcast</strong> - Título do OED - página 0</a></li>
-                            </ul>
-                        </li>
-                    </ol>
-
-                    <ol class="">
-                        <li class="p1sumarioaudiospeso1"><a href="">Capitulo 0 - página 0</a>
-                            <ul>
-                                <li class="p1sumarioaudiospeso2"><a href=""><strong class="c1bold">Áudio</strong> - Título do áudio - página 0</a></li>
-                                <li class="p1sumarioaudiospeso3"><a href=""><strong class="c1bold">Áudio</strong> - Título do áudio - página 0</a></li>
-                            </ul>
-                        </li>
-                        <li class="p1sumarioaudiospeso1"><a href="">Capitulo 0 - página 0</a>
-                            <ul>
-                                <li class="p1sumarioaudiospeso2"><a href=""><strong class="c1bold">Áudio</strong> - Título do áudio - página 0</a></li>
-                                <li class="p1sumarioaudiospeso3"><a href=""><strong class="c1bold">Áudio</strong> - Título do áudio - página 0</a></li>
-                            </ul>
-                        </li>
-                      
-                    </ol>
+                    </ul>
+                    
                 </nav>
 
                 <!-- Comentário do exemplo -->
@@ -2447,7 +2406,7 @@
 
         <!-- Título de instrução -->
         <p class="instrucao" id="aberturacap">
-        LE - EXEMPLO DE <mark>ABERTURA CAPÍTULO</mark> | <strong>snippet:</strong> <code></code>
+        LE - EXEMPLO DE <mark>ABERTURA UNIDADE</mark> | <strong>snippet:</strong> <code></code>
         </p>
         <!-- Comentário do exemplo -->
         <p class="comentariocode">
@@ -2462,66 +2421,89 @@
             </header>
             <!--Livro texto aluno -->
             <div class="d0box_aluno" role="region" aria-label="Conteúdo da página">
-                <div class="d0boxabertura">
+                <div class="d0boxabertura" id="abertura">
                     <h1 class="d0boxaberturatit">
-                        <span class="d0tit1">
-                            <span class="p0tit1pv">Unidade</span>
-                            <span class="p0tit1numpv">10</span>
-                        </span>
-                        <span class="p0tit1">NOSSO <em>LUGAR</em> NO MUNDO NÃO HÁ ORIENTAÇÕES ESPECÍFICAS MUNDO NÃO HÁ
-                            ORIENTAÇÕES ESPECÍFICAS <mark>h1.p0tit1</mark></span>
+                        <span class="p0tit1pv">Unidade</span>
+                        <span class="p0tit1numpv">1</span>
+                        <span class="p0tit1">TÍTULO DA <em>UNIDADE</em> DO LIVRO LOREM IPSUM DOLOR <mark>h1.p0tit1</mark></span>
                     </h1>
-                    <figure class="d0imgabertura">
-                        <img src="../resources/images/un1/imagem1.png" alt="texto alternativo" width="740"
-                            height="844" />
-                        <figcaption class="p4legenda o0aberturalegenda">Legenda da foto de abertura Legenda da foto de abertura. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit. <mark>figcaption.p4legenda o0aberturalegenda</mark> </figcaption>
-                    </figure>
-        
-                    <div class="o0aberturabox">
-                        <div class="o0aberturaintrobox">
-                            <p class="p2texto">Lorem <mark>p.p2texto</mark>ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis libero eveniet inventore, adipisci cupiditate soluta praesentium in quaerat harum fugit accusantium quod eligendi facilis repudiandae non dolore fuga incidunt?</p>
-                        </div>
-                        <div class="o0aberturaatvbox">
-                            <p class="p1box1tit">CONECTANDO IDEIAS</p>
-                            <!-- <p class="p2textomarcadorsemrecuo"><span class="p5marcador2">1.</span> Pela fotografia, o que
-                                você observa
-                                na superfície de Marte?</p>
-                            <p class="p2textomarcadorsemrecuo"><span class="p5marcador2">2.</span> Pela fotografia, o que
-                                você observa
-                                na superfície de Marte?</p>
-                            <p class="p2textomarcadorsemrecuo"><span class="p5marcador2">3.</span> Pela fotografia, o que
-                                você observa
-                                na superfície de Marte?</p> -->
-                            <p class="p2atv"><span class="c0destaquenumero">1.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse dolore, odio pariatur provident mollitia error architecto magni facilis rem! Deleniti nulla fugit nemo voluptate voluptates, accusantium saepe similique rerum?</p>
-                        </div>
-            
-                        <div class="o0aberturaobjbox">
-                           <div class="box">
-                                <p class="p5aberturaobjtit">NESTA UNIDADE, VOCÊ VAI ESTUDAR: <mark>p.p5aberturaobjtit</mark></p>
-                                <p class="p5aberturaobjtexto">Neste capítulo você vai: <mark>p.p5aberturaobjtexto</mark></p>
-                                <ul class="p5aberturaobjitem">
-                                    <li>Ler, <mark>ul.p5aberturaobjitem</mark> interpretar.</li>
-                                    <li>Nomear tarefas domésticas.</li>
-                                    <li> Compreender a estrutura e explorar o dicionário on-line;</li>
-                                    <li> Compreender e fazer uso do verbo modal have to;</li>
-                                    <li>Compreender e fazer uso de advérbios de frequência;</li>
-                                    <li> Produzir uma lista de afazeres.</li>
-                                </ul>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d0boxabertura2">
-                    <div class="box">
-                        <figure class="o0aberturaimgmini">
-                        <img src="" alt="texto alternativo"  width="" height="" />
-                        <figcaption class="p4legenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <mark>figcaption.p4legenda</mark></figcaption>
+                   <div class="col2c">
+                        <figure class="d0imgabertura">
+                            <img src="../resources/images/un00/exemplo_abertura.png" alt="texto alternativo" width="740"
+                                height="844" />
+                            <figcaption class="p4legenda o0aberturalegenda">Legenda da foto de abertura Legenda da foto de abertura. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. <mark>figcaption.p4legenda o0aberturalegenda</mark> </figcaption>
                         </figure>
+                   </div>
+                   <div>
+                    <div class="col2c">
+                        <figure class="o0aberturaimgmini">
+                            <img src="../resources/images/un00/exemplo_abertura.png" alt="texto alternativo" width="300"
+                                height="844" />
+                            <figcaption class="p4legenda o0aberturalegenda">Legenda da foto de abertura Legenda da foto de abertura. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. <mark>figcaption.p4legenda o0aberturalegenda</mark> </figcaption>
+                        </figure>
+                    </div>
+                   </div>
+                </div>
 
+                
+            </div>
+            <!--Livro texto aluno -->
+
+            <!--Manual do professor-->
+            <aside class="d0box_especificompu" aria-label="Orientações específicas da página">
+                <h2 class="orienta"><span>ORIENTAÇÕES AO PROFESSOR</span></h2>
+                <p class="orientatx">Não há orientações específicas para esta página.</p>
+            </aside>
+            <!--Manual do professor-->
+        </section>
+<!-- Título de instrução -->
+<p class="instrucao" id="aberturacap">
+    LE - EXEMPLO DE <mark>ABERTURA 2 UNIDADE</mark> | <strong>snippet:</strong> <code></code>
+    </p>
+    <!-- Comentário do exemplo -->
+    <p class="comentariocode">
+       <mark>div.d0boxabertura2 / div.box / </mark>                         
+    </p>
+        <section class="pag000" aria-label="Página">
+            <header>
+                <p class="pag" role="doc-pagebreak" aria-label="Página">Página 75</p>
+                <p class="p5paginacaoextenso"><span class="c3idioma">seventy-five</span></p>
+            </header>
+            <!--Livro texto aluno -->
+            <div class="d0box_aluno" role="region" aria-label="Conteúdo da página">
+                <div class="d0boxabertura2" id="abertura">
+        
+                    <div class="box">
+                        <div class="o0aberturaobjbox">
+                            <div class="box">
+                                 <p class="p5aberturaobjtit">NESTA UNIDADE, VOCÊ VAI ESTUDAR: <mark>p.p5aberturaobjtit</mark></p>
+                                 <p class="p5aberturaobjtexto">Neste capítulo você vai: <mark>p.p5aberturaobjtexto</mark></p>
+                                 <ul class="p5aberturaobjitem">
+                                     <li>Ler, <mark>ul.p5aberturaobjitem</mark> interpretar.</li>
+                                     <li>Nomear tarefas domésticas.</li>
+                                     <li> Compreender a estrutura e explorar o dicionário on-line;</li>
+                                     <li> Compreender e fazer uso do verbo modal have to;</li>
+                                     <li>Compreender e fazer uso de advérbios de frequência;</li>
+                                     <li> Produzir uma lista de afazeres.</li>
+                                 </ul>
+                            </div>
+                         </div>
+                        <div class="o0aberturabox">
+                            <div class="o0aberturaintrobox">
+                                <p class="p2texto">Lorem <mark>p.p2texto</mark>ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis libero eveniet inventore, adipisci cupiditate soluta praesentium in quaerat harum fugit accusantium quod eligendi facilis repudiandae non dolore fuga incidunt?</p>
+                            </div>
+                            <div class="o0aberturaatvbox">
+                                <p class="p1box1tit">CONECTANDO IDEIAS</p>
+                                <p class="p2atv"><span class="c0destaquenumero">1.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse dolore, odio pariatur provident mollitia error architecto magni facilis rem! Deleniti nulla fugit nemo voluptate voluptates, accusantium saepe similique rerum?</p>
+                            </div>
+                
+                            
+                        </div>
                     </div>
                 </div>
+
             </div>
             <!--Livro texto aluno -->
 
@@ -2547,43 +2529,56 @@
                 </p>
     
                 
-            <p class="p2atv"><span class="c4linhalacunaresposta">C4LinhaLacunaResposta</span> (Resposta para completar <span class="c4linhalacunaresposta">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunarespostag"></span> a seguir.</p>
+            <p class="p2atv"><span class="c4linhalacuna"></span> (Resposta para completar <span class="c4linhalacuna">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunag"></span> a seguir.</p>
     
-            <p class="p2atv"><span class="c4linhalacunaresposta">C4LinhaLacunaResposta</span> (Resposta para completar <span class="c4linhalacunarespostap">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunarespostam"></span> a seguir.</p>
+            <p class="p2atv"><span class="c4linhalacuna"></span> (Resposta para completar <span class="c4linhalacunap">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunam"></span> a seguir.</p>
     
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atvresposta"></p>
 
 
 <!-- testando aria-label -->
-            <p class="p2atv"><span class="c4linhalacunaresposta">C4LinhaLacunaResposta</span> (Resposta para completar <span class="c4linhalacunaresposta" role="img" aria-label="Linha lacuna para resposta">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunarespostag"></span> a seguir.</p>
+            <p class="p2atv"><span class="c4linhalacuna">c4linhalacuna</span> (Resposta para completar <span class="c4linhalacuna" role="img" aria-label="Linha lacuna para resposta">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunag"></span> a seguir.</p>
     
-            <p class="p2atv"><span class="c4linhalacunaresposta">C4LinhaLacunaResposta</span> (Resposta para completar <span class="c4linhalacunarespostap">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunarespostam"></span> a seguir.</p>
+            <p class="p2atv"><span class="c4linhalacuna">c4linhalacuna</span> (Resposta para completar <span class="c4linhalacunap">&#9;&#9;&#9;&#9;</span> a mesma linha. Aplicar estilo de caractere nos espaços para compor a lacuna.). Exemplo de uso <span class="c4linhalacunam"></span> a seguir.</p>
     
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atv">
-                <span class="c4linhalacunarespostag"></span>
+                <span class="c4linhalacunag"></span>
             </p>
             <p class="p2atvresposta"></p>
 
             <!-- Título de instrução -->
             <p class="instrucao">
-                LE - EXEMPLO DE <mark>QUADRO CONSUMÍVEL</mark> | <strong>snippet:</strong> <code></code>
+                LE - EXEMPLO DE <mark>QUADRO CONSUMÍVEL COMO DIV</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o8quadroconsumivel" aria-label="Quadro para resposta" role="img"></div>
+
+            <p  class="o4ficha1"><span class="c1bold"><strong>TEXTO</strong></span></p>
+            <div class="o8quadroconsumivel" aria-label="Quadro para resposta" role="img">
+            </div>
+
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>QUADRO CONSUMÍVEL COMO SPAN</mark> | <strong>snippet:</strong> <code></code>
+            </p>
+            <p class="p2textosemrecuo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit dolore iusto maiores itaque qui sapiente, cupiditate vel fugit maxime asperiores, assumenda, error architecto! Nisi eius accusamus a porro. Ipsam, fugit!</p>
+            <p class="p2textosemrecuo"><span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span> <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo></math> <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span> <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>=</mo><mn>17</mn></math></p>    
+            <p class="p2textosemrecuo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos odit eveniet error esse, consectetur assumenda, deleniti sequi nostrum excepturi accusamus soluta, at a quia neque? Maxime dolore dolorem obcaecati?</p>
+
+            <p class="p2textosemrecuo"><span class="o4ficha2">1</span>, <span class="o4ficha2">2</span>, <span class="o4ficha2">3</span>, <span class="o4ficha2">4</span>, <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>, <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>, <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>, <span class="o4ficha2">8</span>, <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>, <span class="o4ficha2">10</span> </p>
 
             <!-- Título de instrução -->
             <p class="instrucao">
@@ -2607,14 +2602,15 @@
     
                 <!-- <span class="c4quadrinho" role="img" aria-label="quadrinho para resposta"></span><p class="p2textosemrecuoquadrinho"> Lorem, <mark>span.c4quadrinho + p.p2textosemrecuoquadrinho - SPAN FORA DO PARÁGRAFO</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> -->
 
-                <p class="p2textosemrecuoquadrinho"><span class="c4quadrinho" role="img" aria-label="quadrinho para resposta"></span> Lorem, <mark>span.c4quadrinho + p.p2textosemrecuoquadrinho SPAN DENTRO DO PARÁGRAFO</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>        
+                <p class="p2textosemrecuoquadrinho"><span class="c4quadrinho" role="img" aria-label="quadrinho para resposta"></span> Lorem, <mark>span.c4quadrinho + p.p2textosemrecuoquadrinho SPAN DENTRO DO PARÁGRAFO</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+                    
 
 
                 <!-- Título de instrução -->
                 <p class="instrucao">
                     LE - EXEMPLO DE <mark>MARCADOR + QUADRINHO CONSUMÍVEL + IMAGEM COM LEGENDA</mark> | <strong>snippet:</strong> <code></code>
                     </p>
-    
+                    
                     <figure>
                         <p class="p5marcador">A.</p>
                         <p class="c4quadrinho"></p>
@@ -2636,6 +2632,25 @@
     
                     <figure>
                         <p class="c4quadrinho"></p>
+                    <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo"  width="" height="" />
+                    <figcaption class="p4legenda">Lorem <mark>figcaption.p4legenda</mark> ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
+                    </figure>
+
+                     <!-- Título de instrução -->
+                <p class="instrucao">
+                    LE - EXEMPLO DE <mark>MARCADOR + QUADRO CONSUMÍVEL + IMAGEM COM LEGENDA</mark> | <strong>snippet:</strong> <code></code>
+                    </p>
+    
+                    <figure>
+                        <p class="p5marcador">A.</p>
+                        <div class="o8quadroconsumivel"></div>
+                    <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo"  width="" height="" />
+                    <figcaption class="p4legenda">Lorem <mark>figcaption.p4legenda</mark> ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
+                    </figure>
+
+                    <figure>
+                        <p class="p5marcador">A.</p>
+                        <div class="o8quadroconsumivelp"></div>
                     <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo"  width="" height="" />
                     <figcaption class="p4legenda">Lorem <mark>figcaption.p4legenda</mark> ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
                     </figure>
@@ -2669,17 +2684,22 @@
             <p class="instrucao">
                 LE - EXEMPLO DE <mark>OED</mark> | <strong>snippet:</strong> <code></code>
             </p>
-            <p class="p4iconeoed"><span class="c0destaqueoed">Vídeo</span> TÍTULO DO OBJETO DIGITAL</p>
-            <p class="p4iconeoed"><span class="c0destaqueoed c3idiomaitalico">Podcast</span> TÍTULO DO OBJETO DIGITAL</p>
-            <p class="p4iconeoed"><span class="c0destaqueoed">Infográfico</span></p>
-            <p class="p4iconeoed"><span class="c0destaqueoed">Mapa</span> TÍTULO DO OBJETO DIGITAL</p>
-            <p class="p4iconeoed"><span class="c0destaqueoed">Carrossel de imagens</span> TÍTULO DO OBJETO DIGITAL</p>
+            <p class="p4iconeoed1"><span class="c0destaqueoed">Vídeo</span> TÍTULO DO OBJETO DIGITAL</p>
+            <p class="p4iconeoed1"><span class="c0destaqueoed c3idiomaitalico">Podcast</span> TÍTULO DO OBJETO DIGITAL</p>
+            <p class="p4iconeoed1"><span class="c0destaqueoed">Infográfico</span> TÍTULO DO OBJETO DIGITAL</p>
+            <p class="p4iconeoed1"><span class="c0destaqueoed">Mapa</span> TÍTULO DO OBJETO DIGITAL</p>
+            <p class="p4iconeoed1"><span class="c0destaqueoed">Carrossel de imagens</span> TÍTULO DO OBJETO DIGITAL</p>
 
-            <p class="p4iconeoed2"><span class="c0destaqueoed2">Faixa de áudio</span> <strong>Track 00</strong></p>
-            <p class="p4iconeoed2"><span class="c0destaqueoed2">Faixa de áudio</span> <strong>Pista 00</strong></p>
-            <p class="p4iconeoed2"><span class="c0destaqueoed2">Faixa de áudio</span> <strong>Título do áudio</strong></p>
+            <p class="p4iconeoed2"><span class="c0destaqueoed2">ÁUDIO</span> TÍTULO DA FAIXA DE ÁUDIO</p>
 
-            <p class="p4iconeoed3"><span class="c0destaqueoed2">Transcrição</span> <strong>Título do áudio</strong></p>
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>TEXTO DE FAIXA DE ÁUDIO</mark> | <strong>snippet:</strong> <code></code>
+            </p>
+            <div class="o1boxfio1">
+                <p class="p4cota">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A blanditiis nobis tenetur mollitia fugiat porro repudiandae illum error iste dicta quas, provident dignissimos vitae officia quos nemo, dolores rerum? Pariatur?
+                </p>
+            </div>
 
             <!-- Título de instrução -->
             <p class="instrucao" id="livrotextoCard">
@@ -2703,6 +2723,7 @@
                   
             <h2 class="p0tit2">Titulo de nível dois <mark>h2.p0tit2</mark>
             </h2>
+            <p class="d0anote">Faça as atividades no caderno.</p>
 
              
             <h2 class="p0tit2"><span class="p0tit2numpv">10</span> Titulo de nível dois <mark>h2.p0tit2</mark> lo
@@ -3121,6 +3142,8 @@
                     span.c0destaqueletra</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error
                 quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id?
                 Cumque ullam ratione dicta!</p>
+            <p class="p2atvletra"><span class="c0destaqueletra">A )</span> <span class="o4ficha1">PALAVRA</span> <span class="c4linhalacuna"></span></p>
+            <p class="p2atvletra"><span class="c0destaqueletra">A )</span> <span class="o4ficha1">PALAVRA</span> <span class="o1boxfioroxo1">5</span> <span class="o1boxfioroxo1">8</span></p>
             <p class="p2atvletracont">Lorem, <mark>p.p2atvletracont</mark> ipsum dolor sit amet consectetur adipisicing
                 elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam
                 ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
@@ -3345,7 +3368,7 @@
             
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="citacao">
                 LE - EXEMPLO DE <mark>TEXTOS CITADOS / CITAÇÃO</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <blockquote class="p3citacaomanchete">Lorem, <mark>blockquote.p3citacaomanchete</mark> ipsum dolor sit amet
@@ -3397,6 +3420,56 @@
                 voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
 
                 <p class="p3citacaosemrecuo">Lorem, <mark>p.p3citacaosemrecuo</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+
+                <blockquote class="p3citacaomanchete">LOREM,  IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaotit1">LOREM, IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaotit2">LOREM,  IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaoolho">LOREM,  IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacao">LOREM, IPSUM DOLOR SIT AMET CONSECTETUR
+                    ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE VOLUPTATUM EAQUE
+                    LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+    
+                <ul class="p3citacaoitem">
+                    <li>LOREM, IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. AMET UNDE
+                        ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE VOLUPTATUM EAQUE LABORIOSAM ULLAM UT
+                        INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</li>
+                    <li>LOREM IPSUM DOLOR SIT AMET CONSECTETUR, ADIPISICING ELIT. ILLO NEQUE MOLESTIAS QUIS HIC BLANDITIIS
+                        IUSTO NON EXPLICABO FACERE, SED UNDE FUGA IURE INVENTORE ODIT RERUM CUMQUE APERIAM! TENETUR, OPTIO
+                        ALIQUID?</li>
+                    <li>LOREM IPSUM DOLOR SIT AMET CONSECTETUR, ADIPISICING ELIT. ILLO NEQUE MOLESTIAS QUIS HIC BLANDITIIS
+                        IUSTO NON EXPLICABO FACERE, SED UNDE FUGA IURE INVENTORE ODIT RERUM CUMQUE APERIAM! TENETUR, OPTIO
+                        ALIQUID?</li>
+                </ul>
+                <blockquote class="p3citacaoitem">LOREM,  IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaoitemcont">LOREM,  IPSUM DOLOR SIT AMET
+                    CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaoletra"><span class="c0destaqueletracitacao">a )</span> LOREM,
+                     IPSUM DOLOR SIT AMET CONSECTETUR
+                    ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE VOLUPTATUM EAQUE
+                    LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaoletracont">LOREM,  IPSUM DOLOR SIT
+                    AMET CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaonumero"><span class="c0destaquenumerocitacao">00.</span> LOREM,
+                     IPSUM DOLOR SIT AMET CONSECTETUR
+                    ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE VOLUPTATUM EAQUE
+                    LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+                <blockquote class="p3citacaonumerocont"> IPSUM DOLOR SIT
+                    AMET CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE
+                    VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</blockquote>
+    
+                    <p class="p3citacaosemrecuo">LOREM, IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. AMET UNDE ESSE, ERROR QUOD PRAESENTIUM ALIQUAM VOLUPTAS TOTAM VITAE VOLUPTATUM EAQUE LABORIOSAM ULLAM UT INVENTORE QUAE ID? CUMQUE ULLAM RATIONE DICTA!</p>
 
                  <!-- Título de instrução -->
                  <p class="instrucao">
@@ -3565,9 +3638,13 @@
                 <span class="material-symbols-outlined"></span>
                 </p>
 
-                <p class="p2texto"><img class="ico" src="" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+                <p class="p2texto"><img class="ico" src="../resources/images/ico_oral.svg" width="18" height="18" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
 
-                <p class="p2texto"><img class="ico" src="" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+                <p class="p2texto"><img class="ico" src="../resources/images/ico_caderno.svg" width="15" height="15" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+
+                <p class="p2texto"><img class="ico" src="../resources/images/ico_desafio.svg" width="20" height="18" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+
+                <p class="p2texto"><img class="ico" src="../resources/images/ico_cartografia.svg" width="18" height="18" alt="" /> Lorem, <mark>p.p2texto / img.ico</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
 
                 <!-- Título de instrução -->
                 <p class="instrucao">
@@ -3611,6 +3688,7 @@
                 </p>
                 <!-- Comentário do exemplo  -->
                 <p class="p2textomarcadorsemrecuo"><span class="p5marcador">A.</span> Marcador <mark>p.p2textomarcadorsemrecuo / span.p5marcador</mark></p>
+                <p class="p2textomarcadorsemrecuo">A.</p>
                 <p class="p2textomarcadorsemrecuo"><span class="p5marcador">1.</span> Marcador <mark>p.p2textomarcadorsemrecuo / span.p5marcador</mark></p>
                 <p class="p2textomarcadorsemrecuo"><span class="p5marcador">1<span class="c4ordinal">º</span>.</span> Marcador <mark>p.p2textomarcadorsemrecuo / span.p5marcador / span.c4ordinal</mark></p>
                 <p class="p2textomarcadorsemrecuo"><span class="p5marcador2">B.</span> Marcador <mark>p.p2textomarcadorsemrecuo / span.p5marcador2</mark></p>
@@ -3621,6 +3699,7 @@
                 <p class="p2textomarcadorsemrecuo"><span class="p5marcador2romano">III.</span> Marcador <mark>p.p2textomarcadorsemrecuo / span.p5marcador2romano</mark></p>
                 <p class="p5marcadorcaixa">Opção A <mark>p.p5marcadorcaixa</mark></p>
                 <p class="p5marcadorcaixa2">Opção B <mark>p.p5marcadorcaixa2</mark></p>
+                <p class="p5marcadorcaixa2">Opção B</p>
                 <p class="p5marcadorcaixa3">Opção C <mark>p.p5marcadorcaixa3</mark></p>
                 
                 <!-- Marcadores Negativo -->
@@ -3647,6 +3726,13 @@
                 </p>
 
                 <p class="p2texto">Lorem, ipsum dolor sit amet consectetur <span class="c5extradestaque">adipisicing</span> elit. Amet unde esse, error quod praesentium aliquam <em class="c5extraitalico">voluptas</em> totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam <em class="c5extraitalicoidioma" lang="en">ratione</em> dicta!</p>
+
+                <p class="c6destaqueunidade">c6destaqueunidade</p>
+                <p class="c6destaquedezena">c6destaquedezena</p>
+                <p class="c6destaquecentena">c6destaquecentena</p>
+                <p class="c6destaquedecimo">c6destaquedecimo</p>
+                <p class="c6destaquecentesimo">c6destaquecentesimo</p>
+                <p class="c6destaquemilesimo">c6destaquemilesimo</p>
 
                   <!-- Título de instrução -->
                   <p class="instrucao">
@@ -3777,7 +3863,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo">
+                                aria-label="Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3796,7 +3882,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo">
+                                aria-label="Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3824,7 +3910,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo">
+                                aria-label="Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3843,7 +3929,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo">
+                                aria-label="Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3885,7 +3971,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo" >
+                                aria-label="Voltar ao termo" >
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3904,7 +3990,7 @@
                             earum
                             nisi sapiente, quaerat molestias dolor?
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo">
+                                aria-label="Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -3939,11 +4025,11 @@
                 <dl aria-label="Vocabulário" class="p4vocabulario">
                         <dt id="glossario_id_xiv105413579980_glos"><dfn class="c4vocabulariodestaque"><abbr title="Lei Brasileira de Inclusão">LBI:</abbr></dfn></dt>
     
-                        <dd> Lei Brasileira de Inclusão. <a aria-label="para voltar ao termo"
+                        <dd> Lei Brasileira de Inclusão. <a aria-label="Voltar ao termo"
     
                                 href="#glossario_id_xiv105413579980_voc" role="doc-backlink"
     
-                                title="Link para voltar ao termo"><sup>↰</sup></a></dd>
+                                title="Link Voltar ao termo"><sup>↰</sup></a></dd>
     
                     </dl>
 
@@ -3994,7 +4080,7 @@
                         <dd>
                             ser capaz de, apto(a)
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo" title="Link para voltar ao termo">
+                                aria-label="Voltar ao termo" title="Link Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -4007,7 +4093,7 @@
                         <dd>
                             no exterior, no estrangeiro
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo" title="Link para voltar ao termo">
+                                aria-label="Voltar ao termo" title="Link Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -4021,7 +4107,7 @@
                         <dd>
                             ser capaz de, apto(a)
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo" title="Link para voltar ao termo">
+                                aria-label="Voltar ao termo" title="Link Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -4034,7 +4120,7 @@
                         <dd>
                             no exterior, no estrangeiro
                             <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="para voltar ao termo" title="Link para voltar ao termo">
+                                aria-label="Voltar ao termo" title="Link Voltar ao termo">
                                 <sup>↰</sup>
                             </a>
                         </dd>
@@ -4335,6 +4421,7 @@
                 LE - EXEMPLO DE <mark>IMAGEM COM LEGENDA</mark> | <strong>snippet:</strong> <code></code>
                 </p>
 
+                <p class="p1figuratit">FIGURA TÍTULO</p>
                 <figure>
                 <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo"  width="" height="" />
                 <figcaption class="p4legenda">Lorem <mark>figcaption.p4legenda</mark> ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
@@ -4369,12 +4456,28 @@
                     <mark>figure / p.o4medidaanimalbox</mark>                 
                  </p>
                  <!-- Comentário do exemplo  -->
-                <figure>
+                 <figure>
+                    <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo" width="360" height="410" />
+                </figure>
+                 <div class="o4medidaanimalbox">
+                    <div class="box">
+                        <p class="p4recadoimagem">
+                            <span class="c1bold"><strong>Lorem ipsum dolor:</strong></span> sit amet consectetur adipisicing elit. Obcaecati vero possimus alias distinctio illum magnam repellat aliquam quas, explicabo perferendis eaque exercitationem incidunt odio accusamus nobis sit pariatur vitae dignissimos.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="o4medidaanimalbox">
                     <p class="p5marcador">A.</p>
-                    <p class="o4medidaanimalbox">Lorem <mark>p.o4medidaanimalbox</mark> ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="box">
+                        <p class="p4recadoimagem">Lorem <mark>div.alinhamarcador/ div.o4medidaanimalbox / p.p4recadoimagem</mark> ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <figure>
                     <img src="../resources/images/un00/exemplo_imagem.png" alt="texto alternativo" width="360" height="410" />
                     <figcaption class="p4legenda">Lorem <mark>figcaption.p4legenda</mark> ipsum dolor, sit amet consectetur adipisicing elit. </figcaption>
                 </figure>
+
                 
 
                 <!-- Título de instrução -->
@@ -4468,7 +4571,7 @@
                         <tr>
                             <!-- Celular da Tabela -->
                             <td>1</td>
-                            <td>1</td>
+                            <td >1</td>
                             <td>
                                 <p class="p1tabelatexto"> Lorem <mark>p.p1tabelatexto</mark> ipsum dolor sit, amet
                                     consectetur adipisicing elit. Modi non ea provident a suscipit cupiditate architecto
@@ -4567,6 +4670,106 @@
                     </tbody>
                 </table>
 
+                <!-- Comentário do exemplo -->
+                <p class="comentariocode">
+                    variações              
+                 </p>
+                 <!-- Comentário do exemplo  -->
+                 <table class="tb_tabela tabela">
+                     <!--Será utilizado classes para diferenciar QUADRO de TABELA + classe refente a sua paleta de cor-->
+                     <caption class="p1tabelatit">Título Resultados obtido <mark>caption.p1tabelatit</mark> </caption>
+                     <!-- Cabeçalho da tabela-->
+                     <thead>
+                         <tr>
+                             <th>Simbolo</th>
+                             <th>Número</th>
+                             <th class="d0carimbo">Significado</th>
+                         </tr>
+                     </thead>
+                     <!--Cabeçalho da tabela-->
+                     <!-- Corpo da tabela-->
+                     <tbody>
+                         <!--Linha da tabela-->
+                         <tr>
+                             <!-- Celular da Tabela -->
+                             <td>1</td>
+                             <td>1</td>
+                             <td class="hachura">
+                             </td>
+                         </tr>
+                         <!--Linha da tabela-->
+                         <tr>
+                             <td>10</td>
+                             <td>10</td>
+                             <td>
+                                 <ul class="p1tabelatextoitem">
+                                     <li><span class="p5marcador">A.</span> Lorem <mark>ul.p1tabelatextoitem</mark> ipsum dolor sit amet consectetur
+                                         adipisicing elit. Similique placeat impedit aliquam nihil? Voluptate cumque
+                                         recusandae necessitatibus, fugiat eaque sapiente aliquid, ipsam iusto quisquam
+                                         hic dolorum, voluptas a incidunt excepturi.</li>
+                                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique placeat
+                                         impedit aliquam nihil? Voluptate cumque recusandae necessitatibus, fugiat eaque
+                                         sapiente aliquid, ipsam iusto quisquam hic dolorum, voluptas a incidunt
+                                         excepturi.</li>
+                                 </ul>
+ 
+                                 <p class="p1tabelatextoitemcont">
+                                     Lorem <mark>p.p1tabelatextoitemcont</mark> ipsum dolor sit amet consectetur
+                                     adipisicing elit. Similique placeat impedit aliquam nihil? Voluptate cumque
+                                     recusandae necessitatibus, fugiat eaque sapiente aliquid, ipsam iusto quisquam hic
+                                     dolorum, voluptas a incidunt excepturi.
+                                 </p>
+                             </td>
+                         </tr>
+                         <!--Linha da tabela-->
+                         <tr>
+                            <td>10</td>
+                            <td>10</td>
+                            <td></td>
+                               
+                        </tr>
+                         <!-- Corpo da tabela-->
+                     </tbody>
+                 </table>
+
+                 <div class="d0table">
+                     <table xmlns="http://www.w3.org/1999/xhtml" class="tb_tabela quadro">
+                        <caption class="p1tabelatit">Quadro de ordens</caption>
+                        <thead>
+                        <tr>
+                        <th class="p1tabelatitcoluna"><span class="c6destaquemilesimo">Milesimo</span></th>
+                        <th class="p1tabelatitcoluna"><span class="c6destaquecentesimo">Centesimo</span></th>
+                        <th class="p1tabelatitcoluna"><span class="c6destaquedecimo">Decimo</span></th>
+                        <th class="p1tabelatitcoluna"><span class="c6destaquecentena">Centena</span></th>
+                        <th class="p1tabelatitcoluna"><span class="c6destaquedezena">Dezena</span></th>
+                        <th class="p1tabelatitcoluna"><span class="c6destaqueunidade">Unidade</span></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        <td>
+                        <p class="p1tabelatexto">0</p>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>    
+                 </div>
+
                 <!-- Título de instrução -->
                 <p class="instrucao">
                     LE - EXEMPLO DE <mark>GRÁFICO</mark> | <strong>snippet:</strong> <code></code>
@@ -4581,6 +4784,15 @@
 
                 <div class="o2graficobox">
                     <p class="p1graficotit o2graficogravata1">Título referente ao gráfico apresentado <mark>p.p1graficotit o2graficogravata1</mark>
+                    </p>
+                    <figure>
+                        <img src="../resources/images/un00/exemplo_grafico.png" alt="texto alternativo" width="458"
+                            height="439" />
+                    </figure>
+                </div>
+
+                <div class="o2graficobox">
+                    <p class="p1graficotit o2graficogravata1">Título referente ao gráfico apresentado <span class="c4linhalacuna"></span>
                     </p>
                     <figure>
                         <img src="../resources/images/un00/exemplo_grafico.png" alt="texto alternativo" width="458"
@@ -4755,6 +4967,7 @@
                         <div class="box">
                         <mark>div.o0sec1box / div.box</mark>
                         <p class="p1sec1tit3">QUESTÃO 1</p>
+                        <p class="p2textomarcadorsemrecuo"><span class="p5marcador2">A</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit voluptatem, commodi illum libero numquam quos corrupti voluptatibus quasi repudiandae saepe iure blanditiis ipsum minus, esse quaerat, quae molestias ad.d</p>
                         <p class="p2textomarcadorsemrecuo"><span class="p5marcador">A</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit voluptatem, commodi illum libero numquam quos corrupti voluptatibus quasi repudiandae saepe iure blanditiis ipsum minus, esse quaerat, quae molestias ad.d</p>
                         <div class="o1boxfundobranco">
                             <p class="p2textosemrecuo"><strong>Cartão-resposta</strong></p>
@@ -4789,7 +5002,7 @@
                 LE - EXEMPLO DE <mark>SEÇÃO 2</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec2">
-                    <h2 class="p1sec2tit1">Título seção 2 nível 2  <mark>h2.p1sec2tit1</mark> LO</h2>
+                    <h2 class="p1sec2tit1">Título seção 2 nível 2  <mark>h2.p1sec2tit1</mark> LO</h2> <p class="d0anote">Faça as atividades no caderno.</p>
                     <div class="box">
                         <p class="p1sec2tit2">Título seção 2 nível 2 <mark>p.p1sec2tit2</mark></p>
                         <p class="p1sec2tit3">Título seção 2 nível 3 <mark>p.p1sec2tit3</mark></p>
@@ -4813,18 +5026,21 @@
                 <div class="o0sec2a"></div>
             
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec3">
                 LE - EXEMPLO DE <mark>SEÇÃO 3</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec3">
-                    <h2 class="p1sec3tit1">Título seção 3 nível 3 <mark>h2.p1sec3tit1</mark></h2>
+                    <h2 class="p1sec3tit1">Título seção 3 nível 1 <mark>h2.p1sec3tit1</mark></h2>
                     <div class="box">
                         <p class="p1sec3tit2">Título seção 3 nível 2 <mark>p.p1sec3tit2</mark></p>
                         <p class="p1sec3tit3">Título seção 3 nível 3 <mark>p.p1sec3tit3</mark></p>
                         <p class="p1sec3tit4">Título seção 3 nível 4 <mark>p.p1sec3tit4</mark></p>
     
                         <div class="o0sec3box">
-                            <div class="box"><mark>div.o0sec3box / div.box</mark></div>
+                            <div class="box"><mark>div.o0sec3box / div.box</mark>
+                            
+                                <p class="p2atv"><span class="c0destaquenumero">1.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi aperiam quibusdam voluptatibus veritatis optio sed earum velit iure reiciendis magnam inventore deleniti ratione ipsum autem porro, expedita quidem culpa.</p>
+                            </div>
                         </div>
                         <div class="o0sec3box2">
                             <div class="box"><mark>div.o0sec3box2 / div.box</mark></div>
@@ -4842,13 +5058,17 @@
                 LE - EXEMPLO DE <mark>SEÇÃO 4</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec4">
-                    <h2 class="p1sec4tit1">Título seção 4 nível 1 <mark>h2.p1sec4tit1</mark></h2>
+                    <h2 class="p1sec4tit1">TÍTULO SEÇÃO 4 NÍVEL 1 <mark>h2.p1sec4tit1</mark></h2>
                     <div class="box">
-                        <p class="p1sec4tit2">Título seção 4 nível 2 <mark>p.p1sec4tit2</mark></p>
+                        <p class="p1sec4tit2">TÍTULO SEÇÃO 4 NÍVEL 2 <mark>p.p1sec4tit2</mark></p>
                         <p class="p1sec4tit3">Título seção 4 nível 3 <mark>p.p1sec4tit3</mark></p>
                         <p class="p1sec4tit4">Título seção 4 nível 4 <mark>p.p1sec4tit4</mark></p>
+
+                        <p class="p3intermediariomarcador"><span class="p5marcadorcaixa">1</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores quidem similique itaque suscipit libero eius debitis, quae perspiciatis aliquid nisi nulla dolorem ratione iste? Voluptatem, voluptas iusto! Expedita, sunt? </p>
+
+                        <p class="p3intermediariomarcador"><span class="p5marcadorcaixa">2</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores quidem similique itaque suscipit libero eius debitis, quae perspiciatis aliquid nisi nulla dolorem ratione iste? Voluptatem, voluptas iusto! Expedita, sunt? </p>
     
-                        <div class="o0sec4box">
+                        <!-- <div class="o0sec4box">
                             <div class="box"><mark>div.o0sec4box / div.box</mark></div>
                         </div>
                         <div class="o0sec4box2">
@@ -4857,7 +5077,7 @@
 
                         <div class="o0sec4box3">
                             <div class="box"><mark>div.o0sec4box3 / div.box</mark></div>
-                        </div>
+                        </div> -->
     
                     </div>
                 </div>
@@ -4865,7 +5085,7 @@
                 <div class="o0sec4a"></div>
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec5">
                 LE - EXEMPLO DE <mark>SEÇÃO 5</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec5">
@@ -4890,7 +5110,7 @@
                 <div class="o0sec5a"></div>
 
          <!-- Título de instrução -->
-         <p class="instrucao">
+         <p class="instrucao" id="sec6">
             LE - EXEMPLO DE <mark>SEÇÃO 6</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o0sec6">
@@ -4901,7 +5121,10 @@
                     <p class="p1sec6tit4">Título seção 6 nível 4 <mark>p.p1sec6tit4</mark></p>
 
                     <div class="o0sec6box">
-                        <div class="box"><mark>div.o0sec6box / div.box</mark></div>
+                        <p class="p1box1tit">REGISTRE O QUE VOCÊ OBSERVOU</p>
+                        <div class="box"><mark>div.o0sec6box / div.box</mark>
+                        <p class="p2atv"><span class="c0destaquenumero">1.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus, ipsum repudiandae veritatis suscipit esse totam delectus facere, a quidem beatae nemo. Quos explicabo doloremque qui earum adipisci corporis autem?</p>
+                        </div>
                     </div>
                     <div class="o0sec6box2">
                         <div class="box"><mark>div.o0sec6box2 / div.box</mark></div>
@@ -4916,7 +5139,7 @@
             <div class="o0sec6a"></div>
             
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec7">
             LE - EXEMPLO DE <mark>SEÇÃO 7</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o0sec7">
@@ -4927,7 +5150,9 @@
                     <p class="p1sec7tit4">Título seção 7 nível 4 <mark>p.p1sec7tit4</mark></p>
 
                     <div class="o0sec7box">
-                        <div class="box"><mark>div.o0sec7box / div.box</mark></div>
+                        <div class="box"><mark>div.o0sec7box / div.box</mark>
+                        <p class="p2atv"><span class="c0destaquenumero">1.</span> <img class="ico" src="../resources/images/ico_oral.svg" alt="" width="18" height="18"/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quis necessitatibus rerum corrupti esse laudantium eaque fugit. Eum, quisquam ipsum cum architecto quo non dolores. In nihil corrupti alias doloribus!</p>
+                        </div>
                     </div>
                     <div class="o0sec7box2">
                         <div class="box"><mark>div.o0sec7box2 / div.box</mark></div>
@@ -4942,7 +5167,7 @@
 
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec8">
                 LE - EXEMPLO DE <mark>SEÇÃO 8</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec8">
@@ -4968,7 +5193,7 @@
 
             
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec9">
                 LE - EXEMPLO DE <mark>SEÇÃO 9</mark> | <strong>snippet:</strong> <code></code>
                 </p>
                 <div class="o0sec9">
@@ -4996,10 +5221,10 @@
                 <div class="o0sec9a"></div>
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="sec10">
                 LE - EXEMPLO DE <mark>SEÇÃO 10</mark> | <strong>snippet:</strong> <code></code>
                 </p>
-                <div class="o0sec10">
+                <div class="o0sec10" >
                     <h2 class="p1sec10tit1">Título seção 10 nível 1</h2>
                     <div class="box">
                         <p class="p1sec10tit2">Título seção 10 nível 2 <mark>p.p1sec10tit2</mark></p>
@@ -5032,14 +5257,21 @@
                         <p class="p1sec11tit3">Título seção 11 nível 3 <mark>p.p1sec12tit3</mark></p>
                         <p class="p1sec11tit4">Título seção 11 nível 4 <mark>p.p1sec12tit4</mark></p>
     
-                        <div class="o0sec11box">
-                            <div class="box"><mark>div.o0sec11box / div.box</mark></div>
+                        <div class="o0sec11box1">
+                            <p class="p3intermediariotit">Título Aqui</p>
+                            <div class="box"><mark>div.o0sec11box1 / div.box</mark></div>
                         </div>
                         <div class="o0sec11box2">
+                            <p class="p3intermediariotit">Título Aqui</p>
                             <div class="box"><mark>div.o0sec11box2 / div.box</mark></div>
                         </div>
                         <div class="o0sec11box3">
+                            <p class="p3intermediariotit">Título Aqui</p>
                             <div class="box"><mark>div.o0sec11box3 / div.box</mark></div>
+                        </div>
+                        <div class="o0sec11box4">
+                            <p class="p3intermediariotit">Título Aqui</p>
+                            <div class="box"><mark>div.o0sec11box4 / div.box</mark></div>
                         </div>
     
                     </div>
@@ -5047,7 +5279,7 @@
                 <div class="o0sec11a"></div>
 
 
-                <p class="instrucao">
+                <p class="instrucao" id="sec12">
                     LE - EXEMPLO DE <mark>SEÇÃO 12</mark> | <strong>snippet:</strong> <code></code>
                     </p>
                     <div class="o0sec12">
@@ -5071,6 +5303,29 @@
                     </div>
                     <div class="o0sec12a"></div>
 
+                <p class="instrucao" id="sec12">
+                    LE - EXEMPLO DE <mark>SEÇÃO 13</mark> | <strong>snippet:</strong> <code></code>
+                    </p>
+                    <div class="o0sec13">
+                        <h2 class="p1sec13tit1">Título seção 13 nível 1</h2>
+                        <div class="box">
+                            <p class="p1sec13tit2">Título seção 13 nível 2 <mark>p.p1sec12tit2</mark></p>
+                            <p class="p1sec13tit3">Título seção 13 nível 3 <mark>p.p1sec12tit3</mark></p>
+                            <p class="p1sec13tit4">Título seção 13 nível 4 <mark>p.p1sec12tit4</mark></p>
+        
+                            <div class="o0sec13box">
+                                <div class="box"><mark>div.o0sec12box / div.box</mark></div>
+                            </div>
+                            <div class="o0sec13box2">
+                                <div class="box"><mark>div.o0sec12box2 / div.box</mark></div>
+                            </div>
+                            <div class="o0sec13box3">
+                                <div class="box"><mark>div.o0sec12box3 / div.box</mark></div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="o0sec13a"></div>
                 <!-- Título de instrução -->
                 <p class="instrucao">
                 LE - EXEMPLO DE <mark>TRANSCRIÇÃO</mark> | <strong>snippet:</strong> <code></code>
@@ -5094,7 +5349,7 @@
             </p>
             <!-- Comentário do exemplo  -->
             <div class="o0sugestcomp">
-                <h2 class="p1sugestcomptit1">Sugestões complementares <mark>h2.p1sugestcomptit1</mark></h2>
+                <h2 class="p1sugestcomptit1">PARA SABER MAIS <mark>h2.p1sugestcomptit1</mark></h2>
                 <div class="box">
                     <h3 class="p1sugestcomptit2">Texto nível 2  <mark>h3.p1sugestcomptit2</mark></h3>
                     <h4 class="p1sugestcomptit3">Texto nível 3  <mark>h4.p1sugestcomptit3</mark></h4>
@@ -5124,18 +5379,18 @@
         <!--Manual do professor-->
         </section>
 
-
         <!-- Título de instrução -->
         <p class="instrucao">
-            LE - EXEMPLO DE <mark>REFERÊNCIAS</mark> | <strong>snippet:</strong> <code></code>
+            LE - EXEMPLO DE <mark>MATERIAL COMPLEMENTAR</mark> | <strong>snippet:</strong> <code></code>
         </p>
         <!-- Comentário do exemplo -->
         <p class="comentariocode">
-            <i class="material-icons ico">check</i>
-            <mark>div.o0referencias > h2.p1referenciasbibliotit1 + div.box (p.p2referenciasbiblio +
-                p.p2referenciasbibliocoment + p.p1referenciasbibliotit2</mark>
+            <mark>.p1materialcomplementartit1</mark>
         </p>
-        <!-- Comentário do exemplo  -->
+        <h2 class="p1materialcomplementartit1">MATERIAL COMPLEMENTAR <mark>.p1referenciasbibliotit1</mark></h2>
+
+        <p class="p1materialcomplementartit2">Jogo da memória <mark>.p1materialcomplementartit2</mark></p>
+        
 
         <!-- ******************** PÁGINA 000 ***************************-->
         <section class="pag000" aria-label="Página" id="referenciasLT">
@@ -5247,15 +5502,18 @@
              <p class="instrucao">
                 LE - EXEMPLO DE <mark>BOX PARA SABER MAIS</mark> | <strong>snippet:</strong> <code></code>
             </p>
-            <!-- Comentário do exemplo -->
-            <p class="comentariocode">
-               <mark>div.o0parasabermais / p.p1box1tit / div.box</mark>                     
-            </p>
-            <!-- Comentário do exemplo  -->
-            <div class="o0parasabermais">
-                <p class="p1box1tit">PARA SABER MAIS <mark>p.p1box1tit</mark></p>
-                <div class="box">
-                    <p class="p2texto">Lorem, <mark>p.p2texto</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+            
+            <div class="desabilitasemuso">
+                <!-- Comentário do exemplo -->
+                <p class="comentariocode">
+                   <mark>div.o0parasabermais / p.p1box1tit / div.box</mark>                     
+                </p>
+                <!-- Comentário do exemplo  -->
+                <div class="o0parasabermais">
+                    <p class="p1box1tit">PARA SABER MAIS <mark>p.p1box1tit</mark></p>
+                    <div class="box">
+                        <p class="p2texto">Lorem, <mark>p.p2texto</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+                    </div>
                 </div>
             </div>
 
@@ -5334,113 +5592,113 @@
             </p>
             <div class="col2s colbottom">
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_a_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_a_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">A</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_b_fim.svg" alt="" width="25" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_b_fim.svg" alt="" width="25" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">B</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_c_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_c_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">C</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_d_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_d_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">D</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_e_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_e_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">E</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_f_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_f_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">F</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_g_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_g_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">G</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_h_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_h_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">H</p>
                 </div>
             </div>
             <div class="col2s colbottom">
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_i_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_i_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">I</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_j_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_j_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">J</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_l_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_l_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">L</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_m_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_m_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">M</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_n_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_n_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">N</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_o_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_o_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">O</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_p_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_p_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">P</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_q_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_q_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">Q</p>
                 </div>
             </div>
             <div class="col2s colbottom">
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_r_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_r_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">R</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_s_fim.svg" alt="" width="20" height="47"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_s_fim.svg" alt="" width="20" height="47"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">S</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_t_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_t_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">T</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_u_fim.svg" alt="" width="30" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_u_fim.svg" alt="" width="30" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">U</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_v_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_v_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">V</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_x_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_x_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">X</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_z_fim.svg" alt="" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_z_fim.svg" alt="" width="40" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">Z</p>
                 </div>
             </div>
             <div class="col2s colcenter">
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_a_fim.svg" alt="texto alternativo" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_a_fim.svg" alt="texto alternativo" width="40" height="40"/></figure>
                     <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_b_fim.svg" alt="texto alternativo" width="25" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_b_fim.svg" alt="texto alternativo" width="25" height="40"/></figure>
                     <p class="o4ficha2 p3intermediariosemrecuo">B</p>
                 </div>
                 <div class="d0alfabeto">
-                    <figure><img src="../resources/images/alfabeto_c_fim.svg" alt="texto alternativo" width="40" height="40"/></figure>
+                    <figure><img src="../resources/images/alfabeto/alfabeto_c_fim.svg" alt="texto alternativo" width="40" height="40"/></figure>
                     <span class="o8quadroconsumivel" role="img" aria-label="quadrinho para resposta"></span>
                 </div>
             </div>
@@ -5567,7 +5825,12 @@
                 LE - EXEMPLO DE <mark>AVALIAÇÃO BOX</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o4avaliacaobox">
-                <div class="box"><p class="p2textosemrecuo">Lorem, <mark>div.o4avaliacaobox  / p.p2textosemrecuo </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p></div>
+                <p class="p1box1tit">AUTOVALIAÇÃO</p>
+                <div class="box"><p class="p2textosemrecuo">Lorem, <mark>div.o4avaliacaobox  / p.p2textosemrecuo </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id?</p>
+                
+                <p class="p2textosemrecuoquadrinho"><span class="c4quadrinho"></span> Sim</p>
+                <p class="p2textosemrecuoquadrinho"><span class="c4quadrinho"></span> Não</p>
+                </div>
             </div>
 
              <!-- Título de instrução -->
@@ -5601,6 +5864,7 @@
                 </div>
 
                 <div class="o4etapabox">
+                    <p class="p5marcadorcaixa2">Passo 1 <mark>p.p5marcadorcaixa2</mark></p>
                     <p class="p5marcadorcaixa2">Passo 1 <mark>p.p5marcadorcaixa2</mark></p>
                     <div class="box"><p class="p2textosemrecuo">Lorem, <mark>div.o4etapabox / div.box / p.p2textosemrecuo </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p></div>
                 </div>
@@ -5644,8 +5908,9 @@
             LE - EXEMPLO DE <mark>IDEIA BOX</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o4ideiabox">
-                <p class="p1box1tit">Compartilhe ideias <mark>p.p1box1tit</mark></p>
-                <div class="box"></div>
+                <div class="box">
+                    <p class="p3intermediariosemrecuo">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
             </div>
 
              <!-- Título de instrução -->
@@ -6342,7 +6607,7 @@
                 <div class="o1boxfundoturquesa2"><p class="p2textomarcadorsemrecuo"><span class="p5marcador">B.</span>Tempo e apacidade.</p></div>
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="fioroxo">
                 LE - EXEMPLO DE <mark>BOX FIO ROXO 1</mark> | <strong>snippet:</strong> <code></code>
             </p>
             <div class="o1boxfioroxo1">
@@ -6382,6 +6647,36 @@
                     <p class="p2textosemrecuoquadrinho"><span class="c4quadrinho" role="img" aria-label="quadrinho para resposta"></span> LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. </p>
                 </div>
             </div>
+
+            <p class="o4ficha1"><strong>TEXTO</strong></p>
+            <div class="o1boxfioroxo1">
+                <div class="box">
+                    <p class="p2textosemrecuo"><span class="c4linhalacuna"></span> BRINDES.</p>
+                </div>
+            </div>
+
+            <div class="o1boxfioroxo1">
+                <p class="p5marcador">A.</p>
+                <p class="c4quadrinho" role="img" aria-label="quadrinho para resposta"></p>
+                <div class="box">
+                    <figure>
+                        <img src="../resources/images/un00/exemplo_imagem.png" alt="" width="200"/>
+                    </figure>
+                    <figure>
+                        <img src="../resources/images/un00/exemplo_imagem.png" alt="" width="200"/>
+                    </figure>
+                    <figure>
+                        <img src="../resources/images/un00/exemplo_imagem.png" alt="" width="200"/>
+                    </figure>
+                </div>
+            </div>
+
+            <ul class="o1boxfioroxo1">
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+                <li>Lorem</li>
+            </ul>
 
         </div>
         <!--Livro texto aluno -->
@@ -6451,7 +6746,9 @@
                 <p class="instrucao">
                     LE - EXEMPLO DE <mark>BILHETE</mark> | <strong>snippet:</strong> <code></code>
                 </p>
-                <div class="o5bilhete1"><p class="p2texto"><mark>div.o5bilhete1</mark></p></div>
+                <div class="o5bilhete1">
+                    <div class="box"><p class="p2texto"><mark>div.o5bilhete1</mark></p></div>
+                </div>
                 <div class="o5bilhete2"><p class="p2texto"><mark>div.o5bilhete2</mark></p></div>
     
     
@@ -6461,9 +6758,9 @@
                 </p>
     
     
-                <div class="o5postit1"><p class="p2texto"><mark>div.o5postit1</mark></p></div>
-                <div class="o5postit2"><p class="p2texto"><mark>div.o5postit2</mark></p></div>
-                <div class="o5postit3"><p class="p2texto"><mark>div.o5postit3</mark></p></div>
+                <div class="o5postit1"><div class="box"><p class="p2texto"><mark>div.o5postit1</mark></p></div></div>
+                <div class="o5postit2"><div class="box"><p class="p2texto"><mark>div.o5postit2</mark></p></div></div>
+                <div class="o5postit3"><div class="box"><p class="p2texto"><mark>div.o5postit3</mark></p></div></div>
     
     
                 <!-- Título de instrução -->
@@ -6493,6 +6790,20 @@
                 <div class="o5nota3">
                     <div class="camada1"></div>
                     <div class="camada2"></div>
+                </div>
+
+                 <!-- Título de instrução -->
+                 <p class="instrucao" id="caderno">
+                    LE - EXEMPLO DE <mark>CADERNO</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+
+                <div class="o5caderno">
+                    <div class="box"><p class="p2texto"><mark>div.o5caderno</mark> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quibusdam voluptatibus earum ea fuga nisi dolores. Ipsum, odio quam? Doloribus eius fugiat, nulla est saepe atque accusamus officia repellat porro? lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, dolore soluta. Aut illum et tempore, vero necessitatibus quasi sunt consequuntur, libero in ea unde reprehenderit est minima porro itaque voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum placeat odit dolor unde rerum, voluptates optio voluptate veritatis atque? Doloribus temporibus ipsum voluptatem et corporis accusantium enim fugiat sunt.</p></div>
+                </div>
+                <div class="o5caderno">
+                    <div class="box">
+                        Lorem ipsum
+                    </div>
                 </div>
     
                  <!-- Título de instrução -->
@@ -6724,7 +7035,13 @@
                             <em class="c1italico">acessories</em></span> <mark>p.p3intermediariosemrecuo / span.c5destaqueverbetedicionario</mark></p>
                 </div>
     
-              
+                <div class="o5verbetedicionario">
+                    <p class="p3intermediariosemrecuo"><span class="c4quadrinho"></span> <strong class="c1bold">ac • ces • so • ry</strong> <mark>div.o5verbetedicionario / p.p3intermediariosemrecuo / strong.c1bold</mark> / ik’ se seari/ noun, pl -ies [count] <span class="o8quadroconsumivel"></span></p>
+                    <p class="p3intermediariosemrecuo"><strong class="c1bold">1</strong> : something added to someting else ro make it more useful, attractive or
+                        effective<span class="c5destaqueverbetedicionario"> •fashion/clothing <em class="c1italico">accessories</em> such as scarves,
+                            handkerchiefs, <span class="c4quadrinho"></span> bracelets and rings • automotive <em class="c1italico">accessories</em> • computer
+                            <em class="c1italico">acessories</em></span> <mark>p.p3intermediariosemrecuo / span.c5destaqueverbetedicionario</mark></p>
+                </div>
     
     
                 <!-- Título de instrução -->
@@ -6740,7 +7057,7 @@
                     <div class="boxinfocurriculo">
                         <div class="col2c">
                             <figure>
-                                <img src="../resources/images/un00/exemplo_imagem.png" alt="" width="300px" height="" />
+                                <img src="../resources/images/un00/exemplo_imagem.png" alt="" width="300" height="" />
                             </figure>
                         </div>
     
@@ -7085,30 +7402,54 @@
             LE - EXEMPLO DE <mark>ESTRATÉGIAS 1</mark> | <strong>snippet:</strong> <code></code>
             </p>
 
-            <div class="oemestrategias">
-                <p class="d0estrategiastit">Título <mark>div.oemestrategias / p.d0estrategiastit</mark></p>
-                <div class="box"><mark>div.box</mark></div>
-            </div>
+            <p class="p4iconeoed3 oemestrategias1">RELEITURA</p>
 
             <!-- Título de instrução -->
             <p class="instrucao">
-                LE - EXEMPLO DE <mark>ESTRATÉGIAS 2</mark> | <strong>snippet:</strong> <code></code>
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 2 - CATEGORIA 2</mark> | <strong>snippet:</strong> <code></code>
                 </p>
-            <div class="oemestrategias2">
-                <p class="d0estrategiastit">Título <mark>div.oemestrategias2 / p.d0estrategiastit</mark></p>
-                <div class="box"><mark>div.box</mark></div>
-            </div>
+                <p class="p4iconeoed3 oemestrategias2">RESUMO</p>
+                <p class="instrucao">
+                    LE - EXEMPLO DE <mark>ESTRATÉGIAS 2 - CATEGORIA 1</mark> | <strong>snippet:</strong> <code></code>
+                    </p>
+                <p class="p4iconeoed3 oemestrategias2">SUBLINHAR</p>
 
             <!-- Título de instrução -->
-            <p class="instrucao">
+            <p class="instrucao" id="estrategias">
                 LE - EXEMPLO DE <mark>ESTRATÉGIAS 3</mark> | <strong>snippet:</strong> <code></code>
                 </p>
-            <div class="oemestrategias3">
-                <p class="d0estrategiastit">Título <mark>div.oemestrategias3 / p.d0estrategiastit</mark></p>
-                <div class="box"><mark>div.box</mark></div>
-            </div>
-                
+                <p class="p4iconeoed3 oemestrategias3">REGISTRAR EM TÓPICOS</p>
 
+            <!-- Título de instrução -->
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 4</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias4">ESTUDO EM GRUPO</p>
+            
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 5</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias5">PESQUISA</p>
+
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 6</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias6">USO DO DICIONÁRIO</p>
+            
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 7</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias7">EXPLICAR A UM COLEGA</p>    
+
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 8</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias8">AUTOEXPLICAÇÃO</p>  
+
+            <p class="instrucao">
+                LE - EXEMPLO DE <mark>ESTRATÉGIAS 9</mark> | <strong>snippet:</strong> <code></code>
+                </p>
+                <p class="p4iconeoed3 oemestrategias9">MAPA MENTAL</p>  
             </div>
             <!--Livro texto aluno -->
             
