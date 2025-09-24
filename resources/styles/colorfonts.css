@@ -1,9 +1,11 @@
 /* CSS Document */
 /* Padrões de Fontes no projeto
 // Títulos: 'Nunito' ;
-// Citações: 'Noto Serif';
+// Citações: 'RedHatDisplay';
 // Texto: 'Work Sans' ;
-// Ordinal / químico: 'Calibri' ;
+// Ordinal: 'Work Sans'
+// Químico: '' ;
+// Fonema: '' ;
 
 
 
@@ -191,188 +193,210 @@
 }
 
 
-/*👉 -------------- CITAÇÕES --------------👈*/
+/*👉 -------------- CITAÇÕES LE --------------👈*/
+
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'RedHatDisplay';
     font-style: normal;
-    font-weight:100 ;
-    src: 
-        url(../fonts/NotoSerif-Thin.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Thin.otf) format("opentype"),
-        url(../fonts/NotoSerif-Thin.ttf) format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: italic ;
-    font-weight: 100;
-    src: 
-        url(../fonts/NotoSerif-ThinItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ThinItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-ThinItalic.ttf) format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight:200 ;
-    src: 
-        url(../fonts/NotoSerif-ExtraLight.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraLight.otf) format("opentype"),
-        url(../fonts/NotoSerif-ExtraLight.ttf) format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: italic ;
-    font-weight: 200;
-    src: 
-        url(../fonts/NotoSerif-ExtraLightItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraLightItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-ExtraLightItalic.ttf) format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight:300 ;
-    src: 
-        url(../fonts/NotoSerif-Light.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Light.otf) format("opentype"),
-        url(../fonts/NotoSerif-Light.ttf) format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: italic ;
     font-weight: 300;
-    src: 
-        url(../fonts/NotoSerif-LightItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-LightItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-LightItalic.ttf) format("truetype");
+    src: url(../fonts/RedHatDisplay-Light.woff2) format("woff2"), url(../fonts/kodchasan/RedHatDisplay-Light.otf) format("opentype"), url(../fonts/RedHatDisplay-Light.ttf) format("truetype");
     font-display: swap;
 }
+
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/RedHatDisplay-LightItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-LightItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-LightItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
     font-style: normal;
     font-weight: 400;
-    src: 
-        url(../fonts/NotoSerif-Regular.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Regular.otf) format("opentype"),
-        url(../fonts/NotoSerif-Regular.ttf) format("truetype");
+    src: url(../fonts/RedHatDisplay-Regular.woff2) format("woff2"), url(../fonts/RedHatDisplay-Regular.otf) format("opentype"), url(../fonts/RedHatDisplay-Regular.ttf) format("truetype");
     font-display: swap;
 }
+
 @font-face {
-    font-family: 'Noto Serif';
-    font-style:italic ;
+    font-family: 'RedHatDisplay';
+    font-style: italic;
     font-weight: 400;
-    src: 
-        url(../fonts/NotoSerif-Italic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Italic.otf) format("opentype"),
-        url(../fonts/NotoSerif-Italic.ttf) format("truetype");
+    src: url(../fonts/RedHatDisplay-Italic.woff2) format("woff2"), url(../fonts/RedHatDisplay-Italic.otf) format("opentype"), url(../fonts/RedHatDisplay-Italic.ttf) format("truetype");
     font-display: swap;
 }
+
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'RedHatDisplay';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/RedHatDisplay-Bold.woff2) format("woff2"), url(../fonts/kodchasan/RedHatDisplay-Bold.otf) format("opentype"), url(../fonts/kodchasan/RedHatDisplay-Bold.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/RedHatDisplay-BoldItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-BoldItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-BoldItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
     font-style: normal;
     font-weight: 500;
-    src: 
-        url(../fonts/NotoSerif-Medium.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Medium.otf) format("opentype"),
-        url(../fonts/NotoSerif-Medium.ttf) format("truetype");
-        font-display: swap;
+    src: url(../fonts/RedHatDisplay-Medium.woff2) format("woff2"), url(../fonts/RedHatDisplay-Medium.otf) format("opentype"), url(../fonts/RedHatDisplay-Medium.ttf) format("truetype");
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'Noto Serif';
-    font-style: italic ;
-    font-weight:500 ;
-    src: 
-        url(../fonts/NotoSerif-MediumItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-MediumItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-MediumItalic.ttf) format("truetype");
-        font-display: swap;
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 500;
+    src: url(../fonts/RedHatDisplay-MediumItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-MediumItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-MediumItalic.ttf) format("truetype");
+    font-display: swap;
 }
+
 @font-face {
-    font-family: 'Noto Serif';
-    font-style:normal ;
+    font-family: 'RedHatDisplay';
+    font-style: normal;
     font-weight: 600;
-    src: 
-        url(../fonts/NotoSerif-SemiBold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-SemiBold.otf) format("opentype"),
-        url(../fonts/NotoSerif-SemiBold.ttf) format("truetype");
-        font-display: swap;
+    src: url(../fonts/RedHatDisplay-SemiBold.woff2) format("woff2"), url(../fonts/RedHatDisplay-SemiBold.otf) format("opentype"), url(../fonts/RedHatDisplay-SemiBold.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 600;
+    src: url(../fonts/RedHatDisplay-SemiBoldItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-SemiBoldItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-SemiBoldItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/RedHatDisplay-Bold.woff2) format("woff2"), url(../fonts/RedHatDisplay-Bold.otf) format("opentype"), url(../fonts/RedHatDisplay-Bold.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/RedHatDisplay-BoldItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-BoldItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-BoldItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/RedHatDisplay-ExtraBold.woff2) format("woff2"), url(../fonts/RedHatDisplay-ExtraBold.otf) format("opentype"), url(../fonts/RedHatDisplay-ExtraBold.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/RedHatDisplay-ExtraBoldItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-ExtraBoldItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-ExtraBoldItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/RedHatDisplay-Black.woff2) format("woff2"), url(../fonts/RedHatDisplay-Black.otf) format("opentype"), url(../fonts/RedHatDisplay-Black.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    font-style: italic;
+    font-weight: 900;
+    src: url(../fonts/RedHatDisplay-BlackItalic.woff2) format("woff2"), url(../fonts/RedHatDisplay-BlackItalic.otf) format("opentype"), url(../fonts/RedHatDisplay-BlackItalic.ttf) format("truetype");
+    font-display: swap;
+}
+
+/*👉 -------------- CITAÇÕES MP --------------👈*/
+@font-face {
+    font-family: 'Merriweather';
+    font-style:normal ;
+    font-weight: 300 ;
+    src: url(../fonts/Merriweather-Light.otf) format("opentype"),
+        url(../fonts/Merriweather-Light.ttf) format("truetype"),
+        url(../fonts/Merriweather-Light.woff2) format("woff2");
+    font-display: swap;
 }
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Merriweather';
     font-style:italic ;
-    font-weight:600 ;
-    src: 
-        url(../fonts/NotoSerif-SemiBoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-SemiBoldItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-SemiBoldItalic.ttf) format("truetype");
-        font-display: swap;
+    font-weight:300 ;
+    src: url(../fonts/Merriweather-LightItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-LightItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-LightItalic.woff2) format("woff2");
+    font-display: swap;
 }
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Merriweather';
+    font-style: normal ;
+    font-weight: 400 ;
+    src: url(../fonts/Merriweather-Regular.otf) format("opentype"),
+        url(../fonts/Merriweather-Regular.ttf) format("truetype"),
+        url(../fonts/Merriweather-Regular.woff2) format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight:400 ;
+    src: url(../fonts/Merriweather-Italic.otf) format("opentype"),
+        url(../fonts/Merriweather-Italic.ttf) format("truetype"),
+        url(../fonts/Merriweather-Italic.woff2) format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight:700 ;
-    src: 
-        url(../fonts/NotoSerif-Bold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Bold.otf) format("opentype"),
-        url(../fonts/NotoSerif-Bold.ttf) format("truetype");
-        font-display: swap;
+    src: url(../fonts/Merriweather-Bold.otf) format("opentype"),
+        url(../fonts/Merriweather-Bold.ttf) format("truetype"),
+        url(../fonts/Merriweather-Bold.woff2) format("woff2");
+    font-display: swap;
 }
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Merriweather';
     font-style: italic;
     font-weight:700 ;
-    src: 
-        url(../fonts/NotoSerif-BoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-BoldItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-BoldItalic.ttf) format("truetype");
-        font-display: swap;
+    src: url(../fonts/Merriweather-BoldItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-BoldItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-BoldItalic.woff2) format("woff2");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Merriweather';
     font-style: normal;
-    font-weight:800 ;
-    src: 
-        url(../fonts/NotoSerif-ExtraBold.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraBold.otf) format("opentype"),
-        url(../fonts/NotoSerif-ExtraBold.ttf) format("truetype");
-        font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
-    font-style: italic;
-    font-weight:800 ;
-    src: 
-        url(../fonts/NotoSerif-ExtraBoldItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-ExtraBoldItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-ExtraBoldItalic.ttf) format("truetype");
-        font-display: swap;
+    font-weight:900 ;
+    src: url(../fonts/Merriweather-Black.otf) format("opentype"),
+        url(../fonts/Merriweather-Black.ttf) format("truetype"),
+        url(../fonts/Merriweather-Black.woff2) format("woff2");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight:900 ;
-    src: 
-        url(../fonts/NotoSerif-Black.woff2) format("woff2"),
-        url(../fonts/NotoSerif-Black.otf) format("opentype"),
-        url(../fonts/NotoSerif-Black.ttf) format("truetype");
-        font-display: swap;
-}
-@font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Merriweather';
     font-style: italic;
     font-weight:900 ;
-    src: 
-        url(../fonts/NotoSerif-blackItalic.woff2) format("woff2"),
-        url(../fonts/NotoSerif-blackItalic.otf) format("opentype"),
-        url(../fonts/NotoSerif-blackItalic.ttf) format("truetype");
-        font-display: swap;
+    src: url(../fonts/Merriweather-BlackItalic.otf) format("opentype"),
+        url(../fonts/Merriweather-BlackItalic.ttf) format("truetype"),
+        url(../fonts/Merriweather-BlackItalic.woff2) format("woff2");
+    font-display: swap;
 }
 
 /*👉 -------------- TEXTO --------------👈*/
@@ -589,7 +613,7 @@
 }
 👈*/
 /*👉 -------------- QUIMICO --------------👈*/
-@font-face {
+/*👉@font-face {
     font-family: '';
     font-style: ;
     font-weight: ;
@@ -598,147 +622,5 @@
         url(../fonts/.woff2) format("woff2");
     font-display: swap;
 }
-
-
-:root {
-    /* Fontes */
-    --titulo: 'Nunito' ;
-    --citacao: 'Noto Serif' ;
-    --texto:  'Work Sans' ;
-    --ordinal: 'Work Sans';
-    --quimico: ;
-    --fonema: ;
-
-    --oedtitulo:;
-    --oedtexto:;
-    --oedcitacao:;
-    --oedinstrucao:;
-
-    /* Tamanhos */
-    --peso1: 1.8em;
-    --peso2: 1.7em;
-    --peso3: 1.6em;
-    --peso4: 1.5em;
-    --peso5: 1.4em;
-    --peso6: 1.3em;
-    --peso6: 1.2em;
-    --peso7: 1.1em;
-    --peso8: 0.9em;
-    --pesoPadrao: 1em;
-    --pesoMenor: 0.8em;
-    --pesoIntermediario:0.9em;
-
-    /* Cores */
-    --corprof: #8a014c;
-    --preto_: #2B2E34;
-    --preto:#000;
-    --branco: #fff;
-    --cinza: #ececec;
-    --link: #00649c;
-    --manualu: #E4F2E7;
-
-    --azul1:#0EBFDA;
-    --azul1a: #18a0bd;
-    --azul2:#C8E7F4;
-    --azul3:#D5ECEF;
-    --azul4:#DFEAF8;
-
-    --turquesa1:#00ACA9;
-    --turquesa2:#87CDD3;
-    --turquesa3:#BEE2E9;
-    --turquesa4:#E0F1F5;
-
-    --verde1:#34B653;
-    --verde1a:#217735;
-    --verde2:#D9E6B1;
-    --verde3:#CCE4CE;
-    --verde4:#E1F0EB;
-
-    --citrico1:#94C23E;
-    --citrico2:#D0DE84;
-    --citrico3:#E4ECBC;
-    --citrico4:#ECF3DA;
-
-    --laranja1:#F07F3C;
-    --laranja2:#F7AE82;
-    --laranja3:#FCD7B8;
-    --laranja4:#FDE7DD;
-
-    --amarelo1:#FFBE31;
-    --amarelo2:#FEE0BC;
-    --amarelo3:#FFE6AC;
-    --amarelo4:#FEEFDE;
-
-    --vermelho1:#F84942;
-    --vermelho2:#FCE4E0;
-    --vermelho3:#fce3df;
-    --vermelho4:#fff5f3;
-
-    --rosa1:#FC86BF;
-    --rosa2:#F39DB0;
-    --rosa3:#F8C7D0;
-    --rosa4:#FCE5E9;
-
-    --roxo1:#595DB0;
-    --roxo2:#DEDAEE;
-    --roxo3:#D2CDE8;
-    --roxo4:#EDEBF7;
-
-    --lilas1:#7263A9;
-    --lilas2:#A69DCD;
-    --lilas3:#D2CDE8;
-    --lilas4:#EDEBF7;
-}
-
-.boxdegrade{
-    width: 100px;
-    height: 100px;
-    margin: 1em 0;
-}
-
-.gradiente_a1 {
-    background: linear-gradient(24deg,#94C23E, #7263A9);
-}
-.gradiente_a2 {
-    background: linear-gradient(24deg,#D0DE84, #A69DCD);
-}
-
-.gradiente_b1 {
-    background: linear-gradient(24deg,#87CDD3, #F7AE82);
-}
-.gradiente_b2 {
-    background: linear-gradient(24deg,#BEE2E9, #FCD7B8);
-}
-
-.gradiente_c1 {
-    background: linear-gradient(24deg,#FED27A, #F39DB0);
-}
-.gradiente_c2 {
-    background: linear-gradient(24deg,#FFE6AC, #F8C7D0);
-}
-
-.gradiente_d1 {
-    background: linear-gradient(24deg,#87CDD3, #A69DCD);
-}
-.gradiente_d2 {
-    background: linear-gradient(24deg,#BEE2E9, #D2CDE8);
-}
-
-
-.gradiente_e1 {
-    background: linear-gradient(24deg,#F39DB0, #86C2EB);
-}
-.gradiente_e2 {
-    background: linear-gradient(24deg,#F8C7D0, #BCDCF5);
-}
-
-
-.gradiente_h1 {
-    background: linear-gradient(24deg,#D0DE84, #9BCEA4, #87CDD3, #86C2EB);
-}
-.gradiente_h2 {
-    background: linear-gradient(24deg,#E4ECBC, #BEE2E9, #BEE2E9, #BCDCF5);
-}
-
-
+👈*/
 

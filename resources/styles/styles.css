@@ -1,9 +1,133 @@
 @charset "UTF-8";
 @import url(reset.css);
-@import url(instrucoes.css);
+
 @import url(styles_lt.css);
 @import url(styles_mp.css);
 @import url(styles_gab.css);
 @import url(styles_res.css);
 
+@import url(instrucoes.css);
+@import url(colorfonts.css);
+
 /* CSS Document */
+
+:root {
+    /* Fontes */
+    --titulo: 'Nunito';
+    --citacao: 'RedHatDisplay';
+    --citacaomp:'Merriweather';
+    --texto:  'Work Sans';
+    --ordinal: 'Work Sans';
+    --quimico: ;
+    --fonema: ;
+
+    --oedtitulo:;
+    --oedtexto:;
+    --oedcitacao:;
+    --oedinstrucao:;
+
+    /* Tamanhos */
+    --peso1: 1.8em;
+    --peso2: 1.7em;
+    --peso3: 1.6em;
+    --peso4: 1.5em;
+    --peso5: 1.4em;
+    --peso6: 1.3em;
+    --peso7: 1.1em;
+    --peso8: 0.9em;
+    --pesoPadrao: 1em;
+    --pesoMenor: 0.8em;
+    --pesoIntermediario:0.9em;
+
+    /* Cores */
+    --corprof: #8a014c;
+    --preto_: #2B2E34;
+    --preto:#000;
+    --branco: #fff;
+    --cinza: #ececec;
+    --link: #00649c;
+    --manualu: #daebc1;
+    --jornal:#d9e5ec;
+
+    --azul1:#0EBFDA;
+    --azul1a: #18a0bd;
+    --azul1b: #1b6e81;
+    --azul1c: #0098c1;
+    --azul2:#C8E7F4;
+    --azul3:#D5ECEF;
+    --azul4:#DFEAF8;
+
+    --turquesa1:#00ACA9;
+    --turquesa1a: #049997;
+    --turquesa2:#87CDD3;
+    --turquesa3:#BEE2E9;
+    --turquesa4:#E0F1F5;
+
+    --verde1:#34B653;
+    --verde1a:#217735;
+    --verde2:#D9E6B1;
+    --verde3:#CCE4CE;
+    --verde4:#E1F0EB;
+
+    --citrico1:#94C23E;
+    --citrico2:#D0DE84;
+    --citrico3:#E4ECBC;
+    --citrico4:#ECF3DA;
+
+    --laranja1:#F07F3C;
+    --laranja1a:#d06c32;
+    --laranja2:#F7AE82;
+    --laranja3:#FCD7B8;
+    --laranja4:#FFEACA;
+
+    --amarelo1:#FFBE31;
+    --amarelo1a:#ffda00;
+    --amarelo2:#FEE0BC;
+    --amarelo2a:#fff8e4;
+    --amarelo3:#FFE6AC;
+    --amarelo4:#FEEFDE;
+    --amarelofundo:#fcf4e1;
+
+    --vermelho1:#F84942;
+    --vermelho1a:#c31a44;
+    --vermelho2:#FCE4E0;
+    --vermelho3:#fce3df;
+    --vermelho4:#fff5f3;
+
+    --rosa1:#FC86BF;
+    --rosa1a:#e83185;
+    --rosa2:#F39DB0;
+    --rosa3:#F8C7D0;
+    --rosa4:#FCE5E9;
+
+    --roxo1:#595DB0;
+    --roxo1b:#454994;
+    --roxo1a:#a71977;
+    --roxo2:#DEDAEE;
+    --roxo3:#D2CDE8;
+    --roxo4:#EDEBF7;
+
+    --lilas1:#4b3b84;
+    --lilas2:#A69DCD;
+    --lilas3:#D2CDE8;
+    --lilas4:#EDEBF7;
+
+    --c6destaqueunidade: #31701c;/*👉#52ae32👈*/
+    --c6destaquedezena: #bc232d;/*👉#e7343f👈*/
+    --c6destaquecentena: #047bb6;/*👉#008bd2👈*/
+    --c6destaquedecimo: #ae4b0a;/*👉#f07e31👈*/
+    --c6destaquecentesimo: #745ba3;
+    --c6destaquemilesimo: #076e75;/*👉#00adba👈*/
+}
+
+/*👉Versão Mobile*/
+@media screen and (max-width: 540px) {
+    :root {    
+        /* Tamanhos */
+        --peso1: 1.5em;
+        --peso2: 1.4em;
+        --peso3: 1.4em;
+        --peso4: 1.3em;
+        --peso5: 1.3em;
+    }
+}
