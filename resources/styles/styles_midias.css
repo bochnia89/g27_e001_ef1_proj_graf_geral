@@ -289,8 +289,18 @@ p.d3instrucaooed {
     padding-bottom: 1em;
 }
 
-.d3descricaolongaoed {
-    padding: 0.5em 0;
+.d3descricaolongaoed div {
+    padding: 0.3em 0;
+    background: #ececec8c;
+    margin-bottom: 1em;
+}
+
+.d3descricaolongaoed div p:first-of-type {
+    margin-top: 0em;
+}
+
+.d3descricaolongaoed div p:last-of-type {
+    margin-bottom: 0em;
 }
 
 .d3tit1oed {
@@ -300,9 +310,6 @@ p.d3instrucaooed {
     line-height: 2em;
     font-weight: normal;
     text-align: center;
-}
-
-.d3tit1oed .d3titdestaque {
     font-weight: bold;
 }
 
@@ -361,19 +368,12 @@ p.d3instrucaooed {
     font-family: var(--texto);
 }
 
-ul.d3txtranscricaoitem {    
-    list-style: disc;
-    margin: 0 0 0 1.5em;
+.d3vinheta {
+    margin: 1em 0;
 }
 
 .d3rubricatranscricao {
-    font-weight: bold;
-    margin: 1.5em 0 0 0 !important;
-}
-
-.d3txtranscricao {
-    margin: 0.5em 0 0.5em 0;
-    font-size: var(--pesoPadrao);
+    margin-top: 1em;
 }
 
 /*👉fim classes adicionadas para OED video👈*/
@@ -383,6 +383,10 @@ ul.d3txtranscricaoitem {
     font-size: var(--pesoIntermediario);
     text-align: right;
     margin: 0.5em 0;
+}
+
+.d3credito>p{
+    text-align: right;
 }
 
 .d3btnvoltaroed {
@@ -409,12 +413,6 @@ video {
     max-width: 100%;
 }
 
-.d3vinheta {
-    font-style: italic;
-    text-indent: 0em !important;
-    margin: 1.5em 0 !important;
-}
-
 /*👉 CLASSE PARA OCULTAR CONTEÚDO VISIVELMENTE, MAS MANTER ACESSÍVEL PARA LEITORES DE TELA 👈*/
 .sr_only {
     clip-path: inset(50%);
@@ -426,7 +424,7 @@ video {
 }
 
 .d0separabloco {
-    margin: 1.5em 0 0 0 !important;
+    margin: 0.5em 0 0 0 !important;
 }
 
 /*MEDIA QUERY*/
