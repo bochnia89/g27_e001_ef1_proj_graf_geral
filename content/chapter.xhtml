@@ -3832,72 +3832,80 @@
 
                 <!-- Título de instrução -->
                 <p class="instrucao">
-                    LE - EXEMPLO DE <mark>VOCABULÁRIO </mark> | <strong>snippet:</strong> <code></code>
+                    LE - EXEMPLO DE <mark>VOCABULÁRIO / VOCABULÁRIO IDIOMA / VOCABULÁRIO ABBR</mark> | <strong>snippet:</strong> <code></code>
                 </p>
-
-
-                <p class="p2texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, <dfn>
-                        <span class="c4vocabulariodestaque">palavras</span>
-                        <a href="glossario.xhtml#glossario_id_sOv175522305268_glos"
-                            
-                            aria-label=" para acessar a definição do termo"><sup >✚</sup>
-                        </a>
-                    </dfn> <mark>span.c4vocabulariodestaque</mark> laboriosam. Corrupti, excepturi laudantium quas porro
-                    consequuntur tempore commodi aliquid
-                    ullam? Sint ipsam unde pariatur <dfn>
-                        <span class="c4vocabulariodestaque">palavras</span><a
-                            href="glossario.xhtml#glossario_id_sOv175522305267_glos"
-                            aria-label=" para acessar a definição do termo">
-                            <sup >✚</sup>
-                        </a>
-                    </dfn> exercitationem quae possimus, ad commodi iusto!</p>
 
                 <!-- Comentário do exemplo -->
                 <p class="comentariocode">
-                   <mark>div.o4vocabulariobox / dl.p4vocabulario</mark>                 
+                    G27
                 </p>
-                <!-- Comentário do exemplo  -->    
+                <!-- Comentário do exemplo  -->
 
+
+                <!-- Palavra glossariada no texto -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. O <a href="#glossario_id_sOv175522305254_glos" id="glossario_id_sOv175522305254_voc"><dfn class="c4vocabulariodestaque" role="doc-glossref">termo X</dfn></a> é importante para o
+                    entendimento do assunto do <a href="#glossario_id_sOv175526875254_glos" id="glossario_id_sOv175526875254_voc"><dfn class="c4vocabulariodestaqueitalico" role="doc-glossref">termo Y</dfn></a>. Iusto voluptates ducimus aperiam, ullam nobis maxime repellendus earum possimus, <a href="#glossario_id_sOv188822305050_glos" id="glossario_id_sOv188822305050_voc"><dfn class="c3idiomavocabulariodestaque" role="doc-glossref">debitis</dfn></a> aut eveniet <a href="#glossario_id_sOv175522305050_glos" id="glossario_id_sOv175522305050_voc"><dfn class="c4vocabulariodestaque" role="doc-glossref"><span class="c4vocabulariodestaque"><abbr class="ajustepronuncia"
+                title="Lei Brasileira de Inclusão">LBI</abbr></span></dfn></a> repudiandae amet <a href="#glossario_id_sOv189122305050_glos" id="glossario_id_sOv189122305050_glos"><dfn class="c3idiomavocabulariodestaqueitalico" role="doc-glossref">voluptatum</dfn></a> eius pariatur porro autem. Quo, ducimus? </p>
+
+                     <!-- Comentário do exemplo -->
+                <p class="comentariocode">
+                    <mark>div.o4vocabulariobox / dl.p4vocabulario <br />
+                        div.o4vocabularioboxbranco / dl.p4vocabulario
+                    </mark>
+                </p>
+                <!-- Comentário do exemplo  -->
+
+                <!-- Glossário -->
                 <div class="o4vocabulariobox">
                     <dl class="p4vocabulario" aria-label="Vocabulário">
-                        <dt id="glossario_id_sOv175522305267_glos">
-                            <dfn class="c4vocabulariodestaque">Banana amarela e verde:
-                                <mark>dfn.c4vocabulariodestaque</mark></dfn>
+
+                         <!-- Termo -->
+                        <dt id="glossario_id_sOv175522305254_glos">
+                            <dfn class="c4vocabulariodestaque">Termo X</dfn>
                         </dt>
                         <dd>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam quidem excepturi
-                            nostrum
-                            officia aperiam, autem suscipit ipsum delectus eligendi doloremque, ut quae consectetur
-                            earum
-                            nisi sapiente, quaerat molestias dolor?
-                            <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="Voltar ao termo">
-                                <sup>↰</sup>
-                            </a>
+                            Definição do termo X.
+                            <a class="c4vocabulariodestaquevoltar" href="#glossario_id_sOv175522305254_voc" role="doc-backlink">Voltar ao termo 'X' no texto"</a>
                         </dd>
-                    </dl>
 
-
-                    <dl class="p4vocabulario" aria-label="Vocabulário">
-                        <dt id="glossario_id_sOv175522305267_glos">
-                            <dfn class="c4vocabulariodestaqueitalico">Banana amarela e verde:
-                                <mark>dfn.c4vocabulariodestaqueitalico</mark></dfn>
+                         <!-- Termo -->
+                        <dt id="glossario_id_sOv175526875254_glos">
+                            <dfn class="c4vocabulariodestaqueitalico">Termo Y</dfn>
                         </dt>
                         <dd>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam quidem excepturi
-                            nostrum
-                            officia aperiam, autem suscipit ipsum delectus eligendi doloremque, ut quae consectetur
-                            earum
-                            nisi sapiente, quaerat molestias dolor?
-                            <a href="#glossario_id_sOv175522305267_voc" role="doc-backlink"
-                                aria-label="Voltar ao termo">
-                                <sup>↰</sup>
-                            </a>
+                            Definição do termo Y.
+                            <a class="c4vocabulariodestaquevoltar" href="#glossario_id_sOv175526875254_voc" role="doc-backlink">Voltar ao termo 'Y' no texto</a>
+                        </dd>
+
+                        <!-- Termo -->
+                        <dt id="glossario_id_sOv175522305050_glos">
+                            <dfn class="c3idiomavocabulariodestaque">LBI</dfn>
+                        </dt>
+                        <dd>
+                            Definição do termo LBI.
+                            <a class="c4vocabulariodestaquevoltar" href="#glossario_id_sOv175522305050_voc" role="doc-backlink">Voltar ao termo 'LBI' no texto</a>
+                        </dd>
+
+                         <!-- Termo -->
+                        <dt id="glossario_id_sOv189122305050_glos">
+                            <dfn class="c3idiomavocabulariodestaqueitalico">voluptatum</dfn>
+                        </dt>
+                        <dd>
+                            Definição do termo voluptatum.
+                            <a class="c4vocabulariodestaquevoltar" href="#glossario_id_sOv189122305050_voc" role="doc-backlink">Voltar ao termo 'voluptatum' no texto</a>
+                        </dd>
+
+                         <!-- Termo -->
+                        <dt id="glossario_id_sOv188822305050_glos">
+                            <dfn class="c3idiomavocabulariodestaque">debitis</dfn>
+                        </dt>
+                        <dd>
+                            Definição do termo debitis.
+                            <a class="c4vocabulariodestaquevoltar" href="#glossario_id_sOv188822305050_voc" role="doc-backlink">Voltar ao termo 'debitis' no texto</a>
                         </dd>
                     </dl>
-
+    
                 </div>
-
                 <!-- Comentário do exemplo -->
                 <p class="comentariocode">
                     <mark>div.o4vocabularioboxbranco / dl.p4vocabulario</mark>                 
