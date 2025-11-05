@@ -3767,6 +3767,12 @@ p.c4linhalacuna{
 c5destaqueverbetedicionario
 c5indicacao
 c5extradestaque
+c5extradestaquecor1
+c5extradestaquecor2
+c5extradestaquecor3
+c5extradestaquecor4
+c5extradestaquecor5
+c5extradestaquecor6
 c5extraitalico
 c5extraitalicoidioma
 */
@@ -3777,6 +3783,77 @@ c5extraitalicoidioma
 .c5extradestaque{
     color: var(--verde1a);
 }
+
+.c5extradestaquecor1{
+    background: var(--amarelo1);
+}
+.c5extradestaquecor2{
+    background: var(--vermelho1);
+}
+.c5extradestaquecor3{
+     background: var(--verde1);
+}
+.c5extradestaquecor4{
+     background: var(--azul2);
+}
+.c5extradestaquecor5{
+     background: var(--laranja1);
+}
+.c5extradestaquecor6{
+     background: var(--marrom);
+}
+
+.c5extradestaquecor1::before, .c5extradestaquecor1::after,
+.c5extradestaquecor2::before, .c5extradestaquecor2::after,
+.c5extradestaquecor3::before, .c5extradestaquecor3::after,
+.c5extradestaquecor4::before, .c5extradestaquecor4::after,
+.c5extradestaquecor5::before, .c5extradestaquecor5::after,
+.c5extradestaquecor6::before, .c5extradestaquecor6::after{
+clip-path: inset(100%);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; /* added line */
+    width: 1px;   
+}
+.c5extradestaquecor1::before {
+    content:"Início de texto destacado na cor amarela "; 
+}
+.c5extradestaquecor1::after {
+    content:"final de texto destacado na cor amarela";
+}
+.c5extradestaquecor2::before {
+    content:"Início de texto destacado na cor vermelho "; 
+}
+.c5extradestaquecor2::after {
+    content:"final de texto destacado na cor vermelho";
+}
+.c5extradestaquecor3::before {
+    content:"Início de texto destacado na cor verde "; 
+}
+.c5extradestaquecor3::after {
+    content:"final de texto destacado na cor verde";
+}
+.c5extradestaquecor4::before {
+    content:"Início de texto destacado na cor azul "; 
+}
+.c5extradestaquecor4::after {
+    content:"final de texto destacado na cor azul";
+}
+.c5extradestaquecor5::before {
+    content:"Início de texto destacado na cor laranja "; 
+}
+.c5extradestaquecor5::after {
+    content:"final de texto destacado na cor laranja";
+}
+.c5extradestaquecor6::before {
+    content:"Início de texto destacado na cor marrom "; 
+}
+.c5extradestaquecor6::after {
+    content:"final de texto destacado na cor marrom";
+}
+
 .c5extraitalico{
     font-style: italic;
     color: var(--verde1a);
@@ -5134,7 +5211,8 @@ span.o4ficha2 {
     background: url(../images/pv_ideiabox.svg) top left no-repeat;
     background-size: auto;
     background-size: 100%;
-    content: '';
+    content: 'boxe atitude legal';
+    color: transparent;
     width: 35px;
     height: 40px;
     margin: -2px 0 0 -36px;
