@@ -20,7 +20,7 @@ body {
     hyphens: none; 
 }
 main {
-    max-width: 80ch;
+    max-width: 600px;
     margin: 0 auto;
 }
 section {
@@ -159,8 +159,13 @@ orientatx
 ocultatx
 ocultamn
 hifen_ano
+hachura
 trocacaracter1
 trocacaracter2
+a0indicacao
+page-number
+screen-reader-only
+sr-only
 */
 .aluno{}
 .professor{}
@@ -218,12 +223,36 @@ trocacaracter2
 .hifen_ano{
     margin-left: -8px;
 }
-.trocacaracter1{}
-.trocacaracter2{}
-
 .hachura{
     background: url(../images/pv_hachura.svg) top left repeat;
 }
+
+.trocacaracter1{}
+.trocacaracter2{}
+.a0indicacao{} /* Especifico do impresso Word */
+.page-number{} /*classe page-number adicionada para paginação, conforme edital G27 fund1*/
+.screen-reader-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;}  /*classe screen-reader-only adicionada para paginação, conforme edital G27 fund1*/
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+} /*classe sr-only adicionada para paginação, conforme edital G27 fund1*/
+
 
 
 /* Visual do número da página */
@@ -3301,12 +3330,17 @@ d1infoimpressao
     margin: 1em 0 0.5em 0;
 }
 .d1cargoresponsavel1{
-    margin: 1.5em 0;
+    margin: 1.5em 0 1.5em 1em;
 }
 .d1cargoresponsavel2{
     margin: 1.5em 0;
 }
-.d1fichacatalografica{}
+.d1fichacatalografica{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+}
 .d1infoeditora{
     text-align: center;
     margin: 1.5em 0;
@@ -3342,7 +3376,8 @@ d2adaptadatit
  padding: 1em;
 }
 .d2boxadaptaprof .d2adaptadatit{
-    background: url(../images/ico_acessibilidade.svg) center left no-repeat var(--rosa3);
+    background: url(../images/ico_acessibilidade.svg) top left no-repeat var(--rosa3);
+    background-size: 2em;
     color: var(--preto);
     font-family: var(--titulo);
     font-weight: bold;
@@ -3361,7 +3396,8 @@ d2adaptadatit
     padding: 1em;
 }
 .d2adaptadatit{
-    background: url(../images/ico_acessibilidade.svg) center left no-repeat var(--roxo3);
+    background: url(../images/ico_acessibilidade.svg) top left no-repeat var(--roxo3);
+    background-size: 2em;
     border-radius: 1em;
     color: var(--preto);
     font-family: var(--titulo);
@@ -3654,6 +3690,7 @@ c4simuladorhiperlink
 c4linhalacuna
 c4vocabulariodestaque
 c4vocabulariodestaqueitalico
+c4vocabulariodestaquevoltar
 c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
@@ -3735,6 +3772,9 @@ p.c4linhalacuna{
     border-bottom: 2px solid var(--verde1);
     font-weight: bold;
 }
+.c4vocabulariodestaquevoltar{
+
+}
 .c4vocabulariodestaqueitalico{
     border-bottom: 2px solid var(--verde1);
     font-weight: bold;
@@ -3803,6 +3843,7 @@ c5extraitalicoidioma
      background: var(--marrom);
 }
 
+/* especificações para acessibilidade de estilos de caractere para destaque de cor - adicionado before e after com content apenas para leitor de tela (NVDA) */
 .c5extradestaquecor1::before, .c5extradestaquecor1::after,
 .c5extradestaquecor2::before, .c5extradestaquecor2::after,
 .c5extradestaquecor3::before, .c5extradestaquecor3::after,
@@ -3818,37 +3859,37 @@ clip-path: inset(100%);
     width: 1px;   
 }
 .c5extradestaquecor1::before {
-    content:"Início de texto destacado na cor amarela "; 
+    content:"Início de texto destacado na cor amarela"; 
 }
 .c5extradestaquecor1::after {
     content:"final de texto destacado na cor amarela";
 }
 .c5extradestaquecor2::before {
-    content:"Início de texto destacado na cor vermelho "; 
+    content:"Início de texto destacado na cor vermelho"; 
 }
 .c5extradestaquecor2::after {
     content:"final de texto destacado na cor vermelho";
 }
 .c5extradestaquecor3::before {
-    content:"Início de texto destacado na cor verde "; 
+    content:"Início de texto destacado na cor verde"; 
 }
 .c5extradestaquecor3::after {
     content:"final de texto destacado na cor verde";
 }
 .c5extradestaquecor4::before {
-    content:"Início de texto destacado na cor azul "; 
+    content:"Início de texto destacado na cor azul"; 
 }
 .c5extradestaquecor4::after {
     content:"final de texto destacado na cor azul";
 }
 .c5extradestaquecor5::before {
-    content:"Início de texto destacado na cor laranja "; 
+    content:"Início de texto destacado na cor laranja"; 
 }
 .c5extradestaquecor5::after {
     content:"final de texto destacado na cor laranja";
 }
 .c5extradestaquecor6::before {
-    content:"Início de texto destacado na cor marrom "; 
+    content:"Início de texto destacado na cor marrom"; 
 }
 .c5extradestaquecor6::after {
     content:"final de texto destacado na cor marrom";
@@ -5193,8 +5234,25 @@ span.o4ficha2 {
 .o4intermediariobox{}
 .o4destaquepalavrabox{}
 .o4destaquepalavrafio{}
-.o4recadoimagem1{}
-.o4recadoimagem2{}
+
+
+.o4recadoimagem1, .o4recadoimagem2{
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: right;
+}
+
+.o4recadoimagem1{
+    background: var(--cinza);
+}
+.o4recadoimagem2{
+    background: var(--branco);
+}
 .o4recadoimagem3{}
 .o4recadoimagem4{}
 .o4tipofrase1{}
@@ -5211,8 +5269,9 @@ span.o4ficha2 {
     background: url(../images/pv_ideiabox.svg) top left no-repeat;
     background-size: auto;
     background-size: 100%;
-    content: 'boxe atitude legal';
+    content: 'boxe atitude legal'; /*👉texto do content utilizado para especificar qual o tipo de boxe para usuários de leitor de tela (NVDA)👈*/
     color: transparent;
+    font-size: 0.1em;
     width: 35px;
     height: 40px;
     margin: -2px 0 0 -36px;
