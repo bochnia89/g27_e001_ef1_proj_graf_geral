@@ -5695,6 +5695,7 @@ oemestrategias7
 oemestrategias8
 oemestrategias9
 oemamplieseurepertoriobox
+oemorientacoesdeuso
 */
 
 .oemestrategias1,
@@ -5821,6 +5822,46 @@ oemamplieseurepertoriobox
     margin: -23px 0 0 -23px;
 }
 .oemamplieseurepertoriobox{}
+
+.oemorientacoesdeuso {}
+
+.oemorientacoesdeuso>.p0tit1 {
+    background: var(--cinza);
+    border-radius: 0 0 1em 0;
+    font-family: var(--titulo);
+    color: var(--preto);
+    font-size: var(--peso1);
+    margin: 0;
+    width: 100%;
+    padding: 0.5em;
+    background-position-y: 63px;
+    box-shadow: none;
+}
+
+.oemorientacoesdeuso>.p0tit1::before{
+    background: none;
+}
+
+.oemorientacoesdeuso .p0tit2 {
+    font-family: var(--titulo);
+    background: none;
+    color: var(--lilas1);
+    font-size: var(--peso5);
+    margin: 1em 0;
+    box-shadow: none;
+}
+
+.oemorientacoesdeuso .p0tit2>span{
+    color: var(--roxo1);
+}
+
+.oemorientacoesdeuso .p0tit2::before{
+    background: none;
+}
+
+.oemorientacoesdeuso>.box {
+    padding: 1em;
+}
 
 /* ESTILOS ESPECIFICOS */
 
