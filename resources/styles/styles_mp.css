@@ -40,7 +40,9 @@ p0tit6mpnegativo
 .p0tit2mppv{}
 .p0tit2mpnumpv{}
 .p0tit2mp{
+    font-family: var(--titulo);
     font-size: var(--peso2);
+    font-weight: 800;
     background: var(--verde1a);
     color: var(--branco);
     box-shadow: -5px 5px 0 var(--rosa1);
@@ -48,10 +50,15 @@ p0tit6mpnegativo
     max-width: 100%;
     padding: 0.3em 1em;
     border-radius: 0.5em 0 0.5em 0.5em;
-    margin: 3em 0 0.5em 0;
+    margin: 2em 0 1em 0;
 }
-.p0tit2m::before{
-    
+.p0tit2mp::before{
+    background: url(../images/pv_p0tit2mp.svg) top left no-repeat;
+    content: '';
+    width: 280px;
+    height: 83px;
+    position: absolute;
+    margin: -49px 0 0 -20px;
 }
 
 .p0tit2mpnegativo{}
@@ -1078,7 +1085,7 @@ p3intermediariompsemrecuoitemcont
 
 .p3intermediariomptit{
     font-family: var(--titulo);
-    font-weight: bold;
+    font-weight: 800;
     margin: 0.5em 0 0.5em 0;
 }
 .p3intermediariomptitnegativo{}
@@ -1270,7 +1277,7 @@ p3citacaompsemrecuoitemcont
     margin: 0.5em 0 0.5em 0;
 }
 .p3citacaomp{
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5em 0 0.5em 1em;
     text-indent: 1.5em;
 }
 .p3citacaomppoema{}
@@ -1346,8 +1353,12 @@ p4cuidadodicampitemcont
 
 
 /* VISUAL BASEADO NO LT */
-.tb_mpg
-.tb_mpg2
+.tb_mpg{
+    font-size: var(--pesoIntermediario);
+}
+.tb_mpg2{
+    font-size: var(--pesoIntermediario);
+}
 
 .p1tabelatit{}
 .p1tabelatitcoluna{}
@@ -1363,6 +1374,30 @@ p4cuidadodicampitemcont
 
 .d0box_especificompu > .p1box1tit{}
 .d0box_especificompu > .p1box2tit{}
+
+/* especificação de tabela para exibição no Thorium - evitar estouro */
+table.tb_tabela,
+table.tb_tabela thead,
+table.tb_tabela tbody tr td,
+table.tb_mpg2 tbody tr td p,
+table.tb_mpg2 tbody tr td p.p1tabelatexto,
+table.tb_mpg2,
+table.tb_mpg2 thead,
+table.tb_mpg2 tbody tr td,
+table.tb_mpg2 tbody tr td p,
+table.tb_mpg2 tbody tr td p.p1tabelatexto,
+table.tb_mpg3,
+table.tb_mpg3 thead,
+table.tb_mpg3 tbody tr td,
+table.tb_mpg3 tbody tr td p,
+table.tb_mpg3 tbody tr td p.p1tabelatexto,
+table.tb_mpg,
+table.tb_mpg thead,
+table.tb_mpg tbody tr td,
+table.tb_mpg tbody tr td p,
+table.tb_mpg tbody tr td p.p1tabelatexto{
+    font-size: var(--pesoIntermediario) !important;
+}
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 

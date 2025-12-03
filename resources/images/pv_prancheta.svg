@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.181" height="39.94" viewBox="0 0 122.181 39.94">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_3348" data-name="Caminho 3348" d="M0,0H122.181V-39.94H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_380" data-name="Retângulo 380" width="138.288" height="47.419" transform="translate(-9 -46.419)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pv_prancheta" transform="translate(0 39.94)">
+    <g id="Grupo_2166" data-name="Grupo 2166" clip-path="url(#clip-path)">
+      <g id="Grupo_2160" data-name="Grupo 2160" opacity="0.7">
+        <g id="Grupo_2159" data-name="Grupo 2159">
+          <g id="Grupo_2158" data-name="Grupo 2158" clip-path="url(#clip-path-2)">
+            <g id="Grupo_2157" data-name="Grupo 2157" transform="translate(120.288)">
+              <path id="Caminho_3345" data-name="Caminho 3345" d="M0,0V-21.326a6.732,6.732,0,0,0-6.731-6.732H-32.626v-3.63a6.732,6.732,0,0,0-6.731-6.731H-80.93a6.732,6.732,0,0,0-6.732,6.731v3.63h-25.894a6.732,6.732,0,0,0-6.732,6.732V0Z" fill="#97d7a3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_2164" data-name="Grupo 2164" opacity="0.7">
+        <g id="Grupo_2163" data-name="Grupo 2163">
+          <g id="Grupo_2162" data-name="Grupo 2162" clip-path="url(#clip-path-2)">
+            <g id="Grupo_2161" data-name="Grupo 2161" transform="translate(120.288)">
+              <path id="Caminho_3346" data-name="Caminho 3346" d="M0,0V-21.326a6.732,6.732,0,0,0-6.731-6.732H-32.626v-3.63a6.732,6.732,0,0,0-6.731-6.731H-80.93a6.732,6.732,0,0,0-6.732,6.731v3.63h-25.894a6.732,6.732,0,0,0-6.732,6.732V0Z" fill="#0fbed2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_2165" data-name="Grupo 2165" transform="translate(122.181 -1.521)">
+        <path id="Caminho_3347" data-name="Caminho 3347" d="M0,0V-21.326a6.732,6.732,0,0,0-6.731-6.732H-32.626v-3.63a6.732,6.732,0,0,0-6.731-6.731H-80.93a6.732,6.732,0,0,0-6.732,6.731v3.63h-25.894a6.732,6.732,0,0,0-6.732,6.732V0Z" fill="#9ae4fa"/>
+      </g>
+    </g>
+  </g>
+</svg>

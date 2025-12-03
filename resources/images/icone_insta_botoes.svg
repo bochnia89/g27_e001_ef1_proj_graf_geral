@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.255" height="20.293" viewBox="0 0 100.255 20.293">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_336" data-name="Retângulo 336" width="21.214" height="19.293" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_337" data-name="Retângulo 337" width="21.01" height="16.376" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Retângulo_345" data-name="Retângulo 345" width="21.255" height="20.276" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icone_insta_botoes" transform="translate(-1176 -1815)">
+    <g id="icone_insta_enviar" transform="translate(1215 1816)">
+      <g id="Grupo_1789" data-name="Grupo 1789" clip-path="url(#clip-path)">
+        <path id="Caminho_2754" data-name="Caminho 2754" d="M2.134,18.686s3.526-8.079,11-8.184v3.842l7.474-6.737-7.579-7V4.765S.976,5.449.608,18.686Z" fill="none" stroke="#005c7d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.214"/>
+      </g>
+    </g>
+    <g id="icone_insta_balao" transform="translate(1176 1817)">
+      <g id="Grupo_1791" data-name="Grupo 1791" clip-path="url(#clip-path-2)">
+        <path id="Caminho_2755" data-name="Caminho 2755" d="M17.008,15.852a2.179,2.179,0,0,1-1-1.915.614.614,0,0,1,.517-.622,3.355,3.355,0,0,0,2.3-1.456,12.442,12.442,0,0,0,1.5-8.014C19.709,1.173,16.48.351,13.779.527S9.834,1,7.7,1.173c-3.457.29-7.34.441-7.193,6.283s5.813,5.93,5.813,5.93l5.663.158a1.08,1.08,0,0,1,.89.494A4.151,4.151,0,0,0,17.008,15.852Z" fill="none" stroke="#005c7d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.01"/>
+      </g>
+    </g>
+    <g id="icone_insta_favorito" transform="translate(1255 1815)">
+      <g id="Grupo_1806" data-name="Grupo 1806" clip-path="url(#clip-path-3)">
+        <path id="Caminho_2768" data-name="Caminho 2768" d="M10.627.627l2.361,7.265h7.639l-6.18,4.491,2.36,7.265-6.18-4.49-6.18,4.49,2.36-7.265L.627,7.892H8.266Z" fill="none" stroke="#005c7d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.255"/>
+      </g>
+    </g>
+  </g>
+</svg>

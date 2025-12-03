@@ -1,0 +1,22 @@
+<svg id="pv_p0titdois" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.362" height="18.426" viewBox="0 0 62.362 18.426">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_389" data-name="Retângulo 389" width="62.362" height="18.425" transform="translate(0 0.001)" fill="#f84942"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_392" data-name="Retângulo 392" width="62.362" height="18.425" transform="translate(0 0.001)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_2196" data-name="Grupo 2196">
+    <g id="Grupo_2195" data-name="Grupo 2195" clip-path="url(#clip-path)">
+      <path id="Caminho_3372" data-name="Caminho 3372" d="M15.59,7.087V0H8.5A8.5,8.5,0,0,0,0,8.5v9.922A11.338,11.338,0,0,1,11.339,7.087Z" fill="#f84942"/>
+    </g>
+  </g>
+  <rect id="Retângulo_390" data-name="Retângulo 390" width="15.591" height="7.087" transform="translate(15.591)" fill="#34b653"/>
+  <path id="Caminho_3445" data-name="Caminho 3445" d="M0,0H15.591V7.087H0Z" transform="translate(31.181)" fill="#ffbe31"/>
+  <g id="Grupo_2198" data-name="Grupo 2198">
+    <g id="Grupo_2197" data-name="Grupo 2197" clip-path="url(#clip-path-2)">
+      <path id="Caminho_3373" data-name="Caminho 3373" d="M46.772,0V7.088H62.363V3.544A3.544,3.544,0,0,0,58.819,0Z" fill="#0ebfda"/>
+    </g>
+  </g>
+</svg>

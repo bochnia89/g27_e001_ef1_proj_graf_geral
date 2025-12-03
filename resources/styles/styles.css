@@ -3,8 +3,8 @@
 
 @import url(styles_lt.css);
 @import url(styles_mp.css);
-@import url(styles_gab.css);
-@import url(styles_res.css);
+/*👉@import url(styles_gab.css);
+@import url(styles_res.css);👈*/
 
 @import url(instrucoes.css);
 @import url(colorfonts.css);
@@ -58,7 +58,7 @@
     --azul4:#DFEAF8;
 
     --turquesa1:#00ACA9;
-    --turquesa1a: #049997;
+    --turquesa1a: #0f6d6b;
     --turquesa2:#87CDD3;
     --turquesa3:#BEE2E9;
     --turquesa4:#E0F1F5;
@@ -66,7 +66,9 @@
     --verde1:#34B653;
     --verde1a:#217735;
     --verde2:#D9E6B1;
+    --verde2a: #c4da90;
     --verde3:#CCE4CE;
+    --verde3a: #e3edc5;
     --verde4:#E1F0EB;
 
     --citrico1:#94C23E;
@@ -75,7 +77,7 @@
     --citrico4:#ECF3DA;
 
     --laranja1:#F07F3C;
-    --laranja1a:#d06c32;
+    --laranja1a:#b15e2e;
     --laranja2:#F7AE82;
     --laranja3:#FCD7B8;
     --laranja4:#FFEACA;
@@ -95,14 +97,14 @@
     --vermelho4:#fff5f3;
 
     --rosa1:#FC86BF;
-    --rosa1a:#e83185;
+    --rosa1a:#cc2b76;
     --rosa2:#F39DB0;
     --rosa3:#F8C7D0;
     --rosa4:#FCE5E9;
 
     --roxo1:#595DB0;
     --roxo1b:#454994;
-    --roxo1a:#a71977;
+    --roxo1a:#901466;
     --roxo2:#DEDAEE;
     --roxo3:#D2CDE8;
     --roxo4:#EDEBF7;
