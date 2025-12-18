@@ -4512,7 +4512,11 @@ o0glossariobox
 .o0sec1a{}
 .o0sec2a{}
 .o0sec3a{}
-.o0sec4a{}
+.o0sec4a{
+    margin: 1em 0;
+    background: var(--laranja4);
+    border-radius: 1em;
+}
 .o0sec5a{}
 .o0sec6a{}  
 .o0sec7a{}
