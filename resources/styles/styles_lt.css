@@ -168,7 +168,9 @@ sr-only
 */
 .aluno{}
 .professor{}
-.url_para_encurta{}
+.url_para_encurta{
+    
+}
 .pag{}
 .p5paginacao{}
 .d0box_aluno{
@@ -1869,6 +1871,10 @@ p2referenciasbibliocoment
 .p1referenciasbibliotit3{}
 .p2referenciasbiblio{
     margin: 1em 0 0.1em 0;
+
+}
+
+.p2referenciasbiblio > .url_para_encurtar{
     word-break: break-all;
 }
 .p2referenciasbiblioitem{}
@@ -3074,7 +3080,7 @@ p4resposta
     font-size: var(--pesoPadrao);
     color: var(--corprof);
     text-align: justify;
-    margin: 0.2em 0;
+    margin: 0.2em 0 0.2em 1.5em;
 }
 
 /* Página */
@@ -4533,7 +4539,7 @@ o0glossariobox
     margin: 1em 0;
   background: var(--branco);
   position: relative;
-  border-radius: 1em;
+  border-radius:0 1em 1em 1em;
 }
 
 .o0sec3box::before{
@@ -4544,7 +4550,7 @@ o0glossariobox
     width: 35px;
     height: 25px;
     position: absolute;
-    margin: -6px 0 0 -6px;
+    margin: -6px 0 0 -5px;
 }
 
 .o0sec3box .box{
@@ -6376,7 +6382,11 @@ p2questaosubitemlinha
 .p2atvitemlinha{}
 .p2atvletraitemlinha{}
 .p2atvletraitemromanolinha{}
-.p2atvletralinha{}
+.p2atvletralinha{   
+    max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:0.5em 0 0.5em 3em;
+}
 .p2atvletraromanolinha{}
 .p2atvmarcadorlinha{}
 .p2atvromanolinha{}
@@ -6385,7 +6395,11 @@ p2questaosubitemlinha
 .p2questaoletraitemlinha{}
 .p2questaoletralinha{}
 .p2questaomarcadorlinha{}
-.p2questaolinha{}
+.p2questaolinha{
+    border-bottom: 1px solid var(--preto);
+    margin: 0.5em 0 0.8em 0;
+    max-width: 100%;
+}
 .p2questaosubitemlinha{}
 
 /*👉08: Estilos para CONSUMÍVEL QUADRINHO 👈*/
@@ -6414,7 +6428,10 @@ p2textosemrecuoquadrinho
 .p2atvitemquadrinho{}
 .p2atvletraitemquadrinho{}
 .p2atvletraitemromanoquadrinho{}
-.p2atvletraquadrinho{}
+.p2atvletraquadrinho{
+    margin: 0.5em 0 0.5em 3em;
+    vertical-align: middle;
+}
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
 .p2atvquadrinho{}
