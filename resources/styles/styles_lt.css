@@ -6289,6 +6289,36 @@ o7linhatempoperiodo7
 
 /*👉08: Estilos para CONSUMÍVEL QUADRO 👈*/
 /* o8quadroconsumivel */
+/* 
+o8cruzadinha1
+o8cruzadinha2
+o8fiodobra
+o8fiorecorte
+o8fundocole
+o8pautacaligrafica
+o8quadroconsumivel
+o8quadroconsumivelg
+o8quadroconsumivelm
+o8quadroconsumivelp
+o8quadrolibras
+*/
+.o8cruzadinha1{}
+.o8cruzadinha2{}
+.o8fiodobra{}
+.o8fiorecorte{}
+.o8fundocole{}
+.o8pautacaligrafica{
+    border:1px solid var(--pautacaligrafica);
+    background: url(../images/pautacaligrafica.svg) center left repeat-x;
+    margin: 0.5em 0;
+    height: 60px;
+}
+.o8quadroconsumivel{}
+.o8quadroconsumivelg{}
+.o8quadroconsumivelm{}
+.o8quadroconsumivelp{}
+.o8quadrolibras{}
+
 div.o8quadroconsumivel{
     border: 2px solid var(--azul1a);
     background: var(--branco);
