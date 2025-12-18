@@ -4406,7 +4406,8 @@ o0glossariobox
     padding: 1em;
 }
 
-.o0sec4 .p5marcadorcaixa{
+.o0sec4 .p5marcadorcaixa,
+.o0sec4a .p5marcadorcaixa{
     background: var(--laranja4);
     color: var(--preto);
     padding: 0.5em;
@@ -4428,7 +4429,8 @@ o0glossariobox
     margin: -10px 0 0 -45px;
 }
 
-.o0sec4 .p3intermediariomarcador{
+.o0sec4 .p3intermediariomarcador,
+.o0sec4a .p3intermediariomarcador{
     margin: 0.5em 0 0.5em 45px;
     padding: 1em 0 0 0;
 }
