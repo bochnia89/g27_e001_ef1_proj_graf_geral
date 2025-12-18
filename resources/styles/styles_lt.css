@@ -5447,7 +5447,7 @@ span.o4ficha2 {
 
 .o4boxmateriais{
     margin: 1em 0;
-    background: var(--branco);
+  /*👉  background: var(--branco);👈*/
     border: 2px solid var(--verde1);
     border-top: none;
     border-radius: 0 0 1em 1em;
