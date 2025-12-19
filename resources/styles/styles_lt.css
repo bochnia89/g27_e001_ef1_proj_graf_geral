@@ -4396,11 +4396,11 @@ o0glossariobox
 .o0sec2 .box{
     padding: 1em;
 }
-.o0sec3{
+.o0sec3, .o0sec3a{
     background: var(--azul3);
     margin: 1em 0;
 }
-.o0sec3 .box{
+.o0sec3 .box, .o0sec3a .box{
     padding:2em 1em 1em 1em;
 }
 .o0sec4, .o0sec4a{
