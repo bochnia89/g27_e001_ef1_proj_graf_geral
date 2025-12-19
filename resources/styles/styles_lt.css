@@ -6330,9 +6330,7 @@ o8quadrolibras
     border: 2px solid var(--azul1a);
     background: var(--branco);
 }
-.o8quadroconsumivelg{}
-.o8quadroconsumivelm{}
-.o8quadroconsumivelp{}
+
 .o8quadrolibras{}
 
 div.o8quadroconsumivel{
@@ -6371,11 +6369,13 @@ span.o8quadroconsumivel{
     display:inline-block;
 }
 
-.p2atvletra.o8quadroconsumivel{
-    width: 80px;
+.o8quadroconsumivelg{}
+.o8quadroconsumivelm{
+        width: 80px;
     height: 50px;
     margin: 0 0 0 2em;
 }
+.o8quadroconsumivelp{}
 /* teste de quadro consumível com variação de tamanho */
 figure .o8quadroconsumivel{
     border: 2px solid var(--azul1a);
