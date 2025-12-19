@@ -3195,6 +3195,7 @@ p5marcadorquestao
     padding: 4px 0px 0 0px;
 }
 figure>.p5marcador {
+    display: inline-block;
     background: var(--verde1a);
     color: var(--branco);
     font-weight: bold;
