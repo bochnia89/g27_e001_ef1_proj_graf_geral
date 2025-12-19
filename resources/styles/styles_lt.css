@@ -6489,10 +6489,14 @@ p2textosemrecuoquadrinho
 .p2atvitemquadrinho{}
 .p2atvletraitemquadrinho{}
 .p2atvletraitemromanoquadrinho{}
-.p2atvletraquadrinho{}
+.p2atvletraquadrinho{
+    margin: 0.5em 0 0.5em 3em;
+}
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
-.p2atvquadrinho{}
+.p2atvquadrinho{
+    margin: 0.5em 0 0.5em 2em;
+}
 .p2atvromanoquadrinho{}
 .p2atvsubitemquadrinho{}
 .p2questaoitemquadrinho{}
