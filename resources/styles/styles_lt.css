@@ -4397,7 +4397,7 @@ o0glossariobox
     padding: 1em;
 }
 .o0sec3{
-    background: var(--azul2);
+    background: var(--azul3);
     margin: 1em 0;
 }
 .o0sec3 .box{
@@ -4937,13 +4937,13 @@ li.o1boxfundoazul1{
 div.o1boxfundoazul2,
 p.o1boxfundoazul2,
 span.o1boxfundoazul2{
-    background: var(--azul3);
+    background: var(--azul2);
     border-radius: 0.5em;
     width: fit-content;
     max-width: 100%;
 }
 div.o1boxfundoazul2{
-    padding: 0.5em;
+    padding: 1em;
     margin: 0.5em 0;
 }
 p.o1boxfundoazul2{
