@@ -6370,10 +6370,10 @@ span.o8quadroconsumivel{
 }
 
 .o8quadroconsumivelg{}
-.o8quadroconsumivelm{
-        width: 80px;
+div.o8quadroconsumivelm{
+        width: 140px;
     height: 50px;
-    margin: 0 0 0 2em;
+    margin: 0 0 0 3em;
 }
 .o8quadroconsumivelp{}
 /* teste de quadro consumível com variação de tamanho */
@@ -6476,11 +6476,8 @@ p2textoitemquadrinho
 p2textoquadrinho
 p2textosemrecuoquadrinho
 */
-.p2atvitemletraquadrinho{}
-.p2atvitemquadrinho{}
-.p2atvletraitemquadrinho{}
-.p2atvletraitemromanoquadrinho{}
-.p2atvletraquadrinho{
+.p2atvletraquadrinho,
+.p2atvquadrinho{
     margin: 0.5em 0 0.5em 3em;
     vertical-align: middle;
     display: flex;
@@ -6488,6 +6485,11 @@ p2textosemrecuoquadrinho
     gap: 0.5em;
     flex-wrap: wrap;
 }
+.p2atvitemletraquadrinho{}
+.p2atvitemquadrinho{}
+.p2atvletraitemquadrinho{}
+.p2atvletraitemromanoquadrinho{}
+.p2atvletraquadrinho{}
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
 .p2atvquadrinho{}
