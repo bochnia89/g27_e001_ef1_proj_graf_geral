@@ -3976,9 +3976,9 @@ a.c4vocabulariodestaquevoltar{
     font-size: var(--pesoMenor);
 }
 .c4vocabulariodestaqueitalico,
-.c4vocabulariodestaqueitalico em,
+.c4vocabulariodestaqueitalico > em,
 a.c4vocabulariodestaqueitalico,
-a.c4vocabulariodestaqueitalico em{
+a.c4vocabulariodestaqueitalico > em{
     border-bottom: 2px solid var(--verde1);
     color: var(--preto);
     font-weight: bold;
