@@ -1076,6 +1076,9 @@ o2graficogravata2
 .o2graficogravata2{
     background: var(--branco);
 }
+.o2graficogravata1.o2graficobox{
+margin-top: 0;
+}
 
 /* MAPAS */
 /* 
