@@ -77,8 +77,8 @@ strong {
 }
 
 em {
-    font-style: italic !important;
-    font-weight: 500 !important;
+    font-style: italic ;
+    font-weight: 500 ;
 }
 
 strong em, em strong  {
