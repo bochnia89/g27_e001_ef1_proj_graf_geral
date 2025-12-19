@@ -5212,7 +5212,7 @@ o2esquemabox
 .o2mapaescala{}
 .o2mapaescalabox{}
 .o2graficobox{
-    margin: 1em 0;
+    margin: 0em 0;
 }
 .o2graficobox>figure{
     border: 1px solid var(--citrico1);
