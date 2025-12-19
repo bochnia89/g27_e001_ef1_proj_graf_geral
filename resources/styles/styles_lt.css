@@ -6331,7 +6331,7 @@ o8quadrolibras
 div.o8quadroconsumivel{
     border: 2px solid var(--azul1a);
     background: var(--branco);
-    width: 100%;
+    width: 90%;
     height: 250px;
     padding: 1em;
     margin: 1em 2em;
