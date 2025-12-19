@@ -6320,7 +6320,9 @@ o8quadrolibras
     margin: 0.5em 0;
     height: 60px;
 }
-.o8quadroconsumivel{}
+.o8quadroconsumivel{
+    
+}
 .o8quadroconsumivelg{}
 .o8quadroconsumivelm{}
 .o8quadroconsumivelp{}
@@ -6332,7 +6334,7 @@ div.o8quadroconsumivel{
     width: 100%;
     height: 250px;
     padding: 1em;
-    margin: 0.5em 0;
+    margin: 1em 2em;
 }
 
 ul.o8quadroconsumivel{
