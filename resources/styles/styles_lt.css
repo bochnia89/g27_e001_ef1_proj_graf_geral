@@ -6326,7 +6326,8 @@ o8quadrolibras
     height: 60px;
 }
 .o8quadroconsumivel{
-    
+    border: 2px solid var(--azul1a);
+    background: var(--branco);
 }
 .o8quadroconsumivelg{}
 .o8quadroconsumivelm{}
@@ -6367,6 +6368,12 @@ span.o8quadroconsumivel{
     height: 35px;
     border: 2px solid var(--azul1a);
     display:inline-block;
+}
+
+.p2atvletra.o8quadroconsumivel{
+    width: 80px;
+    height: 50px;
+    margin: 0 0 0 2em;
 }
 /* teste de quadro consumível com variação de tamanho */
 figure .o8quadroconsumivel{
