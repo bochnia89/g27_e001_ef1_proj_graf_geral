@@ -6479,7 +6479,7 @@ p2questaosubitemlinha
 .p2questaoletralinha{
     max-width: 100%;
     border-bottom: 1px solid var(--preto);
-    margin:1em 0 1em 0em;
+    margin:1em 0 1em 2em;
 }
 .p2questaomarcadorlinha{}
 .p2questaolinha{
