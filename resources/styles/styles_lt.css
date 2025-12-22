@@ -6438,7 +6438,11 @@ p2questaomarcadorlinha
 p2questaolinha
 p2questaosubitemlinha
 */
-.p2textosemrecuolinha{}
+.p2textosemrecuolinha{
+    max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:0.5em 0 1em 0;
+}
 .p2atvlinha{
     max-width: 100%;
     border-bottom: 1px solid var(--preto);
