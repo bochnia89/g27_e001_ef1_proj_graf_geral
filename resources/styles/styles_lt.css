@@ -990,6 +990,8 @@ p1tabelatextoitemcont
     max-width: 100%;
     margin: 1em 0;
     box-sizing: border-box;
+    background: var(--branco);
+
 }
 .tb_tabela td {
     border: 1px solid var(--azul1);
@@ -4528,7 +4530,10 @@ o0glossariobox
 .o0sec5a{}
 .o0sec6a{}  
 .o0sec7a{}
-.o0sec8a{}
+.o0sec8a{
+        border-right: 15px solid var(--azul1);
+        margin: 1em 0;
+}
 .o0sec9a{}
 .o0sec10a{}
 .o0sec1box{
