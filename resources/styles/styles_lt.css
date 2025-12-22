@@ -3090,6 +3090,15 @@ p4resposta
 .o8quadroconsumivel>.p4resposta{
     margin: 0.2em 0 0.2em 0.2em;
 }
+
+
+.p4recortardobrarcolar{
+   background: var(--amarelo2); 
+   border-radius: 0.5em;
+   padding: 0.5em;
+   font-family: var(--texto);
+   margin: 0.5em 0;
+}
 /* Página */
 /* 
 p5paginacao
