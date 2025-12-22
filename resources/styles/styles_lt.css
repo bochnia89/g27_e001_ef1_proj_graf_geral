@@ -6470,9 +6470,17 @@ p2questaosubitemlinha
 .p2atvmarcadorlinha{}
 .p2atvromanolinha{}
 .p2atvsubitemlinha{}
-.p2questaoitemlinha{}
+.p2questaoitemlinha{
+      max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:1em 0 1em 0em;
+}
 .p2questaoletraitemlinha{}
-.p2questaoletralinha{}
+.p2questaoletralinha{
+    max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:1em 0 1em 0em;
+}
 .p2questaomarcadorlinha{}
 .p2questaolinha{
     border-bottom: 1px solid var(--preto);
