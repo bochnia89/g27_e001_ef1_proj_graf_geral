@@ -4534,6 +4534,9 @@ o0glossariobox
         border-right: 15px solid var(--azul1);
         margin: 1em 0;
 }
+.o0sec8a .box{
+    padding: 1em;
+}
 .o0sec9a{}
 .o0sec10a{}
 .o0sec1box{
