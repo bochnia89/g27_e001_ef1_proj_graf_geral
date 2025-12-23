@@ -5817,7 +5817,7 @@ o5caderno
     box-shadow: 5px 5px var(--vermelho1);
     width: fit-content;
     max-width: 100%;
-    margin: 1em 0;
+    margin: 1em ;
 }
 
 .o5postit1 .box{
@@ -5828,7 +5828,7 @@ o5caderno
     box-shadow: 5px 5px var(--amarelo1);
     width: fit-content;
     max-width: 100%;
-    margin: 1em 0;
+    margin: 1em ;
 }
 .o5postit2 .box{
     padding: 0.5em 1em;
@@ -5839,7 +5839,7 @@ o5caderno
     box-shadow: 5px 5px var(--vermelho1);
     width: fit-content;
     max-width: 100%;
-    margin: 1em 0;
+    margin: 1em ;
 }
 
 .o5postit3 .box{
