@@ -1879,7 +1879,8 @@ p2referenciasbibliocoment
 
 }
 
-.p2referenciasbiblio > .url_para_encurtar{
+.p2referenciasbiblio > .url_para_encurtar,
+ .url_para_encurtar{
     word-break: break-all;
 }
 .p2referenciasbiblioitem{}
