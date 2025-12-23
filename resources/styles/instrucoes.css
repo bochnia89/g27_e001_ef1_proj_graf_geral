@@ -30,6 +30,11 @@
     background: #ffa600;
   }
 
+  .conteudo_ausente{
+    color: red;
+    font-size: x-large;
+    background-color: yellow;
+  }
 
   /*👉VISUALIZAÇÃO AJUSTE DE PRONUNCIA👈*/
   .ajustepronuncia {

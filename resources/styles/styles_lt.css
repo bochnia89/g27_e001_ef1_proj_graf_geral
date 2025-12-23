@@ -6467,7 +6467,11 @@ p2questaosubitemlinha
     margin:1em 0 1em 3em;
 }
 .p2atvletraromanolinha{}
-.p2atvmarcadorlinha{}
+.p2atvmarcadorlinha{
+    max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:1em 0 1em 1em;
+}
 .p2atvromanolinha{}
 .p2atvsubitemlinha{}
 .p2questaoitemlinha{
