@@ -6462,7 +6462,11 @@ p2questaosubitemlinha
 }
 .p2atvitemletralinha{}
 .p2atvitemlinha{}
-.p2atvletraitemlinha{}
+.p2atvletraitemlinha{ 
+    max-width: 100%;
+    border-bottom: 1px solid var(--preto);
+    margin:1em 0 1em 4em;
+}
 .p2atvletraitemromanolinha{}
 .p2atvletralinha{   
     max-width: 100%;
