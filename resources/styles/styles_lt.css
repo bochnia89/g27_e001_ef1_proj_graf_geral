@@ -6397,7 +6397,13 @@ div.o8quadroconsumivelm{
     height: 50px;
     margin: 0 0 0 3em;
 }
-.o8quadroconsumivelp{}
+.o8quadroconsumivelp{
+        background: var(--branco);
+    width: 35px; 
+    height: 35px;
+    border: 2px solid var(--azul1a);
+    display:inline-block;
+}
 /* teste de quadro consumível com variação de tamanho */
 figure .o8quadroconsumivel{
     border: 2px solid var(--azul1a);
