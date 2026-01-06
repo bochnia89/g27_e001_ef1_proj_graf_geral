@@ -1511,6 +1511,31 @@ c0sumpaginamp
 .c0sumpaginamp{}
 
 
+/* DESTAQUES */
+/* 
+c5extradestaque1mp
+c5extradestaque2mp
+c5extradestaque3mp
+c5extradestaque4mp
+c5extradestaque5mp
+*/
+.c5extradestaque1mp{
+    color: var(--verde1);
+}
+.c5extradestaque2mp{
+    color: var(--roxo1);
+}
+.c5extradestaque3mp{
+    color: var(--vermelho1);
+
+}
+.c5extradestaque4mp{
+    
+}
+.c5extradestaque5mp{
+
+
+}
 /*👉ESTILOS DE OBJETO👈*/
 /* 
 o0sec1mp
