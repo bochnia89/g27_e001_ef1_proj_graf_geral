@@ -350,7 +350,15 @@ p1sec10mptit4
 .p1sec4mptit3{}
 .p1sec4mptit4{}
 
-.p1sec5mptit1{}
+.p1sec5mptit1{
+    background: var(--azul1a);
+    color: var(--branco);
+    border-radius: 0.5em ;
+    padding: 0.2em 0.5em;
+    width: fit-content;
+    max-width: 100%;
+
+}
 .p1sec5mptit2{}
 .p1sec5mptit3{}
 .p1sec5mptit4{}
