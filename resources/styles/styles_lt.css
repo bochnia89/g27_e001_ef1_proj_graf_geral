@@ -6459,55 +6459,77 @@ p2questaomarcadorlinha
 p2questaolinha
 p2questaosubitemlinha
 */
-.p2textosemrecuolinha{
+.p2textosemrecuolinha,
+.p2atvlinha,
+.p2atvitemletralinha,
+.p2atvitemlinha,
+.p2atvletraitemlinha,
+.p2atvletraitemromanolinha,
+.p2atvletralinha,
+.p2atvletraromanolinha,
+.p2atvmarcadorlinha,
+.p2atvromanolinha,
+.p2atvsubitemlinha,
+.p2questaoitemlinha,
+.p2questaoletraitemlinha,
+.p2questaoletralinha,
+.p2questaomarcadorlinha,
+.p2questaolinha,
+.p2questaosubitemlinha{
     max-width: 100%;
     border-bottom: 1px solid var(--preto);
-    margin:0.5em 0 1em 0;
+}
+.p2textosemrecuolinha{   
+    margin:1em 0 1em 0;
 }
 .p2atvlinha{
-    max-width: 100%;
-    border-bottom: 1px solid var(--preto);
     margin:1em 0 1em 2em;
 }
-.p2atvitemletralinha{}
-.p2atvitemlinha{}
+.p2atvitemletralinha{
+    margin: 1em 0 1em 4em;
+}
+.p2atvitemlinha{
+     margin: 1em 0 1em 3em;
+}
 .p2atvletraitemlinha{ 
-    max-width: 100%;
-    border-bottom: 1px solid var(--preto);
     margin:1em 0 1em 4em;
 }
-.p2atvletraitemromanolinha{}
+.p2atvletraitemromanolinha{
+     margin: 1em 0 1em 7em;
+}
 .p2atvletralinha{   
-    max-width: 100%;
-    border-bottom: 1px solid var(--preto);
     margin:1em 0 1em 3em;
 }
-.p2atvletraromanolinha{}
+.p2atvletraromanolinha{
+     margin: 1em 0 1em 5.1em;
+}
 .p2atvmarcadorlinha{
-    max-width: 100%;
-    border-bottom: 1px solid var(--preto);
+    margin:1em 0 1em 4em;
+}
+.p2atvromanolinha{
+     margin: 1em 0 1em 4em;
+}
+.p2atvsubitemlinha{
+     margin: 1em 0 1em 4em;
+}
+.p2questaoitemlinha{
     margin:1em 0 1em 1em;
 }
-.p2atvromanolinha{}
-.p2atvsubitemlinha{}
-.p2questaoitemlinha{
-      max-width: 100%;
-    border-bottom: 1px solid var(--preto);
-    margin:1em 0 1em 0em;
+.p2questaoletraitemlinha{
+     margin: 1em 0 1em 3em;
 }
-.p2questaoletraitemlinha{}
 .p2questaoletralinha{
-    max-width: 100%;
-    border-bottom: 1px solid var(--preto);
     margin:1em 0 1em 2em;
 }
-.p2questaomarcadorlinha{}
-.p2questaolinha{
-    border-bottom: 1px solid var(--preto);
-    margin: 0.5em 0 0.8em 0;
-    max-width: 100%;
+.p2questaomarcadorlinha{
+     margin: 1em 0 1em 2em;
 }
-.p2questaosubitemlinha{}
+.p2questaolinha{
+    margin: 1em 0 1em 0;
+}
+.p2questaosubitemlinha{
+     margin: 1em 0 1em 2em;
+}
 
 /*👉08: Estilos para CONSUMÍVEL QUADRINHO 👈*/
 /* 
