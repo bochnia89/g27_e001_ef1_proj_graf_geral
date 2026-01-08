@@ -4830,7 +4830,7 @@ div.o4medidaanimalbox::before{
     padding: 1em;
     width: fit-content;
     max-width: 100%;
-    margin: 1em 0;
+    margin: 1em ;
 }
 .o0boxpalavra li::before {
     content: '•';
@@ -5663,7 +5663,7 @@ span.o4ficha2 {
     background: var(--amarelo2);
     border-radius: 0.5em;
     padding: 1em;
-    margin: 1em 0;
+    margin: 1em;
 }
 .o4avaliacaobox{
     margin: 1em 0;
