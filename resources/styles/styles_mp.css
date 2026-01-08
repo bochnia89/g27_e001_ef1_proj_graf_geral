@@ -363,7 +363,14 @@ p1sec10mptit4
 .p1sec5mptit3{}
 .p1sec5mptit4{}
 
-.p1sec6mptit1{}
+.p1sec6mptit1{
+    border-radius: 1em;
+    background: var(--verde1a);
+    color: var(--branco);
+    padding: 0.2em 0.5em;
+    width: fit-content;
+    max-width: 100%;
+}
 .p1sec6mptit2{}
 .p1sec6mptit3{}
 .p1sec6mptit4{}
