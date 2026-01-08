@@ -5127,7 +5127,7 @@ div.o1boxfioroxo1{
     border: 2px solid var(--roxo1);
     margin: 1em 0 1em 0;
     padding: 1em;
-    width: fit-content;
+  /*👉  width: fit-content;👈*/
     max-width: 100%;
     min-height: 2em;
     min-width: 2em;
