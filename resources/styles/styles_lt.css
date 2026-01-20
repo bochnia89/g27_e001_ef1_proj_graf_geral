@@ -616,25 +616,31 @@ p1sumarioaudiospeso3
     color: var(--branco);
     font-weight: 900;
     font-size: var(--pesoMenor);
+    width: fit-content;
+    max-width: 100%;
 }
 
-.p1sumariopeso1>a{
+.p1sumariopeso1>a,
+.p1sumariopeso1{
     color: var(--verde1a);
     font-weight: 900;
     font-size: var(--peso3);
 }
+.p1sumariopeso2>a,
 .p1sumariopeso2>a{
     color: var(--preto);
     font-weight: 900;
     font-size: var(--peso5);
 }
+.p1sumariopeso3>a,
 .p1sumariopeso3>a{
     color: var(--preto);
     font-size: var(--peso6);
     font-weight: 800;
     margin-left: 1em;
 }
-.p1sumariopeso3>a::before{
+.p1sumariopeso3>a::before,
+.p1sumariopeso3::before{
     background: url(../images/pv_tit3sumario.svg) top left no-repeat;
     background-size: 100%;
     content: '';
@@ -643,24 +649,28 @@ p1sumarioaudiospeso3
     position: absolute;
     margin: -3px 0 0 -20px;
 }
-.p1sumariopeso4>a{
+.p1sumariopeso4>a,
+.p1sumariopeso4{
     color: var(--preto);
     margin-left: 2em;
     font-weight: 800;
     font-size: var(--peso7);
 }
-.p1sumariopeso5>a{
+.p1sumariopeso5>a,
+.p1sumariopeso5{
     color: var(--preto);
     margin-left: 3em;
     font-size: var(--peso7);
 }
-.p1sumarioextrapeso1 a{
+.p1sumarioextrapeso1 a,
+.p1sumarioextrapeso1{
     font-weight: 900;
     color: var(--preto);
     font-size: var(--peso6);
 }
 .p1sumarioextrapeso2{}
-.p1sumarioextrapeso3>a{
+.p1sumarioextrapeso3>a,
+.p1sumarioextrapeso3{
     color: var(--vermelho1a);
     font-size: var(--peso6);
     margin-left: 1em;
@@ -4318,6 +4328,7 @@ o0glossariobox
 }
 .o0secconhecabox1{
     margin: 1em;
+    
 }
 .o0secconhecabox1 .box{
     background: var(--verde2a);
