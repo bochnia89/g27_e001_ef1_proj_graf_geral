@@ -29,7 +29,7 @@ section {
     page-break-before: always;
     page-break-after: avoid;
 
-    border: 1px solid red;
+
 }
 section header {
     padding: 15px 0 0px 0;
@@ -283,6 +283,9 @@ header .pag {
     font-size: var(--peso1);
     font-family: var(--titulo);
     padding: 1em;
+}
+.borda{
+    border: 1 solid var(--preto);
 }
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
@@ -2333,7 +2336,7 @@ ul.p2questaosubitem{
 }
 ul.p2questaosubitem li::before{
     content: '•';
-    color: var(--verde1);
+    color: var(--preto);
     font-size: 1.2em;
     width: 10px;
     height: 10px;
@@ -2484,7 +2487,7 @@ ul.p2atvsubitem{
 }
 ul.p2atvsubitem li::before{
     content: '•';
-    color: var(--verde1);
+    color: var(--preto);
     font-size: 1.2em;
     margin: 0 0 0 -0.8em;
     position: absolute;
@@ -2858,13 +2861,13 @@ p3citacaonumerocont
 
 .p3citacaomanchete{
     font-weight: bold;
-    font-size: var(--peso4);
+    font-size: var(--peso5);
     text-align: center;
     margin: 0.5em 0;
 }
 .o3jornalfundo>.p3citacaomanchete {
     font-weight: bold;
-    font-size: var(--peso4);
+    font-size: var(--peso5);
     text-align: center;
     margin: 0.5em 0;
     padding-bottom: 1em;
@@ -2873,7 +2876,7 @@ p3citacaonumerocont
 
 .p3citacaotit1{
     font-weight: bold;
-    font-size: var(--peso5);
+    font-size: var(--peso6);
     text-align: center;
     margin: 0.5em 0;
 }
@@ -4304,7 +4307,10 @@ o0glossariobox
     background: var(--verde3a);
     padding: 1em;
 }
-.o0secconheca2{}
+.o0secconheca2{
+    background: var(--verde3a);
+    padding: 1em;
+}
 .o0secconheca3{}
 .o0secconheca3 .box{
     background: var(--amarelo2);
@@ -6553,9 +6559,58 @@ p2textoitemquadrinho
 p2textoquadrinho
 p2textosemrecuoquadrinho
 */
+.p2atvitemletraquadrinho,
+.p2atvitemquadrinho,
+.p2atvletraitemquadrinho,
+.p2atvletraitemromanoquadrinho,
+.p2atvletraquadrinho,
+.p2atvletraromanoquadrinho,
+.p2atvmarcadorquadrinho,
+.p2atvquadrinho,
+.p2atvromanoquadrinho,
+.p2atvsubitemquadrinho,
+.p2questaoitemquadrinho,
+.p2questaoletraitemquadrinho,
+.p2questaoletraquadrinho,
+.p2questaomarcadorquadrinho,
+.p2questaoquadrinho,
+.p2questaosubitemquadrinho,
+.p2textoitemquadrinho,
+.p2textoquadrinho,
+.p2textosemrecuoquadrinho{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify;
+}
+.p2atvitemletraquadrinho .c4quadrinho,
+.p2atvitemquadrinho .c4quadrinho,
+.p2atvletraitemquadrinho .c4quadrinho,
+.p2atvletraitemromanoquadrinho .c4quadrinho,
+.p2atvletraquadrinho .c4quadrinho,
+.p2atvletraromanoquadrinho .c4quadrinho,
+.p2atvmarcadorquadrinho .c4quadrinho,
+.p2atvquadrinho .c4quadrinho,
+.p2atvromanoquadrinho .c4quadrinho,
+.p2atvsubitemquadrinho .c4quadrinho,
+.p2questaoitemquadrinho .c4quadrinho,
+.p2questaoletraitemquadrinho .c4quadrinho,
+.p2questaoletraquadrinho .c4quadrinho,
+.p2questaomarcadorquadrinho .c4quadrinho,
+.p2questaoquadrinho .c4quadrinho,
+.p2questaosubitemquadrinho .c4quadrinho,
+.p2textoitemquadrinho .c4quadrinho,
+.p2textoquadrinho .c4quadrinho,
+.p2textosemrecuoquadrinho .c4quadrinho{
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--turquesa1);
+    display: inline-block;
+    position: absolute;
+    margin: 0 0 0 -50px;
+}
 .p2atvletraquadrinho,
 .p2atvquadrinho{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 5.2em;
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -6563,25 +6618,46 @@ p2textosemrecuoquadrinho
     flex-wrap: wrap;
 }
 .p2atvitemletraquadrinho{}
-.p2atvitemquadrinho{}
-.p2atvletraitemquadrinho{}
-.p2atvletraitemromanoquadrinho{}
+.p2atvitemquadrinho{
+        margin: 0.5em 0 0.5em 6.2em;
+}
+.p2atvletraitemquadrinho{
+    margin: 0.5em 0 0.5em 7.2em;
+}
+.p2atvletraitemromanoquadrinho{
+    margin: 0.5em 0 0.5em 10.2em;
+}
 .p2atvletraquadrinho{
     margin: 0.5em 0 0.5em 3em;
 }
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
 .p2atvquadrinho{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 5.2em;
 }
-.p2atvromanoquadrinho{}
-.p2atvsubitemquadrinho{}
-.p2questaoitemquadrinho{}
-.p2questaoletraitemquadrinho{}
-.p2questaoletraquadrinho{}
-.p2questaomarcadorquadrinho{}
-.p2questaoquadrinho{}
-.p2questaosubitemquadrinho{}
+.p2atvromanoquadrinho{
+        margin: 0.5em 0 0.5em 7.2em;
+}
+.p2atvsubitemquadrinho{
+        margin: 0.5em 0 0.5em 7.2em;
+}
+.p2questaoitemquadrinho{
+    margin: 0.5em 0 0.5em 4.2em;}
+.p2questaoletraitemquadrinho{
+    margin: 0.5em 0 0.5em 6.2em;
+}
+.p2questaoletraquadrinho{
+    margin: 0.5em 0 0.5em 5.2em;
+}
+.p2questaomarcadorquadrinho{
+    margin: 0.5em 0 0.5em 5.2em;
+}
+.p2questaoquadrinho{
+        margin: 0.5em 0 0.5em 3.2em;
+}
+.p2questaosubitemquadrinho{
+    margin: 0.5em 0 0.5em 5.2em;
+}
 .p2textoitemquadrinho{
     margin: 1em 0 1.5em 85px;
 }

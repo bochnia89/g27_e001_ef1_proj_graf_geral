@@ -30,6 +30,9 @@
     background: #ffa600;
   }
 
+  .adicionar_lang{
+    color: red;
+  }
   .conteudo_ausente{
     color: red;
     font-size: x-large;
