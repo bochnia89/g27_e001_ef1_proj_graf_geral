@@ -639,15 +639,7 @@ p1sumarioaudiospeso3
     font-weight: 800;
     margin-left: 1em;
 }
-.p1sumariopeso3>a::before{
-     background: url(../images/pv_tit3sumario.svg) top left no-repeat;
-    background-size: 100%;
-    content: '';
-    width: 15px;
-    height: 31px;
-    position: absolute;
-    margin: -3px 0 0 -20px;
-}
+
 .p1sumariopeso3::before{
     background: url(../images/pv_tit3sumario.svg) top left no-repeat;
     background-size: 100%;
