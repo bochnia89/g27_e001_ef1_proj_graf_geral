@@ -624,18 +624,18 @@ p1sumarioaudiospeso3
 .p1sumariopeso1{
     color: var(--verde1a);
     font-weight: 900;
-    font-size: var(--peso3);
+    font-size: 1.3em;
 }
 .p1sumariopeso2>a,
-.p1sumariopeso2>a{
+.p1sumariopeso2{
     color: var(--preto);
     font-weight: 900;
-    font-size: var(--peso5);
+    font-size: 1.2em;
 }
 .p1sumariopeso3>a,
-.p1sumariopeso3>a{
+.p1sumariopeso3{
     color: var(--preto);
-    font-size: var(--peso6);
+    font-size: 1.1em;
     font-weight: 800;
     margin-left: 1em;
 }
@@ -654,13 +654,13 @@ p1sumarioaudiospeso3
     color: var(--preto);
     margin-left: 2em;
     font-weight: 800;
-    font-size: var(--peso7);
+    font-size:1em;
 }
 .p1sumariopeso5>a,
 .p1sumariopeso5{
     color: var(--preto);
     margin-left: 3em;
-    font-size: var(--peso7);
+    font-size: 0.9em;
 }
 .p1sumarioextrapeso1 a,
 .p1sumarioextrapeso1{
@@ -672,7 +672,7 @@ p1sumarioaudiospeso3
 .p1sumarioextrapeso3>a,
 .p1sumarioextrapeso3{
     color: var(--vermelho1a);
-    font-size: var(--peso6);
+    font-size: 1em;
     margin-left: 1em;
 }
 .p1sumariopeso1numero{
