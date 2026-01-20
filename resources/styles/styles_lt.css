@@ -693,9 +693,11 @@ p1sumarioaudiospeso3
     max-width: 100%;
     margin: 2em 0 0 0;
 }
-.p1sumariooedpeso2>a{
+.p1sumariooedpeso2>a,
+.p1sumariooedpeso2{
     color: var(--verde1a);
     font-weight: 700;
+    font-size: 1em;
 }
 
 .p1sumariopv strong,
@@ -725,7 +727,13 @@ p1sumarioaudiospeso3
 }
 .p1sumariooedpeso3{}
 
-.p1sumarioaudiospeso1{}
+.p1sumarioaudiospeso1{
+    background: var(--roxo1a);
+    border-radius: 0.2em 0.2em 0.6em 0.6em;
+        padding: 0 0.5em;
+    width: fit-content;
+    max-width: 100%;
+}
 .p1sumarioaudiospeso2{}
 .p1sumarioaudiospeso3{}
 
