@@ -285,7 +285,7 @@ header .pag {
     padding: 1em;
 }
 .borda{
-    border: 1 solid var(--preto);
+    border: 1px solid var(--preto);
 }
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
