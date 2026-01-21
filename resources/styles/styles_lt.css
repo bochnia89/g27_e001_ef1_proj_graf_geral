@@ -728,13 +728,17 @@ p1sumarioaudiospeso3
 .p1sumariooedpeso3{}
 
 .p1sumarioaudiospeso1{
+    color: var(--branco);
+    font-size: var(--peso5);
     background: var(--roxo1a);
     border-radius: 0.2em 0.2em 0.6em 0.6em;
         padding: 0 0.5em;
     width: fit-content;
     max-width: 100%;
 }
-.p1sumarioaudiospeso2{}
+.p1sumarioaudiospeso2{
+    color: var(--roxo1a);
+}
 .p1sumarioaudiospeso3{}
 
 .d0secsumario ul.o1boxfundoazul1,
@@ -5506,7 +5510,7 @@ span.o4ficha2 {
 }
 
 .o4boxmateriais{
-    margin: 1em 0;
+    margin: 1em ;
   /*👉  background: var(--branco);👈*/
     border: 2px solid var(--verde1);
     border-top: none;
@@ -6597,8 +6601,8 @@ p2textosemrecuoquadrinho
 .p2textoitemquadrinho,
 .p2textoquadrinho,
 .p2textosemrecuoquadrinho{
-    margin-top:0.5em;
-    margin-bottom: 0.5em;
+    margin-top:1em;
+    margin-bottom: 1em;
     text-align: justify;
 }
 .p2atvitemletraquadrinho .c4quadrinho,
@@ -6625,7 +6629,7 @@ p2textosemrecuoquadrinho
     border: 2px solid var(--turquesa1);
     display: inline-block;
     position: absolute;
-    margin: 0 0 0 -50px;
+    margin: -8px 0 0 -50px;
 }
 .p2atvletraquadrinho,
 .p2atvquadrinho{
@@ -6652,30 +6656,30 @@ p2textosemrecuoquadrinho
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
 .p2atvquadrinho{
-    margin: 0.5em 0 0.5em 5.2em;
+    margin: 1em 0 1em 5.2em;
 }
 .p2atvromanoquadrinho{
-        margin: 0.5em 0 0.5em 7.2em;
+        margin: 1em 0 1em 7.2em;
 }
 .p2atvsubitemquadrinho{
-        margin: 0.5em 0 0.5em 7.2em;
+        margin: 1em 0 1em 7.2em;
 }
 .p2questaoitemquadrinho{
-    margin: 0.5em 0 0.5em 4.2em;}
+    margin:1em 0 1em 4.2em;}
 .p2questaoletraitemquadrinho{
-    margin: 0.5em 0 0.5em 6.2em;
+    margin: 1em 0 1em 6.2em;
 }
 .p2questaoletraquadrinho{
-    margin: 0.5em 0 0.5em 5.2em;
+    margin:1em 0 1em 5.2em;
 }
 .p2questaomarcadorquadrinho{
-    margin: 0.5em 0 0.5em 5.2em;
+    margin:1em 0 1em 5.2em;
 }
 .p2questaoquadrinho{
-        margin: 0.5em 0 0.5em 3.2em;
+        margin: 1em 0 1em 3.2em;
 }
 .p2questaosubitemquadrinho{
-    margin: 0.5em 0 0.5em 5.2em;
+    margin: 1em 0 1em 5.2em;
 }
 .p2textoitemquadrinho{
     margin: 1em 0 1.5em 85px;
