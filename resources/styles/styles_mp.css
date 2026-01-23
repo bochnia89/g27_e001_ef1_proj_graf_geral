@@ -189,6 +189,9 @@ p1sumariompextrapeso3
 .p1sumariomppeso2>a{
     font-size: var(--peso4);
 }
+.p1sumariomppeso2{
+    margin-left: 0.5em;
+}
 .p1sumariomppeso3>a{
     font-size: var(--peso5);
 }
