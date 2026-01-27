@@ -81,7 +81,8 @@ em {
     font-weight: 500 ;
 }
 
-strong em, em strong  {
+strong>em, 
+em>strong  {
     font-weight: bold !important;
     font-style: italic !important;
 }
