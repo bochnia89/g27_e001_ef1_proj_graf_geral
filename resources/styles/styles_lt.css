@@ -155,6 +155,7 @@ creditoimagem
 creditoimagemResposta
 creditoimagemPage
 orienta
+
 orientatx
 ocultatx
 ocultamn
@@ -3134,10 +3135,10 @@ p4iconeoed4
 
 /* Crédito Imagem*/
 .p4credimagem{
-    background: #3EE0CE;
+ 
     font-family: var(--texto);
     font-size: var(--pesoMenor);
-    text-align: right;
+    text-align: left;
 }
 .p4credimagemresposta{}
 
@@ -4635,7 +4636,11 @@ o0glossariobox
 }
 .o0sec5a{}
 .o0sec6a{}  
-.o0sec7a{}
+.o0sec7a>.box{
+    border-right: 3px solid var(--rosa1);
+     border-radius: 0 0 1em 0;
+    padding: 1em;
+}
 .o0sec8a{
         border-right: 15px solid var(--azul1);
         margin: 1em 0;
@@ -4740,7 +4745,7 @@ o0glossariobox
     z-index: -1;
 }
 
-.osec7box .box{
+.osec7box>.box{
     padding: 1em;
 }
 
