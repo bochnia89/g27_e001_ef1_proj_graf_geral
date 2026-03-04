@@ -401,7 +401,7 @@ p1sec10mptit4
 
 
 
-/* TODO: Bruna, desativar classes p2textompnumsemrecuo e  p2textompnumsemrecuocont, estão fora do padrão */
+/* TODO:desativar classes p2textompnumsemrecuo e  p2textompnumsemrecuocont, estão fora do padrão */
 /*👉TEXTO PRINCIPAL SEM RECUO 👈*/
 /* 
 p2textompsemrecuo
@@ -481,6 +481,7 @@ p.p2textompsemrecuoitem::before{
 .p2textompsemrecuonum{
     margin: 0.5em 0 0.5em 2em ;
 } 
+
 .p2textompsemrecuonumcont{
     margin: 0.5em 0 0.5em 2em ;
 } 
@@ -515,7 +516,7 @@ p.p2textompsemrecuoletraitem{
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{
-    margin: 0.5em 0 0.5em 3.5em ;
+    margin: 0.5em 0 0.5em 1em ;
 }
 ul.p2textompsemrecuosubitem li::before{
     color: var(--verde1);
@@ -1283,6 +1284,7 @@ p3citacaompsemrecuoitemcont
     font-size: var(--peso2);
     text-align: center;
     margin: 0.5em 0 0.5em 0;
+    line-height:1.5em ;
 }
 .p3citacaomptit2{
     font-weight: bold;
@@ -1380,11 +1382,24 @@ p4cuidadodicampitemcont
 }
 
 .p1tabelatit{}
-.p1tabelatitcoluna{}
+.p1tabelatitcoluna{
+     word-break: keep-all;
+     hyphens: auto !important;
+}
 td.p1tabelatitcoluna{
         background: var(--azul2);
+        word-break:keep-all;
+         hyphens: auto !important;
+}
+td.p1tabelatitcoluna>p{
+    font-size: var(--pesoIntermediario) !important;
+     word-break: keep-all;
+    hyphens: auto !important;
 }
 .p1tabelatexto{}
+.p1tabelatextomapa{
+    font-size: 0.9em;
+}
 p.p1tabelatextoitem{
     margin: 0.5em 0 0.5em 1.5em;
 }
@@ -1418,22 +1433,26 @@ table.tb_tabela thead,
 table.tb_tabela tbody tr td,
 table.tb_mpg2 tbody tr td p,
 table.tb_mpg2 tbody tr td p.p1tabelatexto,
+table.tb_mpg2 tbody tr td p.p1tabelatextomapa,
 table.tb_mpg2,
 table.tb_mpg2 thead,
 table.tb_mpg2 tbody tr td,
 table.tb_mpg2 tbody tr td p,
 table.tb_mpg2 tbody tr td p.p1tabelatexto,
+table.tb_mpg2 tbody tr td p.p1tabelatextomapa,
 table.tb_mpg3,
 table.tb_mpg3 thead,
 table.tb_mpg3 tbody tr td,
 table.tb_mpg3 tbody tr td p,
 table.tb_mpg3 tbody tr td p.p1tabelatexto,
+table.tb_mpg3 tbody tr td p.p1tabelatextomapa,
 table.tb_mpg,
 table.tb_mpg thead,
 table.tb_mpg tbody tr td,
 table.tb_mpg tbody tr td p,
-table.tb_mpg tbody tr td p.p1tabelatexto{
-    font-size: var(--pesoIntermediario) !important;
+table.tb_mpg tbody tr td p.p1tabelatexto,
+table.tb_mpg tbody tr td p.p1tabelatextomapa{
+    font-size:0.9em !important;
 }
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
@@ -1557,13 +1576,13 @@ c5extradestaque4mp
 c5extradestaque5mp
 */
 .c5extradestaque1mp{
-    color: var(--verde1);
+    color: var(--verde1c);
 }
 .c5extradestaque2mp{
-    color: var(--roxo1);
+    color: var(--roxo1c);
 }
 .c5extradestaque3mp{
-    color: var(--vermelho1);
+    color: var(--vermelho1c);
 
 }
 .c5extradestaque4mp{

@@ -78,7 +78,6 @@ strong {
 
 em {
     font-style: italic ;
-    font-weight: 500 ;
 }
 
 strong>em, 
@@ -107,6 +106,7 @@ table tr th {
 table p {
     margin: 0px;
     padding: 0;
+    font-size: 0.9em;
 }
 
 
@@ -258,6 +258,10 @@ sr_only
     white-space: nowrap;
     border: 0;
 }
+
+.semmargem{
+    margin: 0 !important;
+}
  /*classe sr-only adicionada para paginação, conforme edital G27 fund1*/
 
 
@@ -351,7 +355,9 @@ header .pag {
     max-width: 90% !important;
     margin-left:3em !important;
 } 
-
+.alinhamarcadorbox{
+    margin-left: 35px !important;
+}
 .alinhapalavras{
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
@@ -560,11 +566,12 @@ p1sumarioaudiospeso3
 
 .o0secconheca .p1seciniciaistit1::before{
     background: url("../images/pv_p1seciniciaistitum.svg") left center no-repeat;
+    background-size: contain;
     content: "";
-    width: 100px;
+    width: 80px;
     height: 75px;
     position: absolute;
-    margin: -15px 0px 0px -80px;
+    margin: -22px 0px 0px -83px;
 }
 
 .p1seciniciaistit2{
@@ -628,7 +635,7 @@ p1sumarioaudiospeso3
 .p1sumariopeso1{
     color: var(--verde1a);
     font-weight: 900;
-    font-size: 1.3em;
+/*👉    font-size: 1.3em;👈*/
 }
 .p1sumariopeso2>a{
     color: var(--preto);
@@ -636,7 +643,8 @@ p1sumarioaudiospeso3
 .p1sumariopeso2{
     color: var(--preto);
     font-weight: 900;
-    font-size: 1.2em;
+    margin-left: 0.5em;
+ /*👉   font-size: 1.2em;👈*/
 }
 .p1sumariopeso3>a{
     color: var(--preto);
@@ -678,7 +686,7 @@ p1sumarioaudiospeso3
 .p1sumarioextrapeso1{
     font-weight: 900;
     color: var(--preto);
-    font-size: var(--peso6);
+  /*👉  font-size: var(--peso6);👈*/
 }
 .p1sumarioextrapeso2{}
 .p1sumarioextrapeso3>a{
@@ -744,6 +752,7 @@ p1sumarioaudiospeso3
 .p1sumarioaudiospeso1{
     color: var(--branco);
     font-size: var(--peso5);
+    font-weight: 800;
     background: var(--roxo1a);
     border-radius: 0.2em 0.2em 0.6em 0.6em;
         padding: 0 0.5em;
@@ -1042,13 +1051,19 @@ p1tabelatitcoluna
 p1tabelatexto
 p1tabelatextoitem
 p1tabelatextoitemcont
+p1tabelatextomapa
 */
 .p1tabelatit{
     text-align: center;
     font-size: var(--peso6);
 }
 .p1tabelatitcoluna{}
-.p1tabelatexto{}
+.p1tabelatexto,
+p.p1tabelatexto,
+.p1tabelatextomapa,
+p.p1tabelatextomapa, table td{
+    font-size: 0.9em !important;
+}
 .p1tabelatextoitem{
     margin: 0.5em 0;
 }
@@ -1187,6 +1202,12 @@ o2mapagravata2
     padding: 0.2em 0.5em;
     width: fit-content;
     max-width: 70%;
+}
+.p5marcador+.o2mapagravata1{
+    margin-left: 2em;
+}
+.o2mapabox>.p5marcador{
+    margin: 0 0 0 0em;
 }
 .o2mapagravata1{
     background: var(--verde2);  
@@ -2015,7 +2036,7 @@ margin:0 0 0 -14px ;
     margin: 0.5em 0 0.5em 0;
 }
 
-/* TODO: Bruna, desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
+/* TODO: =desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
 
 /*👉======= TEXTOS PESO: principal =======👈*/
 /* TEXTO SEM RECUO PRINCIPAL */
@@ -2364,25 +2385,25 @@ p2questaomarcadorcont
     text-align: justify;
 }
 .p2questao{
-    margin: 0.5em 0;
+    margin: 0.5em 0 0.5em 2em;
 }
 .p2questaocont{
-    margin: 0.5em 0;
+    margin: 0.5em 2em 0.5em 2em;
 }
 
 .p2questaoletra{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 .p2questaoletracont{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 
 ul.p2questaoletraitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 4em;
 }
 p.p2questaoletraitem{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 4em;
 }
 p.p2questaoletraitem::before {
     content: ''; /*content: '•';*/
@@ -2393,15 +2414,15 @@ p.p2questaoletraitem::before {
     margin: 0 0 0 -14px;
 }
 .p2questaoletraitemcont{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 4em;
 }
 
 ul.p2questaoitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 p.p2questaoitem{
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 p.p2questaoitem::before {
     content: ''; /*content: '•';*/
@@ -2412,11 +2433,11 @@ p.p2questaoitem::before {
     margin: 0 0 0 -14px;
 }
 .p2questaoitemcont{
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.5em 0 0.5em 3em;
 }
 
 ul.p2questaosubitem{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 4em;
 }
 ul.p2questaosubitem li::before{
     content: '•';
@@ -2428,7 +2449,7 @@ ul.p2questaosubitem li::before{
     margin: 0 0 0 -14px;
 }
 p.p2questaosubitem{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 4em;
 }
 p.p2questaosubitem::before {
     content: ''; /*content: '•';*/
@@ -2440,13 +2461,13 @@ p.p2questaosubitem::before {
     margin: 0 0 0 -14px;
 }
 .p2questaosubitemcont{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 4em;
 } 
 .p2questaomarcador{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 5em;
 }
 .p2questaomarcadorcont{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 5em;
 }
 
 
@@ -2865,13 +2886,13 @@ p.p3intermediariomarcadoritem{
 }
 
 .p3intermediariosemrecuomarcador{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.6em 0 0.6em 2.5em;
 }
 .p3intermediariosemrecuomarcadorcont{
     margin: 0.5em 0 0.5em 2.5em;
 }
 .p3intermediariosemrecuomarcadorromano{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.6em 0 0.6em 3em;
 }
 
 
@@ -2924,6 +2945,7 @@ p3citacaoletra
 p3citacaoletracont
 p3citacaonumero 
 p3citacaonumerocont
+p3citacaomarcador
 */
 .p3citacaomanchete,
 .p3citacaotit1,
@@ -2949,7 +2971,8 @@ p3citacaonumerocont
     text-align: center;
     margin: 0.5em 0;
 }
-.o3jornalfundo>.p3citacaomanchete {
+.o3jornalfundo>.p3citacaomanchete,
+.o3jornalfundonegativo>.p3citacaomanchete {
     font-weight: bold;
     font-size: var(--peso5);
     text-align: center;
@@ -2983,6 +3006,8 @@ p3citacaonumerocont
     text-align: justify;
     margin: 0.5em 0;
 } 
+
+
 /* TODO: ELEMENTO NOVO */
 
 .p3citacao{
@@ -2992,7 +3017,26 @@ p3citacaonumerocont
     text-indent: 1.5em;
     margin: 0.5em 0;
 }
-
+.p3citacaomarcador{
+    font-family: var(--pesoPadrao);
+    font-family: var(--citacao);
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3citacaomarcador>.p5marcador{
+    background: var(--verde1a);
+    border-radius: 0.2em;
+    font-family: var(--texto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -3em;
+    width: 25px;
+    text-indent: 0em;
+}
 .p3citacaopoema{
     margin: 0.5em 0 0.5em 1em;
 }
@@ -3047,7 +3091,14 @@ p4iconeoed4
     color: var(--verde1a);
     margin:1em 0;
 }
+.p4iconeoed1_a{
+    color: var(--verde1a);
+}
 .p4iconeoed2{
+    color: var(--roxo1a);
+    margin: 1em 0 0 0;
+}
+.p4iconeoed2_a{
     color: var(--roxo1a);
     margin: 1em 0 0 0;
 }
@@ -3264,6 +3315,7 @@ p5marcadorquestao
     position: absolute;
     text-align: center;
     margin: 0 0 0 -30px;
+    padding: 2px;
     width: 25px;
 }
 .p5marcadornegativo{}
@@ -3280,8 +3332,9 @@ p5marcadorquestao
 }
 
 .p5marcador2{
-    background: var(--preto);
-    color: var(--branco);
+    background: var(--branco);
+    border: 1px solid var(--preto);
+    color: var(--preto);
     font-weight: bold;
     height: 25px;
     position: absolute;
@@ -3311,6 +3364,7 @@ figure>.p5marcador {
     text-align: center;
     margin: 0 0 0 0px;
     position: static;
+    padding: 0px;
     width: 25px;
 }
 .p5marcadorcaixa{
@@ -3449,6 +3503,7 @@ d0selotema2
 d0fracao
 d0fracao2
 d0fracao3
+d0matriz1
 d0alfabeto
 d0table
 */
@@ -3576,7 +3631,7 @@ li.d0fracao{
 .d0fracao3>.c0destaqueletra{
     margin-top: 4px;
 }
-
+.d0matriz1{}
 .d0alfabeto{
     align-items: center;
     display: flex;
@@ -3679,6 +3734,7 @@ d2adaptadatit
     border-right: 2px solid var(--roxo1);
     border-bottom: 2px solid var(--roxo2);
     padding: 1em;
+    background: var(--branco);
 }
 .d2adaptadatit{
     background: url(../images/ico_acessibilidade.svg) top left no-repeat var(--roxo3);
@@ -3741,6 +3797,7 @@ c0destaqueletracitacao
 c0destaquenumero
 c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
 c0destaqueromano
+c0destaquequestaoletra
 c0destaquequestaonumero
 c0destaquesomatoria
 c0bulletnumitem
@@ -3814,8 +3871,21 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     color: var(--verde1a);
     font-family: var(--titulo);
     font-weight: bold;
+      width: 38px;
+    height: 36px;
+    position: absolute;
+    margin: 0 0 0 -40px;
+    text-align: right;
 }
-
+.c0destaquequestaoletra{
+     color: var(--verde1a);
+    font-weight: bold;
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -30px;
+    text-align: center;
+}
 .c0destaquesomatoria{
     font-weight: 550;
     width: 35px;
@@ -4150,7 +4220,8 @@ c5extraitalicoidioma
 }
 .c5indicacao{}
 .c5extradestaque{
-    color: var(--verde1a);
+    color: var(--azul1a);
+    /* var(--verde1a) */
 }
 
 .c5extradestaquecor1{
@@ -4573,7 +4644,7 @@ o0glossariobox
     border-left: 15px solid  var(--rosa1);
     margin: 1em 0;
 }
-.o0sec7 .box{
+.o0sec7>.box{
     padding: 1em;
 }
 .o0sec8{
@@ -4591,10 +4662,21 @@ o0glossariobox
     border-radius: 0 0 1em 0;
     padding: 1em;
 }
+.o0sec9 .box .c0destaquequestaonumero,
+.o0sec10 .box .c0destaquequestaonumero,
+.o0sec10a .box .c0destaquequestaonumero{
+    color: rgb(18 69 30);
+}
+.o0sec9 .box .p4iconeoed1,
+.o0sec10 .box .p4iconeoed1 {
+    color: #0b3114;
+}
 .o0sec10{
     margin: 1em 0;
 }
-.o0sec10 .box{
+
+.o0sec10 .box,
+.o0sec10a .box{
     background: var(--amarelo2);
     border-radius: 0 0 1em 0;
     padding: 1em;
@@ -4635,7 +4717,16 @@ o0glossariobox
     border-radius: 1em;
 }
 .o0sec5a{}
-.o0sec6a{}  
+  
+
+.o0sec6a{
+    border-right: 15px solid  var(--amarelo1);
+    margin: 1em 0;
+} 
+
+.o0sec6a .box{
+    padding: 1em;
+}
 .o0sec7a>.box{
     border-right: 3px solid var(--rosa1);
      border-radius: 0 0 1em 0;
@@ -4745,7 +4836,7 @@ o0glossariobox
     z-index: -1;
 }
 
-.osec7box>.box{
+.o0sec7box>.box{
     padding: 1em;
 }
 
@@ -5091,7 +5182,44 @@ ul.o1boxfundoazul2>li{
     width: fit-content;
     max-width: 100%;
 }
-.o1boxfundoroxo1{}
+
+div.o1boxfundoroxo1,
+p.o1boxfundoroxo1,
+span.o1boxfundoroxo1{
+    background: var(--roxo3);
+    border-radius: 0.5em;
+    width: fit-content;
+    max-width: 100%;
+}
+div.o1boxfundoroxo1{
+    padding: 1em;
+    margin: 0.5em 0;
+}
+p.o1boxfundoroxo1{
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+span.o1boxfundoroxo1{
+    padding: 0.2em 0.5em;
+}
+ul.o1boxfundoroxo1{
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    align-items: center;
+}
+ul.o1boxfundoroxo1>li{
+    background: var(--roxo3);
+    border-radius: 0.5em;
+    line-height: 1.1em;
+    padding: 0.4em 0.5em 0.3em 0.5em;
+    min-width: 40px;
+    text-align: center;
+    width: fit-content;
+    max-width: 100%;
+}
 .o1boxfundoroxo2{}
 div.o1boxfundorosa1,
 p.o1boxfundorosa1,
@@ -5129,8 +5257,33 @@ li.o1boxfundorosa1{
     width: fit-content;
     max-width: 100%;
 }
-
-.o1boxfundorosa2{}
+div.o1boxfundoamarelo1,
+p.o1boxfundoamarelo1,
+span.o1boxfundoamarelo1{
+    background: var(--amarelo2);
+    border-radius: 0.5em;
+    width: fit-content;
+    max-width: 100%;
+}
+div.o1boxfundoamarelo1{
+     padding: 0.5em;
+    margin: 0.5em 0;
+}
+p.o1boxfundoamarelo1{
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+span.o1boxfundoamarelo1{
+      padding: 0.2em 0.5em;
+}
+ul.o1boxfundoamarelo1{
+      display: flex;
+    justify-content: left;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    align-items: center;
+}
 .o1boxfundoamarelo1{}
 .o1boxfundoamarelo2{}
 .o1boxfundolaranja1{}
@@ -5283,7 +5436,9 @@ ul.o1boxfioroxo1{
     /*👉justify-content: center;👈*/
     align-content: center;
     gap: 8px;
+    margin: 1em 0;
 }
+
 
 .o1boxfioazul1{}
 .o1boxfioverde1{}
@@ -5339,6 +5494,9 @@ o2esquemabox
     border-radius: 0 1em 1em 1em;
     margin:0
 }
+.o2graficobox>figure>img{
+     border-radius: 0 1em 1em 1em;
+}
 .o2esquemabox{}
 
 /*👉O3: Jornal e Citação👈*/
@@ -5349,6 +5507,11 @@ o3fiovocabulario
 */
 .o3jornalfundo{
     background: var(--jornal);
+    padding: 1em;
+    margin: 1em 0;
+}
+.o3jornalfundonegativo{
+    background: var(--branco);
     padding: 1em;
     margin: 1em 0;
 }
@@ -6291,6 +6454,53 @@ o5caderno
     align-content: center;
 }
 
+/*classes d0containeriframe e d0iframeresponsivo especificas para inserção de OEDs em iframes - ajuste para a visualização no Thorium/Valide*/
+.d0containeriframe {
+    /*👉    position: relative;
+        overflow: hidden;
+        padding-top: 100%;👈*/
+    width: 100%;
+}
+
+/*👉aplicar na div em torno do iframe👈*/
+
+.d0iframeresponsivo {
+    /*👉    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;👈*/
+    width: 100%;
+    height: 644px;
+}
+
+/*👉aplicar na tag de iframe👈*/
+
+/* Especificação para iframe de tabela periódica */
+.conteudoadaptado>.d0containeriframe>.d0iframeresponsivo {
+    display: block;
+    height: 900px;
+    min-height: 900px;
+    padding: 2px 10px;
+}
+@media (min-width: 900px) {
+    .d0iframeresponsivo {
+        min-height: 772px;
+    }
+}
+
+@media (min-width: 581px) {
+    .d0iframeresponsivo {
+        height: 966px;
+    }
+}
+
+@media (max-width: 853px) {
+    .conteudoadaptado>.d0containeriframe>.d0iframeresponsivo {
+        min-height: 910px;
+    }
+}
 
 .o5redesocial2{}
 .o5livroreceita{}
@@ -6442,21 +6652,27 @@ o8quadrolibras
 .o8pautacaligrafica{
     border:1px solid var(--pautacaligrafica);
     background: url(../images/pautacaligrafica.svg) center left repeat-x;
-    margin: 0.5em 0;
+    margin: 0.5em 1em;
     height: 60px;
 }
-.o8quadroconsumivel{
+.o8pautacaligraficamarcador{
+    border:1px solid var(--pautacaligrafica);
+    background: url(../images/pautacaligrafica.svg) center left repeat-x;
+    margin: 0.5em 1em 0.5em 2em;
+    height: 60px;
+}
+/*👉.o8quadroconsumivel{
     border: 2px solid var(--azul1a);
     background: var(--branco);
 }
-
+👈*/
 .o8quadrolibras{}
 
 div.o8quadroconsumivel{
     border: 2px solid var(--azul1a);
     background: var(--branco);
     width: 90%;
-    height: 250px;
+    min-height: 250px;
     padding: 1em;
     margin: 1em 2em;
 }
@@ -6505,11 +6721,12 @@ div.o8quadroconsumivelm{
     display:inline-block;
 }
 /* teste de quadro consumível com variação de tamanho */
-figure .o8quadroconsumivel{
+figure>div.o8quadroconsumivel{
     border: 2px solid var(--azul1a);
     background: var(--branco);
     width: 35px;
     height: 35px;
+    min-height: 35px;
     padding: 1em;
     margin: 0 0 0.5em 0;
 }
@@ -6610,22 +6827,22 @@ p2questaosubitemlinha
      margin: 1em 0 1em 4em;
 }
 .p2questaoitemlinha{
-    margin:1em 0 1em 1em;
+    margin:1em 0 1em 3em;
 }
 .p2questaoletraitemlinha{
-     margin: 1em 0 1em 3em;
+     margin: 1em 0 1em 4em;
 }
 .p2questaoletralinha{
-    margin:1em 0 1em 2em;
+    margin:1em 0 1em 3.5em;
 }
 .p2questaomarcadorlinha{
-     margin: 1em 0 1em 2em;
+     margin: 1em 0 1em 4em;
 }
 .p2questaolinha{
-    margin: 1em 0 1em 0;
+    margin: 1em 0 1em 2em;
 }
 .p2questaosubitemlinha{
-     margin: 1em 0 1em 2em;
+     margin: 1em 0 1em 3em;
 }
 
 /*👉08: Estilos para CONSUMÍVEL QUADRINHO 👈*/
@@ -6701,25 +6918,21 @@ p2textosemrecuoquadrinho
 }
 .p2atvletraquadrinho,
 .p2atvquadrinho{
-    margin: 0.5em 0 0.5em 5.2em;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    flex-wrap: wrap;
+    margin: 1em 0 1em 5.2em;
+    
 }
 .p2atvitemletraquadrinho{}
 .p2atvitemquadrinho{
-        margin: 0.5em 0 0.5em 6.2em;
+        margin: 1em 0 1em 6.2em;
 }
 .p2atvletraitemquadrinho{
-    margin: 0.5em 0 0.5em 7.2em;
+    margin: 1em 0 1em 7.2em;
 }
 .p2atvletraitemromanoquadrinho{
-    margin: 0.5em 0 0.5em 10.2em;
+    margin: 1em 0 1em 10.2em;
 }
 .p2atvletraquadrinho{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 1em 0 1em 6em;
 }
 .p2atvletraromanoquadrinho{}
 .p2atvmarcadorquadrinho{}
@@ -6733,21 +6946,21 @@ p2textosemrecuoquadrinho
         margin: 1em 0 1em 7.2em;
 }
 .p2questaoitemquadrinho{
-    margin:1em 0 1em 4.2em;}
+    margin:1em 0 1em 6.2em;}
 .p2questaoletraitemquadrinho{
-    margin: 1em 0 1em 6.2em;
+    margin: 1em 0 1em 7.2em;
 }
 .p2questaoletraquadrinho{
-    margin:1em 0 1em 5.2em;
+    margin:1em 0 1em 6.5em;
 }
 .p2questaomarcadorquadrinho{
-    margin:1em 0 1em 5.2em;
+    margin:1em 0 1em 7.2em;
 }
 .p2questaoquadrinho{
-        margin: 1em 0 1em 3.2em;
+        margin: 1em 0 1em 5.2em;
 }
 .p2questaosubitemquadrinho{
-    margin: 1em 0 1em 5.2em;
+    margin: 1em 0 1em 6.2em;
 }
 .p2textoitemquadrinho{
     margin: 1em 0 1.5em 85px;
@@ -7047,16 +7260,16 @@ oemorientacoesdeuso
         gap: 10px; /* Espaçamento entre os itens */
     }
 
-/*👉    TABELA MOBILE 
+/*👉  👈*/  TABELA MOBILE 
      table, caption, thead, tbody, th, td, tr{
         display: block;
     }
-👈*/
-    .d0table{
+
+    /*👉.d0table{
         overflow-x: auto;
         display: block;
         max-width: 100%;
-    } /*👉para habilitar barra de rolagem horizontal em tabelas muito largas👈*/
+    } para habilitar barra de rolagem horizontal em tabelas muito largas👈*/
 
     /* ABERTURA DE CAPÍTULO/UNIDADE MOBILE */
     .d0boxaberturatit{
@@ -7100,6 +7313,7 @@ oemorientacoesdeuso
     .d2boxadaptaaluno, .d2boxadaptaprof{
         margin: 0;
         padding: 0.5em;
+        background: var(--branco);
     }
 
     /* rede social MOBILE */
@@ -7108,6 +7322,17 @@ oemorientacoesdeuso
         margin: 0 5% 0 20%;
     }
     
+
+    /* seção */
+    .p1sec11tit1::after{
+    background:none;
+    background-size: contain;
+    content: '';
+    width: 00px;
+    height: 00px;
+    position: absolute;
+    margin: 0 0 0 0;
+}
 }
 
 /*👉Versão Mobile tablet👈*/

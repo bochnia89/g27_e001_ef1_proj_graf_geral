@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.842" height="19.843" viewBox="0 0 19.842 19.843">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_3474" data-name="Caminho 3474" d="M2.835-19.843A2.835,2.835,0,0,0,0-17.008H0V-2.835A2.835,2.835,0,0,0,2.835,0H17.007a2.835,2.835,0,0,0,2.835-2.835h0V-17.008a2.835,2.835,0,0,0-2.835-2.835H2.835Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_416" data-name="Retângulo 416" width="19.842" height="19.843" transform="translate(0 -19.843)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="legenda_pinte_azul" transform="translate(0 19.843)">
+    <g id="Grupo_2247" data-name="Grupo 2247" clip-path="url(#clip-path)">
+      <g id="Grupo_2246" data-name="Grupo 2246" transform="translate(0 0)">
+        <g id="Grupo_2245" data-name="Grupo 2245" clip-path="url(#clip-path-2)">
+          <image id="Retângulo_415" data-name="Retângulo 415" width="19.842" height="19.843" transform="translate(0 -19.843)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAACJJREFUOI1jZFx1+T8DFQETNQ0bNXDUwFEDRw0cNXAoGQgAPQ4Cpe1H9WwAAAAASUVORK5CYII="/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
